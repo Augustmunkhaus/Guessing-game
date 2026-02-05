@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Core", "Metaldle.Core\Metaldle.Core.csproj", "{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Infrastructure", "Metaldle.Infrastructure\Metaldle.Infrastructure.csproj", "{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.API", "Metaldle.API\Metaldle.API.csproj", "{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.BlazorWASM", "Metaldle.BlazorWASM\Metaldle.BlazorWASM.csproj", "{ED87EF48-D428-4439-80E4-F6591FB1DC07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

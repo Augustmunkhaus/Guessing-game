@@ -1,0 +1,240 @@
+###################
+# .NET / C# / Rider
+###################
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test Coverage
+*.coverage
+*.coveragexml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+###################
+# Docker
+###################
+
+# Don't commit docker-compose overrides (personal dev configs)
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Docker build cache (if using BuildKit)
+.dockerignore
+
+# Docker volumes (local data directories)
+/data/
+/postgres-data/
+/redis-data/
+
+###################
+# Databases
+###################
+
+# SQLite (if you use it for testing)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps
+*.sql
+*.dump
+*.backup
+
+# Database migration scripts (KEEP your EF migrations though!)
+# Only ignore if you generate throwaway scripts
+/sql-scripts/temp/
+
+###################
+# Environment & Secrets
+###################
+
+# CRITICAL: Never commit secrets!
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Application settings with secrets
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+# KEEP: appsettings.json (base config without secrets)
+
+# Secret management
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+
+###################
+# Frontend (Blazor)
+###################
+
+# Node modules (if you add npm tooling later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Blazor build output
+wwwroot/dist/
+wwwroot/js/*.js.map
+wwwroot/css/*.css.map
+
+# Blazor publish output
+publish/
+
+###################
+# Operating System
+###################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+###################
+# Logs
+###################
+
+*.log
+logs/
+*.log.*
+
+###################
+# CI/CD
+###################
+
+# GitHub Actions artifacts
+.github/workflows/*.log
+
+###################
+# IDEs & Editors
+###################
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# JetBrains (additional)
+*.iml
+.idea_modules/
+atlassian-ide-plugin.xml
+
+###################
+# Project-Specific
+###################
+
+# Don't commit large seed data files (load from migrations instead)
+/seed-data/*.csv
+/seed-data/*.json
+
+# Temporary files
+/temp/
+/tmp/
+*.tmp
+
+# Documentation builds (if you generate docs)
+/docs/_build/
+/docs/.doctrees/
