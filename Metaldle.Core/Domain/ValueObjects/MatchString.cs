@@ -1,6 +1,6 @@
 namespace Metaldle.Core.Domain.ValueObjects;
 
-public enum MatchType
+public enum MatchString
 {
     None,
     Partial,

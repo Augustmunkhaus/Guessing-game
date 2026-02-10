@@ -28,13 +28,13 @@ public class NumericAttributeFeedback
 public class StringAttributeFeedback
 {
     public string Value { get; set; } = string.Empty;  // The guessed value
-    public MatchType Match { get; set; }               // Exact, Partial, None
+    public MatchString Match { get; set; }               // Exact, None
 }
 
 // For list attributes (genres, vocal styles, themes, etc.)
 public class ListAttributeFeedback
 {
     public List<string> Values { get; set; } = new();      // The guessed values
-    public MatchType Match { get; set; }                    // Exact, Partial, None
+    public MatchString Match { get; set; }                    // Exact, Partial, None
     public List<string> MatchedItems { get; set; } = new(); // Which items matched with target
 }
