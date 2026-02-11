@@ -1,31 +1,33 @@
+namespace Metaldle.Core.Domain.Services;
 using Metaldle.Core.Domain.Entities;
+using Metaldle.Core.Domain.Services;
 using Metaldle.Core.Domain.ValueObjects;
 using Metaldle.Core.Ports;
 
 //Accepts calls from the API and delegates the calls to one of the 3 services, which handles game logic
-/*
-namespace Metaldle.Core.Domain.Services;
-
 public class GameEngine
 {
     private readonly GameSessionService _sessionService;
     private readonly GuessService _guessService;
-    
-    public GameEngine(
-        IEntityRepository entityRepository, 
-        ISessionRepository sessionRepository)
+
+    public GameEngine(GameSessionService sessionService, GuessService guessService)
     {
-        _sessionService = new GameSessionService(sessionRepository, entityRepository);
-        _guessService = new GuessService(entityRepository, sessionRepository);
+        _sessionService = sessionService;
+        _guessService = guessService;
+    }
+
+    public async Task<GameSession> StartOrResumeGameAsync(string sessionId)
+    {
+        return await _sessionService.StartOrResumeAsync(sessionId);
     }
     
-    public Task<GameSession> StartOrResumeGameAsync(string sessionId)
-        => _sessionService.StartOrResumeAsync(sessionId);
-    
-    public Task<(GameSession, FeedbackResult)> SubmitGuessAsync(string sessionId, string guess)
-        => _guessService.ProcessGuessAsync(sessionId, guess);
-        
-    public Task<GameSession?> GetCurrentSessionAsync(string sessionId)
-        => _sessionService.GetCurrentSessionAsync(sessionId);
+    public async Task<(GameSession, FeedbackResult)> SubmitGuessAsync(string sessionId, string guess)
+    {
+        return await _guessService.ProcessGuessAsync(sessionId, guess);
+    }
+
+    public async Task<GameSession?> CheckCurrentSessionAsync(string sessionId)
+    {
+        return await _sessionService.CheckCurrentSessionAsync(sessionId);
+    }
 }
-*/

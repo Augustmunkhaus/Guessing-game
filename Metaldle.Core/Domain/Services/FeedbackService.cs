@@ -3,6 +3,9 @@ using Metaldle.Core.Domain.ValueObjects;
 
 namespace Metaldle.Core.Domain.Services;
 
+//feedbackService compares a guess with the target entity, and generates feedback with the 3 helper methods,
+//using the ValueObjects Enums
+
 public class FeedbackService {
     
     public FeedbackResult GenerateFeedback (IGuessableEntity guess,IGuessableEntity target)
