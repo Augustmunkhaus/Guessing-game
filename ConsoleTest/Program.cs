@@ -58,12 +58,12 @@ Console.WriteLine("\n" + new string('=', 50));
 
 if (session.Status == GameStatus.Won)
 {
-    Console.WriteLine("🎉 YOU WON! 🎉");
+    Console.WriteLine("YOU WON! 🎉");
     Console.WriteLine($"You guessed it in {session.Guesses.Count} tries!");
 }
 else
 {
-    Console.WriteLine("😢 GAME OVER!");
+    Console.WriteLine("GAME OVER!");
     var correctAnswer = await entityRepo.GetByIdAsync(session.TargetEntityId);
     
     Console.WriteLine($"The answer was: {correctAnswer.Name}"); 
@@ -84,15 +84,13 @@ void DisplayFeedback(FeedbackResult feedback)
         Console.WriteLine("  ❌ Not quite...\n");
     }
     
-    // Formation Year
     Console.Write("  📅 Formation Year: ");
     Console.ForegroundColor = GetColorForDirection(feedback.Numeric1.Direction);
     Console.Write($"{feedback.Numeric1.Value} ");
     Console.Write(GetArrowForDirection(feedback.Numeric1.Direction));
     Console.ResetColor();
     Console.WriteLine();
-    
-    // Members
+   
     Console.Write("  👥 Members: ");
     Console.ForegroundColor = GetColorForDirection(feedback.Numeric2.Direction);
     Console.Write($"{feedback.Numeric2.Value} ");
@@ -100,25 +98,24 @@ void DisplayFeedback(FeedbackResult feedback)
     Console.ResetColor();
     Console.WriteLine();
     
-    Console.Write("  🌍 Country: ");
+    Console.Write("Country: ");
     DisplayStringAttribute(feedback.Region.Value, feedback.Region.Match);
     
-    Console.Write("  🗺️  Continent: ");
+    Console.Write("Continent: ");
     DisplayStringAttribute(feedback.Continent.Value, feedback.Continent.Match);
     
-    Console.Write("  📊 Status: ");
+    Console.Write("Status: ");
     DisplayStringAttribute(feedback.Status.Value, feedback.Status.Match);
     
-    // List attributes
     Console.WriteLine();
     
-    Console.Write("  🎭 Themes: ");
+    Console.Write("Themes: ");
     DisplayListAttribute(feedback.List1);
     
-    Console.Write("  🎤 Vocal Style: ");
+    Console.Write("Vocal Style: ");
     DisplayListAttribute(feedback.List2);
     
-    Console.Write("  🎸 genres: "); 
+    Console.Write("genres: "); 
     DisplayListAttribute(feedback.List3);
 }
 
