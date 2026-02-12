@@ -84,19 +84,6 @@ public class FeedbackServiceTests
     }
     
     [Fact]
-    public void CompareString_SameGenre_ReturnsExact()
-    {
-        // Metallica (Thrash Metal) vs Slayer (Thrash Metal)
-        var metallica = _testBands[0];
-        var slayer = _testBands[2];
-        
-        var feedback = _service.GenerateFeedback(slayer, metallica);
-        
-        Assert.Equal(MatchString.Exact, feedback.Category.Match);
-        Assert.Equal("Thrash Metal", feedback.Category.Value);
-    }
-    
-    [Fact]
     public void CompareString_DifferentStatus_ReturnsNone()
     {
         // Metallica (Active) vs Slayer (Disbanded)
@@ -167,7 +154,6 @@ public class FeedbackServiceTests
             Name = "Test Band",
             NumericAttribute1 = 2000,
             NumericAttribute2 = 5,
-            CategoryAttribute = "Metal",
             RegionAttribute = "USA",
             StatusAttribute = "Active",
             ListAttribute1 = new List<string> { "WAR", "death", "REBELLION" },  // Different casing
@@ -219,7 +205,7 @@ public class FeedbackServiceTests
         // Verify all fields are populated (not default values)
         Assert.NotNull(feedback.Numeric1);
         Assert.NotNull(feedback.Numeric2);
-        Assert.NotNull(feedback.Category);
+        
         Assert.NotNull(feedback.Region);
         Assert.NotNull(feedback.Status);
         Assert.NotNull(feedback.List1);
@@ -229,6 +215,6 @@ public class FeedbackServiceTests
         // Verify feedback makes sense
         Assert.Equal(NumericDirection.Higher, feedback.Numeric1.Direction);  // 1975 < 1981
         Assert.Equal(MatchString.None, feedback.Region.Match);  // UK vs USA
-        Assert.Equal(MatchString.None, feedback.Category.Match);  // Heavy Metal vs Thrash Metal
+        
     }
 }

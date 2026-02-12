@@ -14,12 +14,13 @@ public class FakeMetalBand : IGuessableEntity
     public int NumericAttribute2 { get; set; }  // Member Count
     
     // Category attributes
-    public string CategoryAttribute { get; set; } = string.Empty;  // Subgenre
     public string RegionAttribute { get; set; } = string.Empty;    // Country
+    
+    public string ContinentAttribute { get; set; } //Continent
     public string StatusAttribute { get; set; } = string.Empty;    // Active/Disbanded
     
     // List attributes
     public List<string> ListAttribute1 { get; set; } = new();  // Themes
     public List<string> ListAttribute2 { get; set; } = new();  // Vocal Styles
-    public List<string> ListAttribute3 { get; set; } = new();  // Notable Albums
+    public List<string> ListAttribute3 { get; set; } = new();  // genres
 }

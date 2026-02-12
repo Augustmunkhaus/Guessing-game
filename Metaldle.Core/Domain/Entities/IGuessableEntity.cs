@@ -10,8 +10,8 @@ public interface IGuessableEntity
     int NumericAttribute2 { get; }
     
     // Category attributes
-    string CategoryAttribute { get; }
     string RegionAttribute { get; }
+    string ContinentAttribute { get; }
     string StatusAttribute { get; }
     
     // List attributes

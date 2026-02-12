@@ -17,9 +17,9 @@ public class FeedbackService {
 
             Numeric1 = CompareNumericAttribute(guess.NumericAttribute1, target.NumericAttribute1),
             Numeric2 = CompareNumericAttribute(guess.NumericAttribute2, target.NumericAttribute2),
-
-            Category = CompareStringAttribute(guess.CategoryAttribute, target.CategoryAttribute),
+            
             Region = CompareStringAttribute(guess.RegionAttribute, target.RegionAttribute),
+            Continent = CompareStringAttribute(guess.ContinentAttribute, target.ContinentAttribute),
             Status = CompareStringAttribute(guess.StatusAttribute, target.StatusAttribute),
 
             List1 = CompareListAttribute(guess.ListAttribute1, target.ListAttribute1),
@@ -81,6 +81,10 @@ public class FeedbackService {
             .Where(g => target.Any(t => string.Equals(g, t, StringComparison.OrdinalIgnoreCase)))
             .ToList();
         
+        Console.WriteLine($"DEBUG - Guess: [{string.Join(", ", guess)}]");
+        Console.WriteLine($"DEBUG - Target: [{string.Join(", ", target)}]");
+        Console.WriteLine($"DEBUG - Matched: [{string.Join(", ", matchedItems)}] (Count: {matchedItems.Count})");
+        
         MatchString matchString;
 
         if (matchedItems.Count == target.Count && matchedItems.Count == guess.Count)
@@ -88,7 +92,7 @@ public class FeedbackService {
             matchString = MatchString.Exact;
         }
 
-        else if  (target.Count == 0)
+        else if (matchedItems.Count == 0)
         {
             matchString = MatchString.None;
         }

@@ -9,8 +9,9 @@ public class FeedbackResult
     // Attribute feedback (showing guessed values + match status)
     public NumericAttributeFeedback Numeric1 { get; set; } = new();
     public NumericAttributeFeedback Numeric2 { get; set; } = new();
-    public StringAttributeFeedback Category { get; set; } = new();
     public StringAttributeFeedback Region { get; set; } = new();
+    
+    public StringAttributeFeedback Continent { get; set; } = new();
     public StringAttributeFeedback Status { get; set; } = new();
     public ListAttributeFeedback List1 { get; set; } = new();
     public ListAttributeFeedback List2 { get; set; } = new();

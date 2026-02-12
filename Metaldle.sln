@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.API", "Metaldle.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.BlazorWASM", "Metaldle.BlazorWASM\Metaldle.BlazorWASM.csproj", "{ED87EF48-D428-4439-80E4-F6591FB1DC07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED87EF48-D428-4439-80E4-F6591FB1DC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
