@@ -130,7 +130,6 @@ void DisplayStringAttribute(string value, MatchString match)
 
 void DisplayListAttribute(ListAttributeFeedback listFeedback)
 {
-    // Display the values with color
     Console.ForegroundColor = listFeedback.Match == MatchString.Exact ? ConsoleColor.Green :
                               listFeedback.Match == MatchString.Partial ? ConsoleColor.Yellow :
                               ConsoleColor.Red;
@@ -138,10 +137,8 @@ void DisplayListAttribute(ListAttributeFeedback listFeedback)
     Console.Write($"[{string.Join(", ", listFeedback.Values)}]");
     Console.ResetColor();
     
-    // Show match type
     Console.Write($" ({listFeedback.Match})");
     
-    // If partial match, show which items matched
     if (listFeedback.Match == MatchString.Partial && listFeedback.MatchedItems.Count > 0)
     {
         Console.ForegroundColor = ConsoleColor.Green;
