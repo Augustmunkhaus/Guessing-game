@@ -3,7 +3,7 @@ using Metaldle.Core.Domain.Services;
 using Metaldle.Core.Domain.ValueObjects;
 using Metaldle.Core.Testing;
 
-Console.WriteLine(" Welcome to Metaldle - Console Edition n");
+Console.WriteLine(" Welcome to Metaldle - Console Edition ");
 
 // new repositories
 var entityRepo = new InMemoryEntityRepository();

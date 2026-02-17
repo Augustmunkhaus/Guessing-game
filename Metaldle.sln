@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Core", "Metaldle.Core\Metaldle.Core.csproj", "{32D1AFC0-9FB2-4869-BD9B-64776D1103F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Infrastructure", "Metaldle.Infrastructure\Metaldle.Infrastructure.csproj", "{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Infrastructure.Metalbands", "Metaldle.Infrastructure.Metalbands\Metaldle.Infrastructure.Metalbands.csproj", "{4D5F66D1-FEFF-4158-8DAB-7DAD8E89C751}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.API", "Metaldle.API\Metaldle.API.csproj", "{F1CDD9AF-F3C7-4363-A27B-72D969CCAF92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.BlazorWASM", "Metaldle.BlazorWASM\Metaldle.BlazorWASM.csproj", "{ED87EF48-D428-4439-80E4-F6591FB1DC07}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metaldle.Infrastructure.Redis", "Metaldle.Infrastructure.Redis\Metaldle.Infrastructure.Redis.csproj", "{12FC41EB-E907-4429-848E-58D10D36346A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +44,9 @@ Global
 		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB65EA05-1A7E-4F2A-8E04-218D8C5328E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FC41EB-E907-4429-848E-58D10D36346A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FC41EB-E907-4429-848E-58D10D36346A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FC41EB-E907-4429-848E-58D10D36346A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FC41EB-E907-4429-848E-58D10D36346A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
