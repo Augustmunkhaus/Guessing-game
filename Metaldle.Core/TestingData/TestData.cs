@@ -336,19 +336,7 @@ public static class TestData
             ListAttribute2 = new List<string> { "Aggressive", "Technical" },
             ListAttribute3 = new List<string> { "Thrash Metal", "Speed Metal", "Death Metal", "Heavy Metal" }
         },
-        new FakeMetalBand
-        {
-            Id = Guid.NewGuid(),
-            Name = "Fakeween",
-            NumericAttribute1 = 1984,
-            NumericAttribute2 = 5,
-            RegionAttribute = "Germany",
-            ContinentAttribute = "Europe",
-            StatusAttribute = "Active",
-            ListAttribute1 = new List<string> { "Fantasy", "Halloween", "Adventure" },
-            ListAttribute2 = new List<string> { "High-pitched", "Melodic" },
-            ListAttribute3 = new List<string> { "Power Metal", "Speed Metal", "Heavy Metal", "NWOBHM" }
-        },
+        
     };
 }
 }
