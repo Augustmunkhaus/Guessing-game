@@ -1,23 +1,48 @@
 ﻿using Metaldle.Core.Domain.Entities;
 using Metaldle.Core.Domain.Services;
 using Metaldle.Core.Domain.ValueObjects;
+using Metaldle.Core.Ports;
 using Metaldle.Core.Testing;
+using Metaldle.Infrastructure;
+using Metaldle.infrastructure.Metalbands;
+using Metaldle.Infrastructure.Metalbands.Repositories;
+using Metaldle.Infrastructure.Redis;
+using Metaldle.Infrastructure.Redis.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using StackExchange.Redis;
+
+//Current testing grounds for new features that gets added, gets replaced by proper frontend later
 
 Console.WriteLine(" Welcome to Metaldle - Console Edition ");
 
-// new repositories
-var entityRepo = new InMemoryEntityRepository();
-var sessionRepo = new InMemorySessionRepository();
+var configuration = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false)
+    .Build();
 
-// new game engine
-var gameEngine = new GameEngine(
-    new GameSessionService(sessionRepo, entityRepo),
-    new GuessService(entityRepo, sessionRepo, new FeedbackService())
-);
+var services = new ServiceCollection();
+
+var postgresConnection = configuration.GetConnectionString("PostgreSQL")!;
+var redisConnection = configuration.GetConnectionString("Redis")!;
+
+services.AddMetalBandsInfrastructure(postgresConnection);
+services.AddRedisInfrastructure(redisConnection);
+services.AddScoped<GameSessionService>();
+services.AddScoped<GuessService>();
+services.AddScoped<FeedbackService>();
+services.AddScoped<GameEngine>();
+
+var serviceProvider = services.BuildServiceProvider();
+
+var entityRepo = serviceProvider.GetRequiredService<IEntityRepository>();
+var sessionRepo = serviceProvider.GetRequiredService<ISessionRepository>();
+var gameEngine = serviceProvider.GetRequiredService<GameEngine>();
 
 // Generate a session ID (simulating a user)
-string sessionId = "console-player-" + Guid.NewGuid().ToString()[..8];
-
+//string sessionId = "console-player-" + Guid.NewGuid().ToString()[..8];
+string sessionId = "console-player-aa3e5f69";
 Console.WriteLine($"Your session ID: {sessionId}\n");
 
 // Start or resume the game

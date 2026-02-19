@@ -5,7 +5,7 @@ using Metaldle.Infrastructure.MetalBands.Seeding;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Metaldle.Infrastructure.Metalbands;
+namespace Metaldle.Infrastructure;
 
 // Plugs the MetalBands adapter into the DI container
 

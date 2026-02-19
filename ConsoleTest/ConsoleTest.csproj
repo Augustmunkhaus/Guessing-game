@@ -2,8 +2,20 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Metaldle.Core\Metaldle.Core.csproj" />
+      <ProjectReference Include="..\Metaldle.Infrastructure.Metalbands\Metaldle.Infrastructure.Metalbands.csproj" />
+      <ProjectReference Include="..\Metaldle.Infrastructure.Redis\Metaldle.Infrastructure.Redis.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.3" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
