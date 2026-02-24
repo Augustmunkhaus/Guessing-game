@@ -10,4 +10,8 @@
       <ProjectReference Include="..\Metaldle.Core\Metaldle.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="StackExchange.Redis" Version="2.11.0" />
+    </ItemGroup>
+
 </Project>

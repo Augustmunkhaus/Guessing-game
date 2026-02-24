@@ -1,3 +1,5 @@
+using Metaldle.Core.Domain.Entities;
+using Metaldle.Core.Domain.ValueObjects;
 using Microsoft.AspNetCore.Mvc;
 using Metaldle.Core.Ports;
 
@@ -31,5 +33,33 @@ public class TestController : ControllerBase
     {
         var results = await _repository.SearchByNameAsync(q);
         return Ok(results.Select(b => b.Name));
+    }
+    [HttpGet("redis-test")]
+    public async Task<IActionResult> TestRedis([FromServices] ISessionRepository sessionRepo)
+    {
+        var sessionId = "test-user-123";
+        var today = DateOnly.FromDateTime(DateTime.Now);
+    
+        // Check if session exists
+        var exists = await sessionRepo.HasActiveSessionAsync(sessionId, today);
+        if (exists)
+        {
+            var session = await sessionRepo.GetTodaysSessionAsync(sessionId, today);
+            return Ok(new { message = "Session found", session });
+        }
+    
+        // Create a test session
+        var newSession = new GameSession
+        {
+            SessionId = sessionId,
+            GameDate = today,
+            TargetEntityId = Guid.NewGuid(),
+            Guesses = new List<Guess>(),
+            Status = GameStatus.InProgress
+        };
+    
+        await sessionRepo.SaveSessionAsync(newSession);
+    
+        return Ok(new { message = "Session created", newSession });
     }
 }
