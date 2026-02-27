@@ -1,4 +1,5 @@
 using System.Net.Http.Json;
+using System.Text.Json;
 using Metaldle.BlazorWASM.Models;
 
 namespace Metaldle.BlazorWASM.Services;
@@ -11,6 +12,13 @@ public class MetaldleApiService
     {
         _http = http;
     }
+    
+    private static readonly JsonSerializerOptions _jsonOptions = new()
+    {
+        PropertyNameCaseInsensitive = true,
+        Converters = { new System.Text.Json.Serialization.JsonStringEnumConverter() }
+    };
+    
     //methods to call the API endpoints
     public async Task<List<String>?> SearchEntitiesAsync(string query)
     {
@@ -19,13 +27,18 @@ public class MetaldleApiService
 
     public async Task<SessionResponse?> StartGameAsync(string sessionId)
     {
-       var response = await _http.PostAsJsonAsync("/api/game/start", new {sessionId});
-       return await response.Content.ReadFromJsonAsync<SessionResponse>();
+        var request = new HttpRequestMessage(HttpMethod.Post, "/api/game/start");
+        request.Headers.Add("sessionId", sessionId);
+        var response = await _http.SendAsync(request);
+        return await response.Content.ReadFromJsonAsync<SessionResponse>(_jsonOptions);
     }
 
     public async Task<SessionResponse?> MakeGuessAsync(string sessionId, string guessedEntity)
     {
-        var response = await _http.PostAsJsonAsync("/api/game/guess", new { sessionId, guessedEntity });
-        return await response.Content.ReadFromJsonAsync<SessionResponse>();
+        var request = new HttpRequestMessage(HttpMethod.Post, "/api/game/guess");
+        request.Headers.Add("sessionId", sessionId);
+        request.Content = JsonContent.Create(new { guessedEntity }); 
+        var response = await _http.SendAsync(request);
+        return await response.Content.ReadFromJsonAsync<SessionResponse>(_jsonOptions);
     }
 }

@@ -1,0 +1,22 @@
+
+<h1>Welcome to Metaldle</h1>
+<h3>Guess the daily metal band!</h3>
+<p>Game rules:</p>
+<p>You have 6 total guesses to guess the band.</p>
+<p>each guess provides you with feedback, on how close you are.</p>
+<button @onclick="OnGameStarted">Start Game</button>
+
+
+
+
+
+
+
+
+
+
+
+@code {
+    [Parameter]
+    public EventCallback OnGameStarted { get; set; }
+}

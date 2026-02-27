@@ -26,7 +26,18 @@ builder.Services.AddScoped<FeedbackService>();
 builder.Services.AddScoped<GameSessionService>();
 builder.Services.AddScoped<GuessService>();
 builder.Services.AddScoped<GameEngine>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("BlazorClient", policy =>
+        policy.WithOrigins("http://localhost:5027")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
 var app = builder.Build();
+
+app.UseCors("BlazorClient");
 
 if (app.Environment.IsDevelopment())
 {

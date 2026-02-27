@@ -1,0 +1,43 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
+@using Metaldle.BlazorWASM.components;
+@using Metaldle.BlazorWASM.Models
+@using Metaldle.BlazorWASM.Services
+@inject MetaldleApiService _apiService
+@inject SessionService _sessionService
+
+<PageTitle>Home</PageTitle>
+
+@if(currentState == GameState.NotStarted)
+    {
+        <WelcomeBox OnGameStarted="StateChanger"/>
+        
+    }
+else if (currentState == GameState.InProgress)
+{
+    <GameBoard Guesses="currentSession?.Guesses"/>
+    <SearchBar/>
+    <p>Session is: @(currentSession == null ? "null" : "loaded")</p>
+}
+else if (currentState == GameState.Lost || currentState == GameState.Won)
+{
+    <ResultBox/>
+}
+
+@code {
+    
+    private GameState currentState = GameState.NotStarted; 
+    
+    private enum GameState { NotStarted, InProgress, Won, Lost }
+    
+    private Models.SessionResponse? currentSession;
+
+    private string sessionId;
+
+    public async Task StateChanger()
+    {
+        currentState = GameState.InProgress;
+        sessionId = await _sessionService.GetOrCreateSessionIdAsync();
+        currentSession = await _apiService.StartGameAsync(sessionId);
+    }
+}

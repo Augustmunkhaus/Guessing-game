@@ -1,0 +1,42 @@
+@using Metaldle.BlazorWASM.Models
+<h3>GameBoard</h3>
+
+@if (Guesses == null)
+{
+    return;
+}
+
+@foreach (var item in Guesses)
+{
+    <div>
+        @item.GuessedEntityName,
+        
+        @item.Feedback.IsCorrect,
+        
+        @item.Feedback.Numeric1.Value,
+        @item.Feedback.Numeric1.Direction,
+        @item.Feedback.Numeric2.Value,
+        @item.Feedback.Numeric2.Direction,
+        
+        @item.Feedback.Region.Value,
+        @item.Feedback.Region.Match,
+        @item.Feedback.Continent.Value, 
+        @item.Feedback.Continent.Match,
+        @item.Feedback.Status.Value, 
+        @item.Feedback.Status.Match,
+        
+        @item.Feedback.List1.Match, 
+        @string.Join(", ", @item.Feedback.List1.Values),
+        @item.Feedback.List2.Match, 
+        @string.Join(", ", @item.Feedback.List2.Values),
+        @item.Feedback.List3.Match, 
+        @string.Join(", ", @item.Feedback.List3.Values)
+
+    </div>
+}
+
+@code {
+    [Parameter]
+    public List<GuessResponse> Guesses{ get; set; }
+    
+}
