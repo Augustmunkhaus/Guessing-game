@@ -16,7 +16,7 @@
 else if (currentState == GameState.InProgress)
 {
     <GameBoard Guesses="currentSession?.Guesses"/>
-    <SearchBar/>
+    <SearchBar SubmitSearch="MakeGuess"/>
     <p>Session is: @(currentSession == null ? "null" : "loaded")</p>
 }
 else if (currentState == GameState.Lost || currentState == GameState.Won)
@@ -39,5 +39,18 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
         currentState = GameState.InProgress;
         sessionId = await _sessionService.GetOrCreateSessionIdAsync();
         currentSession = await _apiService.StartGameAsync(sessionId);
+    }
+
+    public async Task MakeGuess(string entityName)
+    {
+        currentSession = await _apiService.MakeGuessAsync(sessionId, entityName);
+        if (currentSession.Status == "Won")
+        {
+            currentState = GameState.Won;
+        }
+        else if (currentSession.Status == "Lost")
+        {
+            currentState = GameState.Lost;
+        }
     }
 }

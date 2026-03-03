@@ -20,9 +20,15 @@ public class MetaldleApiService
     };
     
     //methods to call the API endpoints
-    public async Task<List<String>?> SearchEntitiesAsync(string query)
+    /*public async Task<List<String>?> SearchEntitiesAsync(string query)
     {
         return await _http.GetFromJsonAsync<List<string>>($"/api/entities/search?q={query}");
+    }
+    */
+    
+    public async Task<List<string>?> GetAllEntitiesAsync()
+    {
+        return await _http.GetFromJsonAsync<List<string>>("/api/entity/entities");
     }
 
     public async Task<SessionResponse?> StartGameAsync(string sessionId)

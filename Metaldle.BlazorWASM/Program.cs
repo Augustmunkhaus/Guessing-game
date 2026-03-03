@@ -9,7 +9,7 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5251") });
-
+builder.Services.AddBlazorBootstrap();
 builder.Services.AddScoped<MetaldleApiService>();
 builder.Services.AddScoped<SessionService>();
 await builder.Build().RunAsync();
