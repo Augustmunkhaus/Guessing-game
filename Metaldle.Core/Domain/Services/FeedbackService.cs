@@ -15,8 +15,8 @@ public class FeedbackService {
             GuessedEntityName = guess.Name,
             IsCorrect = guess.Id == target.Id,
 
-            Numeric1 = CompareNumericAttribute(guess.NumericAttribute1, target.NumericAttribute1),
-            Numeric2 = CompareNumericAttribute(guess.NumericAttribute2, target.NumericAttribute2),
+            Numeric1 = CompareNumericAttribute(guess.NumericAttribute1, target.NumericAttribute1, threshold: 5),
+            Numeric2 = CompareNumericAttribute(guess.NumericAttribute2, target.NumericAttribute2, threshold: 1),
             
             Region = CompareStringAttribute(guess.RegionAttribute, target.RegionAttribute),
             Continent = CompareStringAttribute(guess.ContinentAttribute, target.ContinentAttribute),
@@ -30,9 +30,13 @@ public class FeedbackService {
 
     }
 
-    private NumericAttributeFeedback CompareNumericAttribute(int guess, int target)
+    private NumericAttributeFeedback CompareNumericAttribute(int guess, int target, int threshold)
     {
         NumericDirection direction;
+        
+        var difference = Math.Abs(target - guess);
+        
+        bool isClose = difference <= threshold;
         
         if (target == guess)
         {
@@ -41,11 +45,11 @@ public class FeedbackService {
 
         else if (target > guess)
         {
-            direction = NumericDirection.Higher;
+            direction = isClose?  NumericDirection.HigherClose : NumericDirection.Higher;
         }
         else
         {
-            direction = NumericDirection.Lower;
+            direction = isClose? NumericDirection.LowerClose : NumericDirection.Lower;
         }
 
         return new NumericAttributeFeedback

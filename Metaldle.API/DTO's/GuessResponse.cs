@@ -7,4 +7,6 @@ public class GuessResponse
 {
     public List<Guess> Guesses { get; set; }
     public GameStatus Status { get; set; }
+    
+    public TargetBandResponse? TargetBand { get; set; }
 }

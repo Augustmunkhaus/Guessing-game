@@ -1,0 +1,36 @@
+
+.guess-row {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+
+.cell {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+.name-cell {
+    width: 150px;
+    background-color: #333;
+    color: white;
+}
+
+.header-cell {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: #c9a84c;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+}

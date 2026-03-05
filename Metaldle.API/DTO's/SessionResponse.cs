@@ -11,4 +11,6 @@ public class SessionResponse
     public GameStatus Status { get; set; }
     public DateTime StartedAt { get; set; }
     public DateTime? CompletedAt { get; set; }
+    
+    public TargetBandResponse? TargetBand { get; set; }
 }

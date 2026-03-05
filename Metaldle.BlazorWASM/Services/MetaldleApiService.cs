@@ -47,4 +47,12 @@ public class MetaldleApiService
         var response = await _http.SendAsync(request);
         return await response.Content.ReadFromJsonAsync<SessionResponse>(_jsonOptions);
     }
+    
+    public async Task<SessionResponse?> StartFreshGameAsync(string sessionId)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Post, "/api/game/newgame");
+        request.Headers.Add("sessionId", sessionId);
+        var response = await _http.SendAsync(request);
+        return await response.Content.ReadFromJsonAsync<SessionResponse>(_jsonOptions);
+    }
 }

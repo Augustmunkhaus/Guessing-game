@@ -4,5 +4,7 @@ public enum NumericDirection
 {
     Exact,
     Higher,
-    Lower
+    Lower,
+    HigherClose,
+    LowerClose,
 }

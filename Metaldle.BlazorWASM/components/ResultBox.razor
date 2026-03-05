@@ -1,5 +1,21 @@
-<h3>ResultBox</h3>
-<h1>resultbox testing</h1>
+<div class="overlay">
+    <div class="result-box">
+        @if (Status == "Won")
+        {
+            <h1>You got it!</h1>
+        }
+        else
+        {
+            <p>@Status</p>
+            <h1>Better luck next time!</h1>
+        }
+        <button @onclick="StartNewGame">Start New Game</button>
+    </div>
+</div>
 @code {
+    [Parameter]
+    public EventCallback StartNewGame { get; set; }
+    [Parameter]
+    public string? Status { get; set; }
     
 }

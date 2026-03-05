@@ -30,4 +30,9 @@ public class GameEngine
     {
         return await _sessionService.CheckCurrentSessionAsync(sessionId);
     }
+
+    public async Task<GameSession?> StartFreshGameAsync(string sessionId)
+    {
+        return await _sessionService.StartFreshGameAsync(sessionId);
+    }
 }

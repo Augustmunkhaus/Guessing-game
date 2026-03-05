@@ -57,6 +57,28 @@ public class GameSessionService
         return newSession;
         
     }
+    
+    public async Task<GameSession> StartFreshGameAsync(string sessionId)
+    {
+        var seed = Guid.NewGuid().GetHashCode();
+    
+        var targetEntity = await _entityRepository.GetRandomAsync(seed);
+
+        var newSession = new GameSession
+        {
+            Id = Guid.NewGuid(),
+            SessionId = sessionId,
+            TargetEntityId = targetEntity.Id,
+            GameDate = GetToday(),
+            Status = GameStatus.InProgress,
+            StartedAt = DateTime.UtcNow,
+            Guesses = new List<Guess>()
+        };
+
+        await _sessionRepository.SaveSessionAsync(newSession);
+    
+        return newSession;
+    }
 
     public async Task<GameSession?> CheckCurrentSessionAsync(string sessionId)
     {

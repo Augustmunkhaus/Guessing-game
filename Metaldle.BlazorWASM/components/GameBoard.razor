@@ -6,37 +6,123 @@
     return;
 }
 
+@if (Guesses != null && Guesses.Any())
+{
+    <p>@Guesses.Count / 6</p>
+}
+
+@if (Guesses != null && Guesses.Any())
+{
+    <div class="guess-row">
+        <div class="cell name-cell" style="height: 40px;"></div>
+        <div class="cell header-cell">Year</div>
+        <div class="cell header-cell">Members</div>
+        <div class="cell header-cell">Country</div>
+        <div class="cell header-cell">Continent</div>
+        <div class="cell header-cell">Status</div>
+        <div class="cell header-cell">Themes</div>
+        <div class="cell header-cell">Vocals</div>
+        <div class="cell header-cell">Genres</div>
+    </div>
+}
+
 @foreach (var item in Guesses)
 {
-    <div>
-        @item.GuessedEntityName,
-        
-        @item.Feedback.IsCorrect,
-        
-        @item.Feedback.Numeric1.Value,
-        @item.Feedback.Numeric1.Direction,
-        @item.Feedback.Numeric2.Value,
-        @item.Feedback.Numeric2.Direction,
-        
-        @item.Feedback.Region.Value,
-        @item.Feedback.Region.Match,
-        @item.Feedback.Continent.Value, 
-        @item.Feedback.Continent.Match,
-        @item.Feedback.Status.Value, 
-        @item.Feedback.Status.Match,
-        
-        @item.Feedback.List1.Match, 
-        @string.Join(", ", @item.Feedback.List1.Values),
-        @item.Feedback.List2.Match, 
-        @string.Join(", ", @item.Feedback.List2.Values),
-        @item.Feedback.List3.Match, 
-        @string.Join(", ", @item.Feedback.List3.Values)
+    {
+        var numeric1 = GetNumericFeedback(item.Feedback.Numeric1);
+        var numeric2 = GetNumericFeedback(item.Feedback.Numeric2);
 
+        <div class="guess-row">
+            <div class="cell name-cell">@item.GuessedEntityName</div>
+            <div class="cell" style="background-color: @numeric1.color">
+                @item.Feedback.Numeric1.Value @numeric1.direction
+            </div>
+            <div class="cell" style="background-color: @numeric2.color">
+                @item.Feedback.Numeric2.Value @numeric2.direction
+            </div>
+            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Region)">@item.Feedback.Region.Value</div>
+            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Continent)">@item.Feedback.Continent.Value</div>
+            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Status)">@item.Feedback.Status.Value</div>
+
+            <div class="cell" style="background-color: @GetListColor(item.Feedback.List1)">@string.Join(", ", item.Feedback.List1.Values)</div>
+            <div class="cell" style="background-color: @GetListColor(item.Feedback.List2)">@string.Join(", ", item.Feedback.List2.Values)</div>
+            <div class="cell" style="background-color: @GetListColor(item.Feedback.List3)">@string.Join(", ", item.Feedback.List3.Values)</div>
+        </div>
+        
+    }
+}
+@if (TargetBand != null && Status == "Lost")
+{
+    <div class="guess-row">
+        <div class="cell name-cell">@TargetBand.Name</div>
+        <div class="cell" style="background-color: green">@TargetBand.Year</div>
+        <div class="cell" style="background-color: green">@TargetBand.Members</div>
+        <div class="cell" style="background-color: green">@TargetBand.Country</div>
+        <div class="cell" style="background-color: green">@TargetBand.Continent</div>
+        <div class="cell" style="background-color: green">@TargetBand.Status</div>
+        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Themes)</div>
+        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Vocals)</div>
+        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Genres)</div>
     </div>
 }
 
 @code {
     [Parameter]
     public List<GuessResponse> Guesses{ get; set; }
+
+    [Parameter]
+    public TargetBandResponse? TargetBand { get; set; }
+    
+    [Parameter]
+    public string? Status { get; set; }
+    
+    public (string color, string direction)GetNumericFeedback(NumericFeedback feedback)
+    {
+        switch (feedback.Direction)
+        {
+            case "Higher":
+                return ("red", "↑");
+            case "Lower":
+                return ("red", "↓");
+            case "Exact":
+                return ("green", "✓");
+            case "HigherClose":
+                return ("yellow", "↑");
+            case "LowerClose":
+                return ("yellow", "↓");    
+            default:
+                return ("grey", "?");
+        }
+    }
+
+    public string GetCategoryColor(CategoryFeedback feedback)
+    {
+        switch (feedback.Match)
+        {
+            case "None":
+                return "red";
+            case "Partial" :
+                return "yellow";
+            case "Exact":
+                return "green";
+            default:
+                return "grey";  
+        }
+    }
+
+    public string GetListColor(ListFeedback feedback)
+    {
+        switch (feedback.Match)
+        {
+            case "None":
+                return "red";
+            case "Partial":
+                return "yellow";
+            case "Exact":
+                return "green";
+            default:
+                return "grey";
+        }
+    }
     
 }

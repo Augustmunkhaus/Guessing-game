@@ -14,22 +14,30 @@
         
     }
 else if (currentState == GameState.InProgress)
-{
-    <GameBoard Guesses="currentSession?.Guesses"/>
-    <SearchBar SubmitSearch="MakeGuess"/>
-    <p>Session is: @(currentSession == null ? "null" : "loaded")</p>
+    { 
+        <SearchBar SubmitSearch="MakeGuess"/>
+        <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand"/>
 }
 else if (currentState == GameState.Lost || currentState == GameState.Won)
 {
-    <ResultBox/>
+    <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand" Status="@currentSession?.Status"/>
+
+    <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status"/>
+
 }
 
 @code {
-    
-    private GameState currentState = GameState.NotStarted; 
-    
-    private enum GameState { NotStarted, InProgress, Won, Lost }
-    
+
+    private GameState currentState = GameState.NotStarted;
+
+    private enum GameState
+    {
+        NotStarted,
+        InProgress,
+        Won,
+        Lost
+    }
+
     private Models.SessionResponse? currentSession;
 
     private string sessionId;
@@ -39,6 +47,10 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
         currentState = GameState.InProgress;
         sessionId = await _sessionService.GetOrCreateSessionIdAsync();
         currentSession = await _apiService.StartGameAsync(sessionId);
+        if (currentSession.Status == "Won")
+            currentState = GameState.Won;
+        else if (currentSession.Status == "Lost")
+            currentState = GameState.Lost;
     }
 
     public async Task MakeGuess(string entityName)
@@ -53,4 +65,13 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
             currentState = GameState.Lost;
         }
     }
+
+    public async Task GenerateNewSession()
+    {
+        currentSession = null;
+        sessionId = Guid.NewGuid().ToString();
+        currentState = GameState.InProgress;
+        currentSession = await _apiService.StartFreshGameAsync(sessionId);
+    }
+    
 }
