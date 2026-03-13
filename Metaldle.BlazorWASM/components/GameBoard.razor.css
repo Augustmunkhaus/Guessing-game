@@ -6,31 +6,39 @@
 }
 
 .cell {
-    width: 120px;
-    height: 80px;
+    width: 160px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.8rem;
-    padding: 4px;
+    font-size: 0.85rem;
+    padding: 6px;
+    color: white;
+    font-weight: 600;
 }
 
 .name-cell {
-    width: 150px;
+    width: 160px;
     background-color: #333;
     color: white;
 }
 
 .header-cell {
-    width: 120px;
+    width: 160px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1a1a1a;
+    border: 1px solid #c9a84c;
     color: #c9a84c;
     font-weight: bold;
     font-size: 0.8rem;
     text-align: center;
+}
+
+.direction-symbol {
+    display: block;
+    font-size: 0.7rem;
 }

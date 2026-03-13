@@ -73,9 +73,10 @@ public class GameController : ControllerBase
             Country = targetEntity.RegionAttribute,
             Continent = targetEntity.ContinentAttribute,
             Status = targetEntity.StatusAttribute,
+            Genre =  targetEntity.GenreAttribute,
             Themes = targetEntity.ListAttribute1,
             Vocals = targetEntity.ListAttribute2,
-            Genres = targetEntity.ListAttribute3
+            SubGenres = targetEntity.ListAttribute3
         };
     }
     

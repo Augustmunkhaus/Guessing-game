@@ -19,6 +19,7 @@ public class FakeMetalBand : IGuessableEntity
     public string ContinentAttribute { get; set; } //Continent
     public string StatusAttribute { get; set; } = string.Empty;    // Active/Disbanded
     
+    public string GenreAttribute { get; set; } = string.Empty;
     // List attributes
     public List<string> ListAttribute1 { get; set; } = new();  // Themes
     public List<string> ListAttribute2 { get; set; } = new();  // Vocal Styles

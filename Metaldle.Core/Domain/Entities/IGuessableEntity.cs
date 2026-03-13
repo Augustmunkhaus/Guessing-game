@@ -13,6 +13,7 @@ public interface IGuessableEntity
     string RegionAttribute { get; }
     string ContinentAttribute { get; }
     string StatusAttribute { get; }
+    string GenreAttribute { get; }
     
     // List attributes
     List<string> ListAttribute1 { get; }

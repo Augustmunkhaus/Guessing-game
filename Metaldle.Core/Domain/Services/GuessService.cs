@@ -13,7 +13,7 @@ public class GuessService
     private readonly IEntityRepository _entityRepository;
     private readonly ISessionRepository _sessionRepository;
     private readonly FeedbackService _feedbackService;
-    private const int MaxGuesses = 6;
+    private const int MaxGuesses = 8;
 
     public GuessService(
         IEntityRepository entityRepository,
@@ -87,7 +87,7 @@ public class GuessService
             todaysSession.Status = GameStatus.Won;
             todaysSession.CompletedAt = DateTime.UtcNow;
         }
-        else if (todaysSession.Guesses.Count >= 6)
+        else if (todaysSession.Guesses.Count >= MaxGuesses)
         {
             todaysSession.Status = GameStatus.Lost;
             todaysSession.CompletedAt = DateTime.UtcNow;

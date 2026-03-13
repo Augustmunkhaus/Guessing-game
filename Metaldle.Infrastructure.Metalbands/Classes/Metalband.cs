@@ -17,8 +17,9 @@ public class Metalband : IGuessableEntity
     public string RegionAttribute { get; set; } = string.Empty;   
     
     public string ContinentAttribute { get; set; } = string.Empty;
-    public string StatusAttribute { get; set; } = string.Empty;    
-    
+    public string StatusAttribute { get; set; } = string.Empty;
+    public string GenreAttribute { get; set; } = string.Empty;
+
     // List attributes
     public List<string> ListAttribute1 { get; set; } = new(); 
     public List<string> ListAttribute2 { get; set; } = new();  

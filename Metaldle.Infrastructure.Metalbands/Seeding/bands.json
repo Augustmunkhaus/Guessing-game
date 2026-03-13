@@ -6,9 +6,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["War", "History", "Literature", "Mythology"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "NWOBHM", "Progressive Metal"]
+    "listAttribute3": ["NWOBHM", "Progressive Metal"]
   },
   {
     "name": "Opeth",
@@ -17,53 +18,58 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Death", "Nature", "Introspection", "Melancholy"],
     "listAttribute2": ["Growling", "Clean", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Death Metal", "Progressive Rock"]
+    "listAttribute3": ["Death Metal", "Progressive Rock"]
   },
   {
     "name": "Metallica",
     "numericAttribute1": 1981,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Death", "Politics", "Inner Conflict"],
     "listAttribute2": ["Aggressive", "Clean", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Heavy Metal", "Hard Rock"]
+    "listAttribute3": ["Heavy Metal", "Hard Rock"]
   },
   {
     "name": "Megadeth",
     "numericAttribute1": 1983,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Politics", "Nuclear Threat", "Death"],
     "listAttribute2": ["Aggressive", "Clean", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Heavy Metal", "Speed Metal"]
+    "listAttribute3": ["Heavy Metal", "Speed Metal"]
   },
   {
     "name": "Death",
     "numericAttribute1": 1983,
     "numericAttribute2": 0,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Death", "Gore", "Philosophy", "Human Condition"],
     "listAttribute2": ["Growling", "Harsh"],
-    "listAttribute3": ["Death Metal", "Progressive Death Metal", "Technical Death Metal", "Florida Death Metal"]
+    "listAttribute3": ["Progressive Death Metal", "Technical Death Metal", "Florida Death Metal"]
   },
   {
     "name": "Slayer",
     "numericAttribute1": 1981,
     "numericAttribute2": 3,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Death", "Occult", "Violence"],
     "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Death Metal"]
+    "listAttribute3": ["Speed Metal", "Death Metal"]
   },
   {
     "name": "Amon Amarth",
@@ -72,9 +78,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
     "listAttribute1": ["Norse Mythology", "Vikings", "War", "Death"],
     "listAttribute2": ["Growling", "Harsh"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Viking Metal"]
+    "listAttribute3": ["Death Metal", "Viking Metal"]
   },
   {
     "name": "Black Sabbath",
@@ -83,9 +90,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Occult", "Darkness", "War", "Depression"],
     "listAttribute2": ["Clean", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Doom Metal", "Hard Rock"]
+    "listAttribute3": ["Doom Metal", "Hard Rock"]
   },
   {
     "name": "Judas Priest",
@@ -94,20 +102,22 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Freedom", "Rebellion", "War", "Science Fiction"],
     "listAttribute2": ["High-pitched", "Clean", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal", "NWOBHM"]
+    "listAttribute3": ["Speed Metal", "NWOBHM"]
   },
   {
     "name": "Dream Theater",
     "numericAttribute1": 1985,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "New York",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Introspection", "Fantasy", "Human Condition", "Science Fiction"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Progressive Metal", "Heavy Metal", "Progressive Rock"]
+    "listAttribute3": ["Heavy Metal", "Progressive Rock"]
   },
   {
     "name": "Nightwish",
@@ -116,9 +126,10 @@
     "regionAttribute": "Finland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Symphonic Metal",
     "listAttribute1": ["Fantasy", "Nature", "Mythology"],
     "listAttribute2": ["Operatic", "Symphonic", "Clean"],
-    "listAttribute3": ["Symphonic Metal", "Power Metal", "Gothic Metal"]
+    "listAttribute3": ["Power Metal", "Gothic Metal"]
   },
   {
     "name": "Children of Bodom",
@@ -127,9 +138,10 @@
     "regionAttribute": "Finland",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Melodic Death Metal",
     "listAttribute1": ["Death", "Darkness", "Chaos", "Violence"],
     "listAttribute2": ["Harsh", "Aggressive", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Power Metal", "Neoclassical Metal"]
+    "listAttribute3": ["Death Metal", "Power Metal", "Neoclassical Metal"]
   },
   {
     "name": "Blind Guardian",
@@ -138,9 +150,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "Literature", "Mythology", "History"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Speed Metal", "Heavy Metal", "Progressive Metal"]
+    "listAttribute3": ["Speed Metal", "Heavy Metal", "Progressive Metal"]
   },
   {
     "name": "Dark Tranquillity",
@@ -149,186 +162,167 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
     "listAttribute1": ["Introspection", "Melancholy", "Darkness", "Existentialism"],
     "listAttribute2": ["Harsh", "Melodic", "Clean"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Gothic Metal"]
+    "listAttribute3": ["Death Metal", "Gothic Metal"]
   },
   {
-    "name": "Agalloch",
-    "numericAttribute1": 1995,
+    "name": "Pantera",
+    "numericAttribute1": 1981,
     "numericAttribute2": 0,
-    "regionAttribute": "USA",
+    "regionAttribute": "Texas",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
-    "listAttribute1": ["Nature", "Melancholy", "Existentialism", "Death"],
-    "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Folk Metal", "Doom Metal", "Post Metal"]
+    "genreAttribute": "Groove Metal",
+    "listAttribute1": ["Aggression", "Rebellion", "Violence", "Southern Culture"],
+    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
+    "listAttribute3": ["Thrash Metal", "Heavy Metal"]
   },
-    {
-      "name": "Pantera",
-      "numericAttribute1": 1981,
-      "numericAttribute2": 0,
-      "regionAttribute": "USA",
-      "continentAttribute": "North America",
-      "statusAttribute": "Disbanded",
-      "listAttribute1": ["Aggression", "Rebellion", "Violence", "Southern Culture"],
-      "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-      "listAttribute3": ["Groove Metal", "Thrash Metal", "Heavy Metal"]
-    },
-    {
-      "name": "In Flames",
-      "numericAttribute1": 1990,
-      "numericAttribute2": 5,
-      "regionAttribute": "Sweden",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Emotion", "Introspection", "Struggle"],
-      "listAttribute2": ["Melodic", "Harsh", "Clean"],
-      "listAttribute3": ["Melodic Death Metal", "Death Metal", "Alternative Metal"]
-    },
-    {
-      "name": "Katatonia",
-      "numericAttribute1": 1991,
-      "numericAttribute2": 5,
-      "regionAttribute": "Sweden",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Melancholy", "Depression", "Loss", "Darkness"],
-      "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-      "listAttribute3": ["Gothic Metal", "Doom Metal", "Progressive Metal", "Alternative Metal"]
-    },
-    {
-      "name": "Kreator",
-      "numericAttribute1": 1982,
-      "numericAttribute2": 4,
-      "regionAttribute": "Germany",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["War", "Politics", "Death", "Chaos"],
-      "listAttribute2": ["Aggressive", "Harsh"],
-      "listAttribute3": ["Thrash Metal", "Speed Metal", "Death Metal"]
-    },
-    {
-      "name": "Amorphis",
-      "numericAttribute1": 1990,
-      "numericAttribute2": 6,
-      "regionAttribute": "Finland",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Finnish Mythology", "Nature", "Death", "Melancholy"],
-      "listAttribute2": ["Clean", "Growling", "Melodic"],
-      "listAttribute3": ["Death Metal", "Folk Metal", "Progressive Metal", "Doom Metal"]
-    },
-    {
-      "name": "Behemoth",
-      "numericAttribute1": 1991,
-      "numericAttribute2": 4,
-      "regionAttribute": "Poland",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Occult", "Anti-Christianity", "Darkness", "Mythology"],
-      "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-      "listAttribute3": ["Black Metal", "Death Metal", "Blackened Death Metal"]
-    },
-    {
-      "name": "Insomnium",
-      "numericAttribute1": 1997,
-      "numericAttribute2": 4,
-      "regionAttribute": "Finland",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Melancholy", "Nature", "Loss", "Despair"],
-      "listAttribute2": ["Growling", "Harsh", "Clean"],
-      "listAttribute3": ["Melodic Death Metal", "Death Metal", "Doom Metal"]
-    },
-    {
-      "name": "Arch Enemy",
-      "numericAttribute1": 1995,
-      "numericAttribute2": 5,
-      "regionAttribute": "Sweden",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["War", "Freedom", "Empowerment", "Rebellion"],
-      "listAttribute2": ["Growling", "Harsh", "Melodic"],
-      "listAttribute3": ["Melodic Death Metal", "Death Metal", "Thrash Metal"]
-    },
-    {
-      "name": "Ensiferum",
-      "numericAttribute1": 1995,
-      "numericAttribute2": 5,
-      "regionAttribute": "Finland",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Vikings", "War", "Norse Mythology", "Nature"],
-      "listAttribute2": ["Clean", "Harsh", "Growling"],
-      "listAttribute3": ["Folk Metal", "Viking Metal", "Melodic Death Metal"]
-    },
-    {
-      "name": "Dimmu Borgir",
-      "numericAttribute1": 1993,
-      "numericAttribute2": 6,
-      "regionAttribute": "Norway",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Mythology"],
-      "listAttribute2": ["Shrieking", "Harsh", "Operatic"],
-      "listAttribute3": ["Symphonic Black Metal", "Black Metal", "Gothic Metal"]
-    },
-    {
-      "name": "Tool",
-      "numericAttribute1": 1990,
-      "numericAttribute2": 4,
-      "regionAttribute": "USA",
-      "continentAttribute": "North America",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Spirituality", "Psychedelia", "Human Condition", "Introspection"],
-      "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-      "listAttribute3": ["Progressive Metal", "Alternative Metal", "Art Rock"]
-    },
-    {
-      "name": "Wintersun",
-      "numericAttribute1": 2004,
-      "numericAttribute2": 4,
-      "regionAttribute": "Finland",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Nature", "Cosmos", "Mythology", "Winter"],
-      "listAttribute2": ["Clean", "Growling", "High-pitched"],
-      "listAttribute3": ["Melodic Death Metal", "Folk Metal", "Symphonic Metal"]
-    },
-    {
-      "name": "Testament",
-      "numericAttribute1": 1983,
-      "numericAttribute2": 5,
-      "regionAttribute": "USA",
-      "continentAttribute": "North America",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Occult", "War", "Apocalypse"],
-      "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-      "listAttribute3": ["Thrash Metal", "Speed Metal", "Death Metal"]
-    },
-    {
-      "name": "Gojira",
-      "numericAttribute1": 1996,
-      "numericAttribute2": 4,
-      "regionAttribute": "France",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Environment", "Spirituality", "Death", "Nature"],
-      "listAttribute2": ["Harsh", "Growling", "Clean"],
-      "listAttribute3": ["Death Metal", "Progressive Metal", "Groove Metal"]
-    },
-    {
-      "name": "Helloween",
-      "numericAttribute1": 1984,
-      "numericAttribute2": 7,
-      "regionAttribute": "Germany",
-      "continentAttribute": "Europe",
-      "statusAttribute": "Active",
-      "listAttribute1": ["Fantasy", "Halloween", "Adventure"],
-      "listAttribute2": ["High-pitched", "Melodic", "Clean"],
-      "listAttribute3": ["Power Metal", "Speed Metal", "Heavy Metal"]
-    },
+  {
+    "name": "In Flames",
+    "numericAttribute1": 1990,
+    "numericAttribute2": 5,
+    "regionAttribute": "Sweden",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
+    "listAttribute1": ["Emotion", "Introspection", "Struggle"],
+    "listAttribute2": ["Melodic", "Harsh", "Clean"],
+    "listAttribute3": ["Death Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Kreator",
+    "numericAttribute1": 1982,
+    "numericAttribute2": 4,
+    "regionAttribute": "Germany",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["War", "Politics", "Death", "Chaos"],
+    "listAttribute2": ["Aggressive", "Harsh"],
+    "listAttribute3": ["Speed Metal", "Death Metal"]
+  },
+  {
+    "name": "Amorphis",
+    "numericAttribute1": 1990,
+    "numericAttribute2": 6,
+    "regionAttribute": "Finland",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
+    "listAttribute1": ["Finnish Mythology", "Nature", "Death", "Melancholy"],
+    "listAttribute2": ["Clean", "Growling", "Melodic"],
+    "listAttribute3": ["Death Metal", "Folk Metal", "Doom Metal"]
+  },
+  {
+    "name": "Behemoth",
+    "numericAttribute1": 1991,
+    "numericAttribute2": 4,
+    "regionAttribute": "Poland",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
+    "listAttribute1": ["Occult", "Anti-Christianity", "Darkness", "Mythology"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Blackened Death Metal", "Death Metal"]
+  },
+  {
+    "name": "Arch Enemy",
+    "numericAttribute1": 1995,
+    "numericAttribute2": 5,
+    "regionAttribute": "Sweden",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
+    "listAttribute1": ["War", "Freedom", "Empowerment", "Rebellion"],
+    "listAttribute2": ["Growling", "Harsh", "Melodic"],
+    "listAttribute3": ["Death Metal", "Thrash Metal"]
+  },
+  {
+    "name": "Ensiferum",
+    "numericAttribute1": 1995,
+    "numericAttribute2": 5,
+    "regionAttribute": "Finland",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
+    "listAttribute1": ["Vikings", "War", "Norse Mythology", "Nature"],
+    "listAttribute2": ["Clean", "Harsh", "Growling"],
+    "listAttribute3": ["Viking Metal", "Melodic Death Metal"]
+  },
+  {
+    "name": "Dimmu Borgir",
+    "numericAttribute1": 1993,
+    "numericAttribute2": 6,
+    "regionAttribute": "Norway",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
+    "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Mythology"],
+    "listAttribute2": ["Shrieking", "Harsh", "Operatic"],
+    "listAttribute3": ["Symphonic Black Metal", "Gothic Metal"]
+  },
+  {
+    "name": "Tool",
+    "numericAttribute1": 1990,
+    "numericAttribute2": 4,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
+    "listAttribute1": ["Spirituality", "Psychedelia", "Human Condition", "Introspection"],
+    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
+    "listAttribute3": ["Alternative Metal", "Art Rock"]
+  },
+  {
+    "name": "Wintersun",
+    "numericAttribute1": 2004,
+    "numericAttribute2": 4,
+    "regionAttribute": "Finland",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
+    "listAttribute1": ["Nature", "Cosmos", "Mythology", "Winter"],
+    "listAttribute2": ["Clean", "Growling", "High-pitched"],
+    "listAttribute3": ["Folk Metal", "Symphonic Metal"]
+  },
+  {
+    "name": "Testament",
+    "numericAttribute1": 1983,
+    "numericAttribute2": 5,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["Occult", "War", "Apocalypse"],
+    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
+    "listAttribute3": ["Speed Metal", "Death Metal"]
+  },
+  {
+    "name": "Gojira",
+    "numericAttribute1": 1996,
+    "numericAttribute2": 4,
+    "regionAttribute": "France",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Progressive Death Metal",
+    "listAttribute1": ["Environment", "Spirituality", "Death", "Nature"],
+    "listAttribute2": ["Harsh", "Growling", "Clean"],
+    "listAttribute3": ["Death Metal", "Groove Metal"]
+  },
+  {
+    "name": "Helloween",
+    "numericAttribute1": 1984,
+    "numericAttribute2": 7,
+    "regionAttribute": "Germany",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
+    "listAttribute1": ["Fantasy", "Halloween", "Adventure"],
+    "listAttribute2": ["High-pitched", "Melodic", "Clean"],
+    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+  },
   {
     "name": "Immortal",
     "numericAttribute1": 1990,
@@ -336,9 +330,10 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Winter", "Darkness", "War", "Blashyrkh"],
     "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Thrash Metal", "Speed Metal"]
+    "listAttribute3": ["Thrash Metal", "Speed Metal"]
   },
   {
     "name": "Epica",
@@ -347,53 +342,46 @@
     "regionAttribute": "Netherlands",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Symphonic Metal",
     "listAttribute1": ["Philosophy", "Spirituality", "Science", "Mythology"],
     "listAttribute2": ["Operatic", "Symphonic", "Growling"],
-    "listAttribute3": ["Symphonic Metal", "Gothic Metal", "Power Metal"]
+    "listAttribute3": ["Gothic Metal", "Power Metal"]
   },
   {
     "name": "Kamelot",
     "numericAttribute1": 1991,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "Literature", "Philosophy", "Dark Romance"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Power Metal", "Progressive Metal", "Symphonic Metal"]
+    "listAttribute3": ["Progressive Metal", "Symphonic Metal"]
   },
   {
     "name": "Lamb of God",
     "numericAttribute1": 1994,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "Virginia",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Groove Metal",
     "listAttribute1": ["Politics", "Violence", "Corruption"],
     "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Groove Metal", "Thrash Metal", "Death Metal"]
+    "listAttribute3": ["Thrash Metal", "Death Metal"]
   },
   {
     "name": "Mastodon",
     "numericAttribute1": 2000,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Georgia",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Sludge Metal",
     "listAttribute1": ["Nature", "Mythology", "Spirituality", "Human Condition"],
     "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Sludge Metal", "Heavy Metal"]
-  },
-  {
-    "name": "Anathema",
-    "numericAttribute1": 1990,
-    "numericAttribute2": 6,
-    "regionAttribute": "England",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Hiatus",
-    "listAttribute1": ["Melancholy", "Loss", "Introspection", "Hope"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Gothic Metal", "Progressive Rock", "Alternative Rock"]
+    "listAttribute3": ["Progressive Metal", "Heavy Metal"]
   },
   {
     "name": "Rammstein",
@@ -402,20 +390,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Industrial Metal",
     "listAttribute1": ["Taboo", "Sexuality", "Violence", "Politics"],
     "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Industrial Metal", "Neue Deutsche Härte", "Heavy Metal"]
-  },
-  {
-    "name": "Iced Earth",
-    "numericAttribute1": 1985,
-    "numericAttribute2": 5,
-    "regionAttribute": "USA",
-    "continentAttribute": "North America",
-    "statusAttribute": "Active",
-    "listAttribute1": ["History", "War", "Fantasy", "American Culture"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Heavy Metal", "Thrash Metal"]
+    "listAttribute3": ["Neue Deutsche Härte", "Heavy Metal", "Nu Metal"]
   },
   {
     "name": "Sepultura",
@@ -424,20 +402,22 @@
     "regionAttribute": "Brazil",
     "continentAttribute": "South America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["Politics", "Social Issues", "War", "Tribal Culture"],
     "listAttribute2": ["Aggressive", "Harsh", "Growling"],
-    "listAttribute3": ["Thrash Metal", "Death Metal", "Groove Metal", "Tribal Metal"]
+    "listAttribute3": ["Death Metal", "Groove Metal", "Tribal Metal"]
   },
   {
     "name": "Symphony X",
     "numericAttribute1": 1994,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "New Jersey",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Mythology", "Fantasy", "Science Fiction", "Philosophy"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Progressive Metal", "Power Metal", "Neoclassical Metal"]
+    "listAttribute3": ["Power Metal", "Neoclassical Metal", "Speed Metal"]
   },
   {
     "name": "Paradise Lost",
@@ -446,9 +426,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Gothic Metal",
     "listAttribute1": ["Melancholy", "Loss", "Darkness", "Despair"],
     "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Gothic Metal", "Doom Metal", "Death Metal"]
+    "listAttribute3": ["Doom Metal", "Death Metal"]
   },
   {
     "name": "Eluveitie",
@@ -457,31 +438,10 @@
     "regionAttribute": "Switzerland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
     "listAttribute1": ["Celtic Mythology", "Nature", "War", "Ancient History"],
     "listAttribute2": ["Harsh", "Clean", "Growling"],
-    "listAttribute3": ["Folk Metal", "Melodic Death Metal", "Celtic Metal"]
-  },
-  {
-    "name": "Enslaved",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 5,
-    "regionAttribute": "Norway",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Norse Mythology", "Vikings", "Spirituality", "Nature"],
-    "listAttribute2": ["Harsh", "Clean", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Viking Metal", "Progressive Metal"]
-  },
-  {
-    "name": "Be'lakor",
-    "numericAttribute1": 2004,
-    "numericAttribute2": 5,
-    "regionAttribute": "Australia",
-    "continentAttribute": "Oceania",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Existentialism", "Nature", "Loss"],
-    "listAttribute2": ["Growling", "Harsh", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Progressive Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Celtic Metal", "Symphonic Death Metal"]
   },
   {
     "name": "Emperor",
@@ -490,31 +450,22 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Darkness", "Occult", "Winter", "Anti-Christianity"],
     "listAttribute2": ["Shrieking", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Symphonic Black Metal", "Progressive Metal"]
+    "listAttribute3": ["Symphonic Black Metal", "Progressive Metal"]
   },
   {
     "name": "Cannibal Corpse",
     "numericAttribute1": 1988,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Gore", "Death", "Violence", "Horror"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
-  },
-  {
-    "name": "Moonspell",
-    "numericAttribute1": 1992,
-    "numericAttribute2": 5,
-    "regionAttribute": "Portugal",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Occult", "Darkness", "Romance", "Mythology"],
-    "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Gothic Metal", "Black Metal", "Doom Metal", "Symphonic Metal"]
+    "listAttribute3": ["Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
   },
   {
     "name": "Cradle of Filth",
@@ -523,20 +474,22 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Occult", "Dark Romance", "Horror", "Vampirism"],
     "listAttribute2": ["Shrieking", "Harsh", "Operatic"],
-    "listAttribute3": ["Black Metal", "Symphonic Black Metal", "Gothic Metal", "Extreme Metal"]
+    "listAttribute3": ["Symphonic Black Metal", "Gothic Metal", "Extreme Metal"]
   },
   {
     "name": "Nile",
     "numericAttribute1": 1993,
     "numericAttribute2": 3,
-    "regionAttribute": "USA",
+    "regionAttribute": "South Carolina",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Egyptian Mythology", "Ancient History", "Death", "Occult"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal", "Brutal Death Metal"]
+    "listAttribute3": ["Technical Death Metal", "Brutal Death Metal"]
   },
   {
     "name": "Septicflesh",
@@ -545,42 +498,22 @@
     "regionAttribute": "Greece",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
-    "listAttribute1": ["Mythology", "Occult", "Darkness", "Ancient History"],
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Mythology", "Egypt", "Darkness", "Ancient History"],
     "listAttribute2": ["Growling", "Harsh", "Operatic"],
-    "listAttribute3": ["Symphonic Death Metal", "Death Metal", "Gothic Metal"]
-  },
-  {
-    "name": "Therion",
-    "numericAttribute1": 1987,
-    "numericAttribute2": 4,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Occult", "Mythology", "Spirituality", "Alchemy"],
-    "listAttribute2": ["Operatic", "Symphonic", "Clean"],
-    "listAttribute3": ["Symphonic Metal", "Gothic Metal", "Death Metal"]
-  },
-  {
-    "name": "My Dying Bride",
-    "numericAttribute1": 1990,
-    "numericAttribute2": 5,
-    "regionAttribute": "England",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Death", "Melancholy", "Loss", "Dark Romance"],
-    "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Gothic Metal", "Death Metal"]
+    "listAttribute3": ["Death Metal", "Gothic Metal", "Symphonic Death Metal"]
   },
   {
     "name": "Dio",
     "numericAttribute1": 1982,
     "numericAttribute2": 0,
-    "regionAttribute": "USA",
+    "regionAttribute": "New York",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Fantasy", "Good vs Evil", "Mythology", "Magic"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Power Metal", "Hard Rock"]
+    "listAttribute3": ["Power Metal", "Hard Rock"]
   },
   {
     "name": "Carcass",
@@ -589,9 +522,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Gore", "Death", "Medicine", "Decomposition"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Melodic Death Metal", "Grindcore", "Old School Death Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Grindcore", "Old School Death Metal"]
   },
   {
     "name": "Porcupine Tree",
@@ -600,9 +534,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Rock",
     "listAttribute1": ["Introspection", "Society", "Mental Health", "Melancholy"],
     "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Progressive Rock", "Progressive Metal", "Art Rock"]
+    "listAttribute3": ["Progressive Metal", "Art Rock"]
   },
   {
     "name": "Led Zeppelin",
@@ -611,9 +546,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Mythology", "Mysticism", "Romance", "Adventure"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Hard Rock", "Heavy Metal", "Blues Rock", "Folk Rock"]
+    "listAttribute3": ["Dad Rock", "Blues Rock", "Folk Rock"]
   },
   {
     "name": "Bathory",
@@ -622,53 +558,46 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Occult", "Vikings", "Norse Mythology", "War"],
     "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Viking Metal", "Thrash Metal", "Speed Metal"]
-  },
-  {
-    "name": "Nevermore",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 0,
-    "regionAttribute": "USA",
-    "continentAttribute": "North America",
-    "statusAttribute": "Disbanded",
-    "listAttribute1": ["Politics", "Philosophy", "Darkness", "Introspection"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Progressive Metal", "Thrash Metal", "Heavy Metal", "Power Metal"]
+    "listAttribute3": ["Viking Metal", "Thrash Metal", "Speed Metal"]
   },
   {
     "name": "Anthrax",
     "numericAttribute1": 1981,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "New York",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Politics", "Pop Culture", "Social Issues"],
     "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Heavy Metal"]
+    "listAttribute3": ["Speed Metal", "Heavy Metal"]
   },
   {
     "name": "System of a Down",
     "numericAttribute1": 1994,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Hiatus",
+    "genreAttribute": "Nu Metal",
     "listAttribute1": ["Politics", "War", "Social Issues", "Armenian Culture"],
     "listAttribute2": ["Eclectic", "Aggressive", "Melodic"],
-    "listAttribute3": ["Alternative Metal", "Nu Metal", "Progressive Metal"]
+    "listAttribute3": ["Alternative Metal", "Progressive Metal"]
   },
   {
     "name": "Slipknot",
     "numericAttribute1": 1995,
     "numericAttribute2": 9,
-    "regionAttribute": "USA",
+    "regionAttribute": "Iowa",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
     "listAttribute1": ["Anger", "Chaos", "Darkness", "Inner Conflict"],
     "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Nu Metal", "Alternative Metal", "Heavy Metal", "Groove Metal"]
+    "listAttribute3": ["Alternative Metal", "Heavy Metal", "Groove Metal"]
   },
   {
     "name": "Meshuggah",
@@ -677,20 +606,22 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Existentialism", "Chaos", "Human Condition", "Machinery"],
     "listAttribute2": ["Harsh", "Aggressive", "Growling"],
-    "listAttribute3": ["Progressive Metal", "Thrash Metal", "Djent", "Technical Metal"]
+    "listAttribute3": ["Death Metal", "Djent", "Technical Metal"]
   },
   {
     "name": "Morbid Angel",
     "numericAttribute1": 1983,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Sumerian Mythology"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal", "Old School Death Metal", "Florida Death Metal"]
+    "listAttribute3": ["Technical Death Metal", "Old School Death Metal", "Florida Death Metal"]
   },
   {
     "name": "Stratovarius",
@@ -699,53 +630,22 @@
     "regionAttribute": "Finland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "Freedom", "Hope", "Introspection"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Speed Metal", "Progressive Metal"]
-  },
-  {
-    "name": "Swallow the Sun",
-    "numericAttribute1": 2000,
-    "numericAttribute2": 6,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Death", "Loss", "Darkness"],
-    "listAttribute2": ["Growling", "Clean", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Death Metal", "Gothic Metal", "Death-Doom Metal"]
-  },
-  {
-    "name": "Draconian",
-    "numericAttribute1": 1994,
-    "numericAttribute2": 5,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Loss", "Darkness", "Despair"],
-    "listAttribute2": ["Clean", "Growling", "Operatic"],
-    "listAttribute3": ["Gothic Metal", "Doom Metal", "Death-Doom Metal"]
-  },
-  {
-    "name": "Kalmah",
-    "numericAttribute1": 1998,
-    "numericAttribute2": 5,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Nature", "Darkness", "Death", "Melancholy"],
-    "listAttribute2": ["Harsh", "Growling", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Folk Metal"]
+    "listAttribute3": ["Speed Metal", "Progressive Metal"]
   },
   {
     "name": "Exodus",
     "numericAttribute1": 1979,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Violence", "Death", "Chaos"],
     "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Bay Area Thrash"]
+    "listAttribute3": ["Speed Metal", "Bay Area Thrash"]
   },
   {
     "name": "Motörhead",
@@ -754,20 +654,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Rebellion", "Speed", "War", "Rock and Roll"],
     "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal", "Rock and Roll", "Punk Metal"]
-  },
-  {
-    "name": "Moonsorrow",
-    "numericAttribute1": 1995,
-    "numericAttribute2": 5,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Finnish Mythology", "Nature", "Paganism", "War"],
-    "listAttribute2": ["Harsh", "Shrieking", "Clean"],
-    "listAttribute3": ["Black Metal", "Folk Metal", "Viking Metal", "Pagan Metal"]
+    "listAttribute3": ["Speed Metal", "Rock and Roll", "Punk Metal"]
   },
   {
     "name": "Burzum",
@@ -776,20 +666,22 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Darkness", "Norse Mythology", "Nature", "Paganism"],
     "listAttribute2": ["Shrieking", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Ambient Black Metal", "Atmospheric Black Metal"]
+    "listAttribute3": ["Ambient Black Metal", "Atmospheric Black Metal"]
   },
   {
     "name": "Machine Head",
     "numericAttribute1": 1991,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Groove Metal",
     "listAttribute1": ["Anger", "Politics", "War", "Inner Conflict"],
     "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Groove Metal", "Thrash Metal", "Heavy Metal"]
+    "listAttribute3": ["Thrash Metal", "Heavy Metal"]
   },
   {
     "name": "AC/DC",
@@ -798,9 +690,10 @@
     "regionAttribute": "Australia",
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
+    "genreAttribute": "Hard Rock",
     "listAttribute1": ["Rebellion", "Rock and Roll", "Party", "Energy"],
     "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Hard Rock", "Heavy Metal", "Blues Rock"]
+    "listAttribute3": ["Heavy Metal", "Blues Rock", "Dad Rock"]
   },
   {
     "name": "Rotting Christ",
@@ -809,9 +702,10 @@
     "regionAttribute": "Greece",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Occult", "Anti-Christianity", "Mythology", "Darkness"],
     "listAttribute2": ["Harsh", "Aggressive", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Gothic Metal", "Symphonic Black Metal"]
+    "listAttribute3": ["Gothic Metal", "Symphonic Black Metal"]
   },
   {
     "name": "Within Temptation",
@@ -820,9 +714,10 @@
     "regionAttribute": "Netherlands",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Symphonic Metal",
     "listAttribute1": ["Fantasy", "Emotion", "Loss", "Hope"],
     "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Symphonic Metal", "Gothic Metal", "Alternative Metal"]
+    "listAttribute3": ["Gothic Metal", "Alternative Metal"]
   },
   {
     "name": "At the Gates",
@@ -831,9 +726,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Death", "Chaos", "Existentialism", "Darkness"],
     "listAttribute2": ["Harsh", "Aggressive", "Growling"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Thrash Metal", "Swedish Death Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Thrash Metal", "Swedish Death Metal"]
   },
   {
     "name": "Hypocrisy",
@@ -842,20 +738,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Aliens", "Conspiracy", "Death", "Darkness"],
     "listAttribute2": ["Growling", "Harsh", "Clean"],
-    "listAttribute3": ["Death Metal", "Melodic Death Metal", "Industrial Metal"]
-  },
-  {
-    "name": "Gamma Ray",
-    "numericAttribute1": 1989,
-    "numericAttribute2": 4,
-    "regionAttribute": "Germany",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Fantasy", "Freedom", "Science Fiction", "Hope"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Speed Metal", "Heavy Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Industrial Metal"]
   },
   {
     "name": "Dissection",
@@ -864,9 +750,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Death"],
     "listAttribute2": ["Harsh", "Shrieking", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Death Metal", "Melodic Black Metal"]
+    "listAttribute3": ["Death Metal", "Melodic Black Metal"]
   },
   {
     "name": "Sodom",
@@ -875,9 +762,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Death", "Violence", "Chaos"],
     "listAttribute2": ["Aggressive", "Harsh", "Growling"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Death Metal", "Black Metal"]
+    "listAttribute3": ["Speed Metal", "Early Death Metal", "Black Metal"]
   },
   {
     "name": "Alcest",
@@ -886,20 +774,10 @@
     "regionAttribute": "France",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Nature", "Spirituality", "Dreams", "Melancholy"],
     "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Shoegaze", "Post Metal", "Atmospheric Black Metal"]
-  },
-  {
-    "name": "Ayreon",
-    "numericAttribute1": 1995,
-    "numericAttribute2": 1,
-    "regionAttribute": "Netherlands",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Science Fiction", "Human Condition", "Time Travel", "Philosophy"],
-    "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Symphonic Metal", "Space Metal"]
+    "listAttribute3": ["Black Metal", "Shoegaze", "Atmospheric Black Metal"]
   },
   {
     "name": "Finntroll",
@@ -908,9 +786,10 @@
     "regionAttribute": "Finland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
     "listAttribute1": ["Finnish Mythology", "Trolls", "Nature", "Paganism"],
     "listAttribute2": ["Harsh", "Growling", "Aggressive"],
-    "listAttribute3": ["Folk Metal", "Black Metal", "Pagan Metal"]
+    "listAttribute3": ["Black Metal", "Pagan Metal"]
   },
   {
     "name": "Mayhem",
@@ -919,20 +798,22 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Darkness", "Death", "Anti-Christianity", "Chaos"],
     "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Speed Metal", "Thrash Metal"]
+    "listAttribute3": ["Speed Metal", "Thrash Metal"]
   },
   {
     "name": "Manowar",
     "numericAttribute1": 1980,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "New York",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["War", "Brotherhood", "Fantasy", "Heavy Metal Culture"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Power Metal", "Speed Metal", "Dad Metal"]
+    "listAttribute3": ["Power Metal", "Speed Metal", "Dad Metal"]
   },
   {
     "name": "Darkthrone",
@@ -941,9 +822,10 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Darkness", "Anti-Christianity", "Death", "Occult"],
     "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Thrash Metal", "Death Metal"]
+    "listAttribute3": ["Thrash Metal", "Death Metal"]
   },
   {
     "name": "Bloodbath",
@@ -952,31 +834,22 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Gore", "Death", "Horror", "Violence"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Old School Death Metal", "Brutal Death Metal", "Swedish Death Metal"]
+    "listAttribute3": ["Old School Death Metal", "Brutal Death Metal", "Swedish Death Metal"]
   },
   {
     "name": "Overkill",
     "numericAttribute1": 1980,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "New Jersey",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["Rebellion", "Death", "War", "Chaos"],
     "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Heavy Metal"]
-  },
-  {
-    "name": "Summoning",
-    "numericAttribute1": 1993,
-    "numericAttribute2": 2,
-    "regionAttribute": "Austria",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Tolkien", "Fantasy", "Nature", "Epic"],
-    "listAttribute2": ["Harsh", "Atmospheric", "Shrieking"],
-    "listAttribute3": ["Black Metal", "Atmospheric Black Metal", "Ambient Metal"]
+    "listAttribute3": ["Speed Metal", "Heavy Metal"]
   },
   {
     "name": "Ozzy Osbourne",
@@ -985,9 +858,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Darkness", "Occult", "Rebellion", "Fantasy"],
     "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Glam Metal"]
+    "listAttribute3": ["Hard Rock", "Glam Metal"]
   },
   {
     "name": "HammerFall",
@@ -996,9 +870,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "War", "Brotherhood", "Medieval"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Heavy Metal", "Speed Metal"]
+    "listAttribute3": ["Heavy Metal", "Speed Metal"]
   },
   {
     "name": "Sabaton",
@@ -1007,9 +882,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["War", "History", "Military", "Heroism"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Power Metal", "Heavy Metal", "Speed Metal", "History Metal"]
+    "listAttribute3": ["Heavy Metal", "Speed Metal", "History Metal"]
   },
   {
     "name": "Rush",
@@ -1018,9 +894,10 @@
     "regionAttribute": "Canada",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Progressive Rock",
     "listAttribute1": ["Philosophy", "Science Fiction", "Individualism", "Fantasy"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Progressive Rock", "Heavy Metal", "Hard Rock", "Prog rock"]
+    "listAttribute3": ["Heavy Metal", "Hard Rock", "Prog rock"]
   },
   {
     "name": "Vader",
@@ -1029,20 +906,10 @@
     "regionAttribute": "Poland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["War", "Death", "Chaos", "Darkness"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Thrash Metal", "Death Thrash"]
-  },
-  {
-    "name": "Avantasia",
-    "numericAttribute1": 1999,
-    "numericAttribute2": 1,
-    "regionAttribute": "Germany",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Fantasy", "Philosophy", "Good vs Evil", "Spirituality"],
-    "listAttribute2": ["Clean", "Melodic", "Operatic"],
-    "listAttribute3": ["Power Metal", "Symphonic Metal", "Progressive Metal"]
+    "listAttribute3": ["Thrash Metal", "Death Thrash"]
   },
   {
     "name": "Satyricon",
@@ -1051,9 +918,10 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Darkness", "Anti-Christianity", "Norse Mythology", "Occult"],
     "listAttribute2": ["Harsh", "Shrieking", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Rock Metal", "Thrash Metal"]
+    "listAttribute3": ["Rock Metal", "Thrash Metal", "Black Metal"]
   },
   {
     "name": "Devin Townsend",
@@ -1062,9 +930,10 @@
     "regionAttribute": "Canada",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Spirituality", "Introspection", "Human Condition", "Cosmos"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Progressive Metal", "Heavy Metal", "Ambient Metal", "Djent"]
+    "listAttribute3": ["Heavy Metal", "Ambient Metal", "Djent"]
   },
   {
     "name": "Deep Purple",
@@ -1073,20 +942,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Rock",
     "listAttribute1": ["Rebellion", "Rock and Roll", "Freedom", "Adventure"],
     "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Progressive Rock", "Classic Rock"]
-  },
-  {
-    "name": "Rhapsody",
-    "numericAttribute1": 1993,
-    "numericAttribute2": 5,
-    "regionAttribute": "Italy",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Fantasy", "Epic", "Good vs Evil", "Medieval"],
-    "listAttribute2": ["Clean", "High-pitched", "Operatic"],
-    "listAttribute3": ["Power Metal", "Symphonic Metal", "Neoclassical Metal"]
+    "listAttribute3": ["Heavy Metal", "Progressive Rock", "Classic Rock"]
   },
   {
     "name": "Korpiklaani",
@@ -1095,31 +954,22 @@
     "regionAttribute": "Finland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
     "listAttribute1": ["Nature", "Finnish Culture", "Drinking", "Paganism"],
     "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Folk Metal", "Pagan Metal", "Heavy Metal"]
-  },
-  {
-    "name": "Riverside",
-    "numericAttribute1": 2001,
-    "numericAttribute2": 4,
-    "regionAttribute": "Poland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Introspection", "Melancholy", "Human Condition", "Loss"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Progressive Metal", "Progressive Rock", "Alternative Metal"]
+    "listAttribute3": ["Pagan Metal", "Heavy Metal"]
   },
   {
     "name": "Obituary",
     "numericAttribute1": 1984,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Death", "Gore", "Horror", "Violence"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Florida Death Metal", "Old School Death Metal"]
+    "listAttribute3": ["Florida Death Metal", "Old School Death Metal"]
   },
   {
     "name": "King Diamond",
@@ -1128,9 +978,10 @@
     "regionAttribute": "Denmark",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Horror", "Occult", "Dark Romance", "Supernatural"],
     "listAttribute2": ["High-pitched", "Clean", "Operatic"],
-    "listAttribute3": ["Heavy Metal", "Gothic Metal", "NWOBHM"]
+    "listAttribute3": ["Gothic Metal", "NWOBHM", "Thrash Metal"]
   },
   {
     "name": "Soilwork",
@@ -1139,20 +990,22 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Melodic Death Metal",
     "listAttribute1": ["Introspection", "Struggle", "Darkness", "Human Condition"],
     "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Alternative Metal", "Swedish Death Metal"]
+    "listAttribute3": ["Death Metal", "Alternative Metal", "Swedish Death Metal"]
   },
   {
     "name": "Alice in Chains",
     "numericAttribute1": 1987,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Washington",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Grunge",
     "listAttribute1": ["Addiction", "Depression", "Darkness", "Inner Conflict"],
     "listAttribute2": ["Clean", "Melodic", "Harmonized"],
-    "listAttribute3": ["Heavy Metal", "Grunge", "Alternative Metal", "Hard Rock"]
+    "listAttribute3": ["Heavy Metal", "Alternative Metal", "Hard Rock"]
   },
   {
     "name": "Candlemass",
@@ -1161,9 +1014,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Doom Metal",
     "listAttribute1": ["Doom", "Death", "Melancholy", "Darkness"],
     "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Doom Metal", "Epic Doom Metal", "Heavy Metal"]
+    "listAttribute3": ["Epic Doom Metal", "Heavy Metal"]
   },
   {
     "name": "Ne Obliviscaris",
@@ -1172,9 +1026,10 @@
     "regionAttribute": "Australia",
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
     "listAttribute1": ["Nature", "Melancholy", "Existentialism", "Philosophy"],
     "listAttribute2": ["Clean", "Harsh", "Growling"],
-    "listAttribute3": ["Progressive Metal", "Melodic Death Metal", "Black Metal", "Folk Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Black Metal", "Folk Metal"]
   },
   {
     "name": "Ghost",
@@ -1183,9 +1038,10 @@
     "regionAttribute": "Sweden",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Occult", "Anti-Christianity", "Darkness", "Satanism"],
     "listAttribute2": ["Clean", "Melodic", "Theatrical"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Doom Metal", "Occult Rock"]
+    "listAttribute3": ["Hard Rock", "Doom Metal", "Occult Rock"]
   },
   {
     "name": "Bolt Thrower",
@@ -1194,20 +1050,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["War", "Death", "Chaos", "Military"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Old School Death Metal"]
-  },
-  {
-    "name": "Edguy",
-    "numericAttribute1": 1992,
-    "numericAttribute2": 5,
-    "regionAttribute": "Germany",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Fantasy", "Adventure", "Humor", "Freedom"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Heavy Metal", "Hard Rock"]
+    "listAttribute3": ["Old School Death Metal", "Groove Metal"]
   },
   {
     "name": "Equilibrium",
@@ -1216,9 +1062,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
     "listAttribute1": ["Nature", "Mythology", "Fantasy", "Epic"],
     "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Folk Metal", "Melodic Death Metal", "Symphonic Metal"]
+    "listAttribute3": ["Melodic Death Metal", "Symphonic Metal"]
   },
   {
     "name": "Accept",
@@ -1227,9 +1074,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Rebellion", "Freedom", "War", "Rock and Roll"],
     "listAttribute2": ["Aggressive", "Clean", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal", "Hard Rock"]
+    "listAttribute3": ["Speed Metal", "Hard Rock"]
   },
   {
     "name": "Mercyful Fate",
@@ -1238,31 +1086,22 @@
     "regionAttribute": "Denmark",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Occult", "Satanism", "Darkness", "Anti-Christianity"],
     "listAttribute2": ["High-pitched", "Clean", "Operatic"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal", "NWOBHM", "First Wave Black Metal"]
+    "listAttribute3": ["Speed Metal", "NWOBHM", "First Wave Black Metal"]
   },
   {
     "name": "Deicide",
     "numericAttribute1": 1987,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Anti-Christianity", "Satanism", "Occult", "Darkness"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
-  },
-  {
-    "name": "Orphaned Land",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 5,
-    "regionAttribute": "Israel",
-    "continentAttribute": "Asia",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Middle Eastern Mythology", "Religion", "Peace", "Spirituality"],
-    "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Folk Metal", "Death Metal", "Oriental Metal"]
+    "listAttribute3": ["Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
   },
   {
     "name": "Fleshgod Apocalypse",
@@ -1271,31 +1110,10 @@
     "regionAttribute": "Italy",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Symphonic Death Metal",
     "listAttribute1": ["Mythology", "Philosophy", "Chaos", "Ancient History"],
     "listAttribute2": ["Growling", "Operatic", "Harsh"],
-    "listAttribute3": ["Symphonic Death Metal", "Death Metal", "Technical Death Metal"]
-  },
-  {
-    "name": "Omnium Gatherum",
-    "numericAttribute1": 1996,
-    "numericAttribute2": 5,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Introspection", "Nature", "Darkness"],
-    "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Progressive Metal"]
-  },
-  {
-    "name": "Primordial",
-    "numericAttribute1": 1987,
-    "numericAttribute2": 5,
-    "regionAttribute": "Ireland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Irish History", "Paganism", "Melancholy", "Nationalism"],
-    "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Folk Metal", "Pagan Metal"]
+    "listAttribute3": ["Death Metal", "Technical Death Metal"]
   },
   {
     "name": "Angra",
@@ -1304,31 +1122,34 @@
     "regionAttribute": "Brazil",
     "continentAttribute": "South America",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "Spirituality", "Nature", "Brazilian Culture"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Progressive Metal", "Neoclassical Metal"]
+    "listAttribute3": ["Progressive Metal", "Neoclassical Metal"]
   },
   {
     "name": "Type O Negative",
     "numericAttribute1": 1989,
     "numericAttribute2": 0,
-    "regionAttribute": "USA",
+    "regionAttribute": "New York",
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Gothic Metal",
     "listAttribute1": ["Dark Romance", "Depression", "Death", "Melancholy"],
     "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Gothic Metal", "Alternative Metal"]
+    "listAttribute3": ["Doom Metal", "Alternative Metal"]
   },
   {
     "name": "Fear Factory",
     "numericAttribute1": 1990,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Industrial Metal",
     "listAttribute1": ["Technology", "Dystopia", "War", "Human vs Machine"],
     "listAttribute2": ["Clean", "Aggressive", "Harsh"],
-    "listAttribute3": ["Industrial Metal", "Groove Metal", "Alternative Metal", "Thrash Metal"]
+    "listAttribute3": ["Groove Metal", "Alternative Metal", "Thrash Metal"]
   },
   {
     "name": "Decapitated",
@@ -1337,20 +1158,10 @@
     "regionAttribute": "Poland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Death", "Chaos", "Violence", "Darkness"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal", "Groove Metal"]
-  },
-  {
-    "name": "Pain of Salvation",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 5,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Human Condition", "Philosophy", "Introspection", "Existentialism"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Progressive Metal", "Art Rock", "Progressive Rock"]
+    "listAttribute3": ["Technical Death Metal", "Groove Metal"]
   },
   {
     "name": "DragonForce",
@@ -1359,42 +1170,22 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
     "listAttribute1": ["Fantasy", "Adventure", "Epic", "Good vs Evil"],
     "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Speed Metal", "Heavy Metal", "Epic Metal"]
-  },
-  {
-    "name": "Marduk",
-    "numericAttribute1": 1990,
-    "numericAttribute2": 4,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["War", "Anti-Christianity", "Darkness", "Death"],
-    "listAttribute2": ["Harsh", "Shrieking", "Aggressive"],
-    "listAttribute3": ["Black Metal", "War Metal", "Speed Metal"]
-  },
-  {
-    "name": "Lacuna Coil",
-    "numericAttribute1": 1994,
-    "numericAttribute2": 6,
-    "regionAttribute": "Italy",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Emotion", "Darkness", "Introspection", "Loss"],
-    "listAttribute2": ["Clean", "Melodic", "Operatic"],
-    "listAttribute3": ["Gothic Metal", "Alternative Metal", "Symphonic Metal"]
+    "listAttribute3": ["Speed Metal", "Heavy Metal", "Epic Metal"]
   },
   {
     "name": "Korn",
     "numericAttribute1": 1993,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
     "listAttribute1": ["Trauma", "Anger", "Depression", "Inner Conflict"],
     "listAttribute2": ["Aggressive", "Clean", "Melodic"],
-    "listAttribute3": ["Nu Metal", "Alternative Metal", "Groove Metal"]
+    "listAttribute3": ["Alternative Metal", "Groove Metal"]
   },
   {
     "name": "Ulver",
@@ -1403,20 +1194,10 @@
     "regionAttribute": "Norway",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Norse Mythology", "Nature", "Darkness", "Spirituality"],
     "listAttribute2": ["Clean", "Atmospheric", "Harsh"],
-    "listAttribute3": ["Black Metal", "Folk Metal", "Ambient Metal"]
-  },
-  {
-    "name": "Arcturus",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 5,
-    "regionAttribute": "Norway",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Cosmos", "Surrealism", "Darkness", "Philosophy"],
-    "listAttribute2": ["Clean", "Operatic", "Atmospheric"],
-    "listAttribute3": ["Avant-garde Metal", "Symphonic Black Metal", "Progressive Metal"]
+    "listAttribute3": ["Folk Metal", "Ambient Metal"]
   },
   {
     "name": "Annihilator",
@@ -1425,9 +1206,10 @@
     "regionAttribute": "Canada",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
     "listAttribute1": ["War", "Death", "Politics", "Chaos"],
     "listAttribute2": ["Clean", "Aggressive", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "Heavy Metal"]
+    "listAttribute3": ["Speed Metal", "Heavy Metal"]
   },
   {
     "name": "Necrophagist",
@@ -1436,31 +1218,22 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Death", "Gore", "Darkness", "Violence"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal", "Brutal Death Metal"]
-  },
-  {
-    "name": "Leprous",
-    "numericAttribute1": 2001,
-    "numericAttribute2": 5,
-    "regionAttribute": "Norway",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Introspection", "Mental Health", "Human Condition", "Emotion"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Progressive Metal", "Art Rock", "Progressive Rock"]
+    "listAttribute3": [ "Technical Death Metal", "Brutal Death Metal"]
   },
   {
     "name": "Disturbed",
     "numericAttribute1": 1994,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Illinois",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
     "listAttribute1": ["Inner Conflict", "Anger", "Politics", "Empowerment"],
     "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Alternative Metal", "Nu Metal", "Hard Rock"]
+    "listAttribute3": ["Alternative Metal", "Heavy Metal", "Hard Rock"]
   },
   {
     "name": "Obscura",
@@ -1469,20 +1242,10 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Philosophy", "Cosmos", "Existentialism", "Science"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal", "Progressive Death Metal"]
-  },
-  {
-    "name": "In Mourning",
-    "numericAttribute1": 2000,
-    "numericAttribute2": 5,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Loss", "Nature", "Darkness"],
-    "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Death Metal", "Progressive Metal", "Doom Metal"]
+    "listAttribute3": ["Progressive Death Metal", "Technical Death Metal"]
   },
   {
     "name": "Alestorm",
@@ -1491,31 +1254,10 @@
     "regionAttribute": "Scotland",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Folk Metal",
     "listAttribute1": ["Pirates", "Drinking", "Adventure", "Humor"],
     "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Folk Metal", "Power Metal", "Pirate Metal"]
-  },
-  {
-    "name": "Haggard",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 12,
-    "regionAttribute": "Germany",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Medieval History", "Classical Music", "Philosophy", "Epic"],
-    "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Symphonic Metal", "Progressive Metal", "Neoclassical Metal"]
-  },
-  {
-    "name": "Apocalyptica",
-    "numericAttribute1": 1993,
-    "numericAttribute2": 4,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Emotion", "Darkness", "Introspection"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Cello Metal", "Symphonic Metal", "Heavy Metal"]
+    "listAttribute3": ["Power Metal", "Pirate Metal"]
   },
   {
     "name": "Napalm Death",
@@ -1524,31 +1266,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Grindcore",
     "listAttribute1": ["Politics", "Social Issues", "Anti-War", "Human Rights"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Grindcore", "Death Metal", "Thrash Metal"]
-  },
-  {
-    "name": "Saturnus",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 5,
-    "regionAttribute": "Denmark",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Melancholy", "Loss", "Death", "Despair"],
-    "listAttribute2": ["Growling", "Clean", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Death-Doom Metal", "Gothic Metal"]
-  },
-  {
-    "name": "Turisas",
-    "numericAttribute1": 1997,
-    "numericAttribute2": 6,
-    "regionAttribute": "Finland",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Vikings", "War", "Norse Mythology", "Epic"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Folk Metal", "Viking Metal", "Symphonic Metal"]
+    "listAttribute3": ["Death Metal", "Thrash Metal"]
   },
   {
     "name": "Celtic Frost",
@@ -1557,42 +1278,22 @@
     "regionAttribute": "Switzerland",
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
+    "genreAttribute": "Black Metal",
     "listAttribute1": ["Occult", "Darkness", "Death", "Anti-Christianity"],
     "listAttribute2": ["Harsh", "Aggressive", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Death Metal", "First Wave Black Metal", "Thrash Metal"]
-  },
-  {
-    "name": "Rainbow",
-    "numericAttribute1": 1975,
-    "numericAttribute2": 0,
-    "regionAttribute": "England",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Disbanded",
-    "listAttribute1": ["Fantasy", "Mythology", "Romance", "Adventure"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Power Metal"]
+    "listAttribute3": ["Death Metal", "First Wave Black Metal", "Thrash Metal"]
   },
   {
     "name": "Dying Fetus",
     "numericAttribute1": 1991,
     "numericAttribute2": 3,
-    "regionAttribute": "USA",
+    "regionAttribute": "Maryland",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
     "listAttribute1": ["Politics", "Violence", "Gore", "Social Issues"],
     "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Brutal Death Metal", "Technical Death Metal"]
-  },
-  {
-    "name": "Evergrey",
-    "numericAttribute1": 1995,
-    "numericAttribute2": 5,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Introspection", "Loss", "Mental Health", "Darkness"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Progressive Metal", "Power Metal", "Alternative Metal"]
+    "listAttribute3": ["Brutal Death Metal", "Technical Death Metal"]
   },
   {
     "name": "Bring me the Horizon",
@@ -1601,31 +1302,10 @@
     "regionAttribute": "England",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Drug Abuse", "Abandonment", "Future", "Love"],
     "listAttribute2": ["Clean", "Growling", "Screaming"],
-    "listAttribute3": ["Deathcore", "Metalcore", "Nu-metal"]
-  },
-  {
-    "name": "Cynic",
-    "numericAttribute1": 1987,
-    "numericAttribute2": 2,
-    "regionAttribute": "USA",
-    "continentAttribute": "North America",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Spirituality", "Philosophy", "Cosmos", "Introspection"],
-    "listAttribute2": ["Clean", "Vocoder", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Death Metal", "Jazz Fusion"]
-  },
-  {
-    "name": "Tiamat",
-    "numericAttribute1": 1987,
-    "numericAttribute2": 4,
-    "regionAttribute": "Sweden",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Active",
-    "listAttribute1": ["Occult", "Dark Romance", "Melancholy", "Mythology"],
-    "listAttribute2": ["Clean", "Atmospheric", "Melodic"],
-    "listAttribute3": ["Gothic Metal", "Doom Metal", "Death Metal"]
+    "listAttribute3": ["Deathcore", "Nu-metal"]
   },
   {
     "name": "Scorpions",
@@ -1634,42 +1314,34 @@
     "regionAttribute": "Germany",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
     "listAttribute1": ["Romance", "Freedom", "Rock and Roll", "Peace"],
     "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Glam Metal"]
-  },
-  {
-    "name": "Celestial Season",
-    "numericAttribute1": 1991,
-    "numericAttribute2": 0,
-    "regionAttribute": "Netherlands",
-    "continentAttribute": "Europe",
-    "statusAttribute": "Disbanded",
-    "listAttribute1": ["Melancholy", "Loss", "Darkness", "Nature"],
-    "listAttribute2": ["Growling", "Clean", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Death-Doom Metal", "Gothic Metal"]
+    "listAttribute3": ["Hard Rock", "Glam Metal"]
   },
   {
     "name": "Killswitch Engage",
     "numericAttribute1": 1999,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "Massachusetts",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Inner Conflict", "Hope", "Redemption", "Struggle"],
     "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Metalcore", "Heavy Metal", "Melodic Metalcore"]
+    "listAttribute3": ["Heavy Metal", "Melodic Metalcore"]
   },
   {
     "name": "As I Lay Dying",
     "numericAttribute1": 2000,
     "numericAttribute2": 5,
-    "regionAttribute": "USA",
+    "regionAttribute": "California",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Redemption", "Faith", "Struggle", "Inner Conflict"],
     "listAttribute2": ["Harsh", "Clean", "Aggressive"],
-    "listAttribute3": ["Metalcore", "Melodic Metalcore", "Thrash Metal"]
+    "listAttribute3": ["Melodic Metalcore", "Thrash Metal"]
   },
   {
     "name": "Parkway Drive",
@@ -1678,9 +1350,10 @@
     "regionAttribute": "Australia",
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Anger", "Empowerment", "Social Issues", "Inner Conflict"],
     "listAttribute2": ["Harsh", "Aggressive", "Clean"],
-    "listAttribute3": ["Metalcore", "Heavy Metal", "Melodic Metalcore"]
+    "listAttribute3": ["Heavy Metal", "Melodic Metalcore"]
   },
   {
     "name": "Bullet for My Valentine",
@@ -1689,20 +1362,477 @@
     "regionAttribute": "Wales",
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Dark Romance", "Anger", "Heartbreak", "Inner Conflict"],
     "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Metalcore", "Heavy Metal", "Thrash Metal"]
+    "listAttribute3": ["Heavy Metal", "Thrash Metal"]
   },
   {
     "name": "Trivium",
     "numericAttribute1": 1999,
     "numericAttribute2": 4,
-    "regionAttribute": "USA",
+    "regionAttribute": "Florida",
     "continentAttribute": "North America",
     "statusAttribute": "Active",
+    "genreAttribute": "Metalcore",
     "listAttribute1": ["Inner Conflict", "War", "Darkness", "Struggle"],
     "listAttribute2": ["Clean", "Harsh", "Aggressive"],
-    "listAttribute3": ["Metalcore", "Thrash Metal", "Heavy Metal", "Melodic Metalcore"]
+    "listAttribute3": ["Thrash Metal", "Heavy Metal", "Melodic Metalcore"]
+  },
+  {
+    "name": "Linkin Park",
+    "numericAttribute1": 1996,
+    "numericAttribute2": 5,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
+    "listAttribute1": ["Inner Conflict", "Depression", "Anger", "Alienation"],
+    "listAttribute2": ["Clean", "Rapping", "Screaming"],
+    "listAttribute3": ["Alternative Metal", "Rap Metal", "Electronic Rock"]
+  },
+  {
+    "name": "Deftones",
+    "numericAttribute1": 1988,
+    "numericAttribute2": 5,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
+    "listAttribute1": ["Love", "Dreams", "Darkness", "Emotion"],
+    "listAttribute2": ["Clean", "Melodic", "Screaming", "Whispering"],
+    "listAttribute3": ["Alternative Metal", "Shoegaze", "Post-Metal"]
+  },
+  {
+    "name": "Avenged Sevenfold",
+    "numericAttribute1": 1999,
+    "numericAttribute2": 5,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Heavy Metal",
+    "listAttribute1": ["Death", "War", "Darkness", "Religion"],
+    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
+    "listAttribute3": ["Metalcore", "Hard Rock", "Progressive Metal"]
+  },
+  {
+    "name": "Five Finger Death Punch",
+    "numericAttribute1": 2005,
+    "numericAttribute2": 5,
+    "regionAttribute": "Nevada",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Groove Metal",
+    "listAttribute1": ["War", "Anger", "Patriotism", "Inner Conflict"],
+    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
+    "listAttribute3": ["Heavy Metal", "Dad Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Papa Roach",
+    "numericAttribute1": 1993,
+    "numericAttribute2": 4,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
+    "listAttribute1": ["Depression", "Inner Conflict", "Addiction", "Relationships"],
+    "listAttribute2": ["Clean", "Rapping", "Melodic"],
+    "listAttribute3": ["Alternative Metal", "Hard Rock", "Rap Metal"]
+  },
+  {
+    "name": "Limp Bizkit",
+    "numericAttribute1": 1994,
+    "numericAttribute2": 5,
+    "regionAttribute": "Florida",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Nu Metal",
+    "listAttribute1": ["Anger", "Rebellion", "Party", "Relationships"],
+    "listAttribute2": ["Rapping", "Aggressive", "Clean"],
+    "listAttribute3": ["Rap Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Breaking Benjamin",
+    "numericAttribute1": 1999,
+    "numericAttribute2": 5,
+    "regionAttribute": "Pennsylvania",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Hard Rock",
+    "listAttribute1": ["Depression", "Darkness", "Inner Conflict", "Isolation"],
+    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
+    "listAttribute3": ["Post-Grunge", "Alternative Metal", "Nu Metal"]
+  },
+  {
+    "name": "Three Days Grace",
+    "numericAttribute1": 1997,
+    "numericAttribute2": 4,
+    "regionAttribute": "Canada",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Hard Rock",
+    "listAttribute1": ["Pain", "Anger", "Depression", "Relationships"],
+    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
+    "listAttribute3": ["Post-Grunge", "Nu Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Kublai Khan TX",
+    "numericAttribute1": 2009,
+    "numericAttribute2": 5,
+    "regionAttribute": "Texas",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Hardcore",
+    "listAttribute1": ["Anger", "Violence", "Street Life", "Struggle"],
+    "listAttribute2": ["Harsh", "Aggressive", "Screaming"],
+    "listAttribute3": ["Hardcore Punk", "Beatdown Hardcore"]
+  },
+  {
+    "name": "Knocked Loose",
+    "numericAttribute1": 2013,
+    "numericAttribute2": 5,
+    "regionAttribute": "Kentucky",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Hardcore",
+    "listAttribute1": ["Darkness", "Despair", "Violence", "Mental Health"],
+    "listAttribute2": ["Harsh", "Aggressive", "Screaming"],
+    "listAttribute3": ["Hardcore Punk", "Beatdown Hardcore"]
+  },
+  {
+    "name": "Hatebreed",
+    "numericAttribute1": 1994,
+    "numericAttribute2": 5,
+    "regionAttribute": "Connecticut",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Hardcore",
+    "listAttribute1": ["Perseverance", "Anger", "Empowerment", "Struggle"],
+    "listAttribute2": ["Harsh", "Aggressive", "Shouted"],
+    "listAttribute3": ["Hardcore Punk", "Thrash Metal", "Death Metal"]
+  },
+  {
+    "name": "Power Trip",
+    "numericAttribute1": 2008,
+    "numericAttribute2": 5,
+    "regionAttribute": "Texas",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["Violence", "Politics", "Chaos", "Darkness"],
+    "listAttribute2": ["Aggressive", "Harsh", "Shouted"],
+    "listAttribute3": ["Hardcore Punk", "Crossover Thrash"]
+  },
+  {
+    "name": "Municipal Waste",
+    "numericAttribute1": 2000,
+    "numericAttribute2": 5,
+    "regionAttribute": "Virginia",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["Partying", "Violence", "Zombies", "Chaos"],
+    "listAttribute2": ["Aggressive", "Harsh", "Shouted"],
+    "listAttribute3": ["Crossover Thrash", "Hardcore Punk"]
+  },
+  {
+    "name": "Vektor",
+    "numericAttribute1": 2002,
+    "numericAttribute2": 4,
+    "regionAttribute": "Arizona",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["Science Fiction", "Space", "Technology", "Philosophy"],
+    "listAttribute2": ["High-pitched", "Harsh", "Aggressive"],
+    "listAttribute3": ["Progressive Thrash", "Technical Thrash"]
+  },
+  {
+    "name": "Evile",
+    "numericAttribute1": 2004,
+    "numericAttribute2": 4,
+    "regionAttribute": "England",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Thrash Metal",
+    "listAttribute1": ["Death", "War", "Horror", "Violence"],
+    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
+    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+  },
+  {
+    "name": "Cryptopsy",
+    "numericAttribute1": 1988,
+    "numericAttribute2": 5,
+    "regionAttribute": "Canada",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Gore", "Death", "Violence", "Horror"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Death Metal", "Brutal Death Metal", "Technical Death Metal"]
+  },
+  {
+    "name": "Entombed",
+    "numericAttribute1": 1987,
+    "numericAttribute2": 0,
+    "regionAttribute": "Sweden",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Disbanded",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Death", "Darkness", "Horror", "Gore"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Swedish Death Metal", "Death 'n' Roll"]
+  },
+  {
+    "name": "Dismember",
+    "numericAttribute1": 1988,
+    "numericAttribute2": 0,
+    "regionAttribute": "Sweden",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Disbanded",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Death", "Gore", "Horror", "Violence"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Swedish Death Metal", "Old School Death Metal"]
+  },
+  {
+    "name": "Pestilence",
+    "numericAttribute1": 1986,
+    "numericAttribute2": 4,
+    "regionAttribute": "Netherlands",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Death", "Science", "Philosophy", "Horror"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Technical Death Metal", "Old School Death Metal"]
+  },
+  {
+    "name": "Blood Incantation",
+    "numericAttribute1": 2011,
+    "numericAttribute2": 4,
+    "regionAttribute": "Colorado",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Aliens", "Space", "Cosmos", "Death"],
+    "listAttribute2": ["Growling", "Harsh", "Atmospheric"],
+    "listAttribute3": ["Technical Death Metal", "Progressive Death Metal"]
+  },
+  {
+    "name": "Gatecreeper",
+    "numericAttribute1": 2013,
+    "numericAttribute2": 5,
+    "regionAttribute": "Arizone",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Death Metal",
+    "listAttribute1": ["Death", "War", "Space", "Despair"],
+    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
+    "listAttribute3": ["Old School Death Metal", "Crust Punk"]
+  },
+  {
+    "name": "Powerwolf",
+    "numericAttribute1": 2003,
+    "numericAttribute2": 5,
+    "regionAttribute": "Germany",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Power Metal",
+    "listAttribute1": ["Religion", "Werewolves", "Dark Fantasy", "Occult"],
+    "listAttribute2": ["Clean", "High-pitched", "Operatic"],
+    "listAttribute3": ["Heavy Metal", "Symphonic Metal"]
+  },
+  {
+    "name": "Animals as Leaders",
+    "numericAttribute1": 2007,
+    "numericAttribute2": 3,
+    "regionAttribute": "Washington D.C.",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Progressive Metal",
+    "listAttribute1": ["Instrumental", "Technical", "Abstract", "Complexity"],
+    "listAttribute2": ["Instrumental"],
+    "listAttribute3": ["Djent", "Technical Metal", "Jazz Fusion"]
+  },
+  {
+    "name": "Electric Wizard",
+    "numericAttribute1": 1993,
+    "numericAttribute2": 4,
+    "regionAttribute": "England",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Doom Metal",
+    "listAttribute1": ["Occult", "Horror", "Drugs", "Darkness"],
+    "listAttribute2": ["Clean", "Distorted", "Harsh"],
+    "listAttribute3": ["Stoner Metal", "Sludge Metal"]
+  },
+  {
+    "name": "Sleep",
+    "numericAttribute1": 1990,
+    "numericAttribute2": 3,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Doom Metal",
+    "listAttribute1": ["Marijuana", "Stoner Culture", "Darkness", "Fantasy"],
+    "listAttribute2": ["Clean", "Distorted", "Melodic"],
+    "listAttribute3": ["Stoner Metal", "Sludge Metal"]
+  },
+  {
+    "name": "Crowbar",
+    "numericAttribute1": 1989,
+    "numericAttribute2": 4,
+    "regionAttribute": "Louisiana",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Sludge Metal",
+    "listAttribute1": ["Despair", "Pain", "Struggle", "Depression"],
+    "listAttribute2": ["Clean", "Harsh", "Aggressive"],
+    "listAttribute3": ["Doom Metal", "Southern Metal"]
+  },
+  {
+    "name": "Down",
+    "numericAttribute1": 1991,
+    "numericAttribute2": 5,
+    "regionAttribute": "Louisiana",
+    "continentAttribute": "North America",
+    "statusAttribute": "Hiatus",
+    "genreAttribute": "Sludge Metal",
+    "listAttribute1": ["Darkness", "Depression", "Southern Culture", "Struggle"],
+    "listAttribute2": ["Clean", "Harsh", "Melodic"],
+    "listAttribute3": ["Doom Metal", "Southern Metal", "Stoner Metal"]
+  },
+  {
+    "name": "Marilyn Manson",
+    "numericAttribute1": 1989,
+    "numericAttribute2": 1,
+    "regionAttribute": "Ohio",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Industrial Metal",
+    "listAttribute1": ["Anti-Religion", "Darkness", "Shock", "Social Commentary"],
+    "listAttribute2": ["Clean", "Theatrical", "Aggressive"],
+    "listAttribute3": ["Alternative Metal", "Gothic Metal", "Shock Rock"]
+  },
+  {
+    "name": "Rob Zombie",
+    "numericAttribute1": 1985,
+    "numericAttribute2": 4,
+    "regionAttribute": "Massachusetts",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Industrial Metal",
+    "listAttribute1": ["Horror", "B-Movies", "Darkness", "Occult"],
+    "listAttribute2": ["Clean", "Aggressive", "Theatrical"],
+    "listAttribute3": ["Groove Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Static-X",
+    "numericAttribute1": 1994,
+    "numericAttribute2": 4,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Industrial Metal",
+    "listAttribute1": ["Darkness", "Technology", "Anger", "Chaos"],
+    "listAttribute2": ["Clean", "Harsh", "Electronic"],
+    "listAttribute3": ["Nu Metal", "Alternative Metal"]
+  },
+  {
+    "name": "Soulfly",
+    "numericAttribute1": 1997,
+    "numericAttribute2": 4,
+    "regionAttribute": "Arizona",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Groove Metal",
+    "listAttribute1": ["Spirituality", "Tribal Culture", "War", "Anger"],
+    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
+    "listAttribute3": ["Thrash Metal", "Nu Metal", "Tribal Metal"]
+  },
+  {
+    "name": "Venom",
+    "numericAttribute1": 1979,
+    "numericAttribute2": 3,
+    "regionAttribute": "England",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Black Metal",
+    "listAttribute1": ["Satanism", "Occult", "Hell", "Darkness"],
+    "listAttribute2": ["Harsh", "Aggressive", "Shrieking"],
+    "listAttribute3": ["Thrash Metal", "Speed Metal", "First Wave Black Metal"]
+  },
+  {
+    "name": "Van Halen",
+    "numericAttribute1": 1972,
+    "numericAttribute2": 0,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
+    "listAttribute1": ["Party", "Romance", "Fun", "Rebellion"],
+    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
+    "listAttribute3": ["Classic Metal", "Glam Metal"]
+  },
+  {
+    "name": "Kiss",
+    "numericAttribute1": 1973,
+    "numericAttribute2": 4,
+    "regionAttribute": "new York",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Glam Rock",
+    "listAttribute1": ["Party", "Rock and Roll", "Love", "Rebellion"],
+    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
+    "listAttribute3": ["Heavy Metal", "Classic Rock", "Shock Rock"]
+  },
+  {
+    "name": "Thin Lizzy",
+    "numericAttribute1": 1969,
+    "numericAttribute2": 0,
+    "regionAttribute": "Ireland",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Disbanded",
+    "genreAttribute": "Heavy Metal",
+    "listAttribute1": ["Irish Culture", "Romance", "War", "Adventure"],
+    "listAttribute2": ["Clean", "Melodic", "Harmonized"],
+    "listAttribute3": ["Classic Rock", "Blues Rock", "Celtic Rock"]
+  },
+  {
+    "name": "Def Leppard",
+    "numericAttribute1": 1977,
+    "numericAttribute2": 5,
+    "regionAttribute": "England",
+    "continentAttribute": "Europe",
+    "statusAttribute": "Active",
+    "genreAttribute": "Glam Metal",
+    "listAttribute1": ["Romance", "Party", "Rock and Roll", "Freedom"],
+    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
+    "listAttribute3": ["Heavy Metal", "Hair Metal", "NWOBHM"]
+  },
+  {
+    "name": "Mötley Crüe",
+    "numericAttribute1": 1981,
+    "numericAttribute2": 4,
+    "regionAttribute": "California",
+    "continentAttribute": "North America",
+    "statusAttribute": "Active",
+    "genreAttribute": "Glam Metal",
+    "listAttribute1": ["Party", "Excess", "Romance", "Rebellion"],
+    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
+    "listAttribute3": ["Hard Rock", "Heavy Metal"]
+  },
+  {
+    "name": "Twisted Sister",
+    "numericAttribute1": 1972,
+    "numericAttribute2": 0,
+    "regionAttribute": "New Jersey",
+    "continentAttribute": "North America",
+    "statusAttribute": "Disbanded",
+    "genreAttribute": "Glam Metal",
+    "listAttribute1": ["Rebellion", "Party", "Youth", "Anti-Authority"],
+    "listAttribute2": ["Clean", "High-pitched", "Aggressive"],
+    "listAttribute3": ["Hard Rock", "Heavy Metal"]
   }
 ]
-

@@ -45,6 +45,7 @@ public class DatabaseSeeder
             RegionAttribute = dto.RegionAttribute,
             ContinentAttribute = dto.ContinentAttribute,
             StatusAttribute = dto.StatusAttribute,
+            GenreAttribute = dto.GenreAttribute,
             ListAttribute1 = dto.ListAttribute1,
             ListAttribute2 = dto.ListAttribute2,
             ListAttribute3 = dto.ListAttribute3

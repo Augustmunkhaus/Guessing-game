@@ -8,9 +8,10 @@ public class FeedbackResult
     public NumericAttributeFeedback Numeric1 { get; set; } = new();
     public NumericAttributeFeedback Numeric2 { get; set; } = new();
     public StringAttributeFeedback Region { get; set; } = new();
-    
     public StringAttributeFeedback Continent { get; set; } = new();
     public StringAttributeFeedback Status { get; set; } = new();
+    
+    public StringAttributeFeedback Genre { get; set; } = new();
     public ListAttributeFeedback List1 { get; set; } = new();
     public ListAttributeFeedback List2 { get; set; } = new();
     public ListAttributeFeedback List3 { get; set; } = new();

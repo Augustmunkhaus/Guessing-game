@@ -1,5 +1,4 @@
 @using Metaldle.BlazorWASM.Models
-<h3>GameBoard</h3>
 
 @if (Guesses == null)
 {
@@ -8,21 +7,24 @@
 
 @if (Guesses != null && Guesses.Any())
 {
-    <p>@Guesses.Count / 6</p>
+    <p></p>
+    <p>Guesses left:</p>
+    <p>@Guesses.Count / 8</p>
 }
 
 @if (Guesses != null && Guesses.Any())
 {
     <div class="guess-row">
-        <div class="cell name-cell" style="height: 40px;"></div>
+        <div class="cell header-cell">Name</div>
         <div class="cell header-cell">Year</div>
         <div class="cell header-cell">Members</div>
         <div class="cell header-cell">Country</div>
         <div class="cell header-cell">Continent</div>
         <div class="cell header-cell">Status</div>
+        <div class="cell header-cell">Genre</div>
         <div class="cell header-cell">Themes</div>
         <div class="cell header-cell">Vocals</div>
-        <div class="cell header-cell">Genres</div>
+        <div class="cell header-cell">Sub genres</div>
     </div>
 }
 
@@ -35,15 +37,20 @@
         <div class="guess-row">
             <div class="cell name-cell">@item.GuessedEntityName</div>
             <div class="cell" style="background-color: @numeric1.color">
-                @item.Feedback.Numeric1.Value @numeric1.direction
+                <span>@item.Feedback.Numeric1.Value</span>
+                <span>&nbsp;</span>
+                <span class="direction-symbol">@numeric1.direction</span>
             </div>
             <div class="cell" style="background-color: @numeric2.color">
-                @item.Feedback.Numeric2.Value @numeric2.direction
+                <span>@item.Feedback.Numeric2.Value</span>
+                <span>&nbsp;</span>
+                <span class="direction-symbol">@numeric2.direction</span>
             </div>
             <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Region)">@item.Feedback.Region.Value</div>
             <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Continent)">@item.Feedback.Continent.Value</div>
             <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Status)">@item.Feedback.Status.Value</div>
-
+            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Genre)">@item.Feedback.Genre.Value</div>
+            
             <div class="cell" style="background-color: @GetListColor(item.Feedback.List1)">@string.Join(", ", item.Feedback.List1.Values)</div>
             <div class="cell" style="background-color: @GetListColor(item.Feedback.List2)">@string.Join(", ", item.Feedback.List2.Values)</div>
             <div class="cell" style="background-color: @GetListColor(item.Feedback.List3)">@string.Join(", ", item.Feedback.List3.Values)</div>
@@ -60,36 +67,34 @@
         <div class="cell" style="background-color: green">@TargetBand.Country</div>
         <div class="cell" style="background-color: green">@TargetBand.Continent</div>
         <div class="cell" style="background-color: green">@TargetBand.Status</div>
+        <div class="cell" style="background-color: green">@TargetBand.Genre</div>
         <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Themes)</div>
         <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Vocals)</div>
-        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Genres)</div>
+        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.SubGenres)</div>
     </div>
 }
 
 @code {
-    [Parameter]
-    public List<GuessResponse> Guesses{ get; set; }
+    [Parameter] public List<GuessResponse> Guesses { get; set; }
 
-    [Parameter]
-    public TargetBandResponse? TargetBand { get; set; }
-    
-    [Parameter]
-    public string? Status { get; set; }
-    
-    public (string color, string direction)GetNumericFeedback(NumericFeedback feedback)
+    [Parameter] public TargetBandResponse? TargetBand { get; set; }
+
+    [Parameter] public string? Status { get; set; }
+
+    public (string color, string direction) GetNumericFeedback(NumericFeedback feedback)
     {
         switch (feedback.Direction)
         {
             case "Higher":
-                return ("red", "↑");
+                return ("#7a1a1a", "↑");
             case "Lower":
-                return ("red", "↓");
+                return ("#7a1a1a", "↓");
             case "Exact":
-                return ("green", "✓");
+                return ("#2d6a2d", "✓");
             case "HigherClose":
-                return ("yellow", "↑");
+                return ("#8a7a1a", "↑");
             case "LowerClose":
-                return ("yellow", "↓");    
+                return ("#8a7a1a", "↓");
             default:
                 return ("grey", "?");
         }
@@ -100,13 +105,13 @@
         switch (feedback.Match)
         {
             case "None":
-                return "red";
-            case "Partial" :
-                return "yellow";
+                return "#7a1a1a";
+            case "Partial":
+                return "#8a7a1a";
             case "Exact":
-                return "green";
+                return "#2d6a2d";
             default:
-                return "grey";  
+                return "grey";
         }
     }
 
@@ -115,14 +120,14 @@
         switch (feedback.Match)
         {
             case "None":
-                return "red";
+                return "#7a1a1a";
             case "Partial":
-                return "yellow";
+                return "#8a7a1a";
             case "Exact":
-                return "green";
+                return "#2d6a2d";
             default:
                 return "grey";
         }
     }
-    
+
 }

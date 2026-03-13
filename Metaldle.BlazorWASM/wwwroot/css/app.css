@@ -1,3 +1,29 @@
+
+:root {
+    --bg-primary: #888888;
+    --bg-secondary: #1a1a1a;
+    --bg-card: #222222;
+    --accent-gold: #c9a84c;
+    --accent-gold-light: #e8c97a;
+    --text-primary: #f0f0f0;
+    --text-muted: #888888;
+    --cell-green: #2d6a2d;
+    --cell-yellow: #8a7a1a;
+    --cell-red: #7a1a1a;
+}
+
+html, body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    min-height: 100vh;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -100,4 +126,12 @@ a, .btn-link {
 
 code {
     color: #c02d76;
+}
+.main-container {
+    max-width: 1300px;
+    margin: 2rem auto;
+    background-color: #1a1a1a;
+    border: 1px solid #c9a84c;
+    border-radius: 4px;
+    padding: 2rem;
 }

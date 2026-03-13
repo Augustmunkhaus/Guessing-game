@@ -1,7 +1,8 @@
 @using BlazorBootstrap
 @using Metaldle.BlazorWASM.Services
 @inject MetaldleApiService _apiService
-<h3>SearchBar</h3>
+@inject IJSRuntime JS
+
 <div class="row">
     <div class="col-md-5 col-sm-12">
         <!-- Autocomplete input - filters allEntities as user types -->
@@ -17,6 +18,7 @@
         <button @onclick="OnSubmitClicked">Submit guess</button>
     </div>
 </div>
+
 @code {
     // Wrapper class to display items correctly
     public class EntityOption
@@ -27,6 +29,7 @@
     private async Task OnSubmitClicked()
     {
         await SubmitSearch.InvokeAsync(entityName);
+        entityName = null;
     }
     // Sends the selected band name up to Index.razor when submit is clicked
     [Parameter]
@@ -58,5 +61,20 @@
     private void OnAutoCompleteChanged(EntityOption value)
     {
         Console.WriteLine($"'{value}' selected.");
+    }
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("registerEnterKey", DotNetObjectReference.Create(this));
+        }
+    }
+
+    [JSInvokable]
+    public async Task SubmitOnEnter()
+    {
+        await OnSubmitClicked();
+        StateHasChanged();
     }
 }

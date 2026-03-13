@@ -21,7 +21,8 @@ public class FeedbackService {
             Region = CompareStringAttribute(guess.RegionAttribute, target.RegionAttribute),
             Continent = CompareStringAttribute(guess.ContinentAttribute, target.ContinentAttribute),
             Status = CompareStringAttribute(guess.StatusAttribute, target.StatusAttribute),
-
+            Genre = CompareStringAttribute(guess.GenreAttribute, target.GenreAttribute),
+            
             List1 = CompareListAttribute(guess.ListAttribute1, target.ListAttribute1),
             List2 = CompareListAttribute(guess.ListAttribute2, target.ListAttribute2),
             List3 = CompareListAttribute(guess.ListAttribute3, target.ListAttribute3)

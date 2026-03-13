@@ -287,7 +287,7 @@ public static class TestData
         new FakeMetalBand
         {
             Id = Guid.NewGuid(),
-            Name = "In Flames",
+            Name = "In Flames", 
             NumericAttribute1 = 1990,
             NumericAttribute2 = 5,
             RegionAttribute = "Sweden",
@@ -340,4 +340,3 @@ public static class TestData
     };
 }
 }
-
