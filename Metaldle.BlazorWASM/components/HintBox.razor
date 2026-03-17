@@ -1,0 +1,31 @@
+@using Metaldle.BlazorWASM.Models
+
+@if (Hints.Any())
+{
+    <div class="hint-box" @onclick="ToggleHints">
+        @if (!_expanded)
+        {
+            <h5>💡 Hints available — click to reveal</h5>
+        }
+        else
+        {
+            <h5>💡 Hints</h5>
+            @foreach (var hint in Hints)
+            {
+                <div class="hint-item">
+                    <span class="hint-label">@hint.Label:</span>
+                    <span class="hint-value">@hint.Value</span>
+                </div>
+            }
+        }
+    </div>
+}
+
+    @code {
+    [Parameter]
+    public List<HintResponse> Hints { get; set; } = new();
+    
+    private bool _expanded = false;
+
+    private void ToggleHints() => _expanded = !_expanded;
+    }

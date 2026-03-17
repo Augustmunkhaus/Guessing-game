@@ -15,7 +15,14 @@
     }
 else if (currentState == GameState.InProgress)
     { 
-        <SearchBar SubmitSearch="MakeGuess"/>
+        <div class="row">
+            <div class="col-md-8">
+                <SearchBar SubmitSearch="MakeGuess"/>
+            </div>
+            <div class="col-md-4">
+                <HintBox Hints="currentSession?.Hints ?? new()"/>
+            </div>
+        </div>
         <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand"/>
 }
 else if (currentState == GameState.Lost || currentState == GameState.Won)

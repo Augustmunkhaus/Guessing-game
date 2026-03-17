@@ -6,4 +6,6 @@ public class SessionResponse
     public string Status { get; set; } = "";
     
     public TargetBandResponse? TargetBand { get; set; }
+    
+    public List<HintResponse> Hints { get; set; } = new();
 }

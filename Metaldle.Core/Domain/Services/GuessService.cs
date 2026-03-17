@@ -94,12 +94,39 @@ public class GuessService
         }
         
         //step 8 - save session
-
+        var updatedHints = GetHints(targetEntity, todaysSession.Guesses.Count);
+        
+        foreach (var hint in updatedHints)
+        {
+            if (!todaysSession.Hints.Any(h => h.Label == hint.Label))
+                todaysSession.Hints.Add(hint);
+        }
+        
+        //step 9 - add hints
+        
         await _sessionRepository.SaveSessionAsync(todaysSession);
         
-        //step 9 - return result
+        //step 10 - return result
         
         return (todaysSession, feedback);
         
+    }
+    private List<Hint> GetHints(IGuessableEntity target, int guessCount)
+    {
+        var hints = new List<Hint>();
+
+        if (guessCount >= 5)
+            hints.Add(new Hint("Country", target.RegionAttribute));
+
+        if (guessCount >= 6)
+            hints.Add(new Hint("Subgenres", string.Join(", ", target.ListAttribute3)));
+
+        if (guessCount >= 7)
+        {
+            hints.Add(new Hint("Genre", target.GenreAttribute));
+            hints.Add(new Hint("Themes", string.Join(", ", target.ListAttribute1)));
+        }
+
+        return hints;
     }
 }

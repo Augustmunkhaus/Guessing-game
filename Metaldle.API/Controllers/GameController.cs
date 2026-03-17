@@ -33,7 +33,9 @@ public class GameController : ControllerBase
             Guesses = session.Guesses,
             Status = session.Status,
             StartedAt = session.StartedAt,
-            CompletedAt = session.CompletedAt
+            CompletedAt = session.CompletedAt,
+            Hints = session.Hints.Select(h => new HintResponse
+            { Label = h.Label, Value = h.Value }).ToList()
         };
         
         response.TargetBand = await GetTargetBandIfGameOver(session);
@@ -51,7 +53,12 @@ public class GameController : ControllerBase
         var response = new SessionResponse
         {
             Guesses = session.Guesses,
-            Status = session.Status
+            Status = session.Status,
+            Hints = session.Hints.Select(h => new HintResponse
+            {
+                Label = h.Label,
+                Value = h.Value
+            }).ToList()
         };
         
         response.TargetBand = await GetTargetBandIfGameOver(session);

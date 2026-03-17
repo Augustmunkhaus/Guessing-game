@@ -12,4 +12,5 @@ public class GameSession
     public GameStatus Status { get; set; }
     public DateTime StartedAt { get; set; }
     public DateTime? CompletedAt { get; set; }
+    public List<Hint> Hints { get; set; } = new();
 }

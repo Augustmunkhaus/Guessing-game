@@ -13,4 +13,6 @@ public class SessionResponse
     public DateTime? CompletedAt { get; set; }
     
     public TargetBandResponse? TargetBand { get; set; }
+    
+    public List<HintResponse> Hints { get; set; } = new();
 }
