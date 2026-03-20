@@ -29,7 +29,7 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
 {
     <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand" Status="@currentSession?.Status"/>
 
-    <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status"/>
+    <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status" TargetBand="@currentSession?.TargetBand"/>
 
 }
 

@@ -1,21 +1,54 @@
-<div class="overlay">
-    <div class="result-box">
+@using Metaldle.BlazorWASM.Models
+
+<div class="overlay animate-overlay">
+    <div class="result-box @(Status == "Won" ? "result-win" : "result-lose")">
         @if (Status == "Won")
         {
             <h1>You got it!</h1>
         }
         else
         {
-            <p>@Status</p>
             <h1>Better luck next time!</h1>
         }
+
+        @if (TargetBand != null)
+        {
+            <div class="result-band-wrapper">
+                <div class="result-band-grid">
+                    <div class="guess-row">
+                        <div class="cell header-cell">Name</div>
+                        <div class="cell header-cell">Year</div>
+                        <div class="cell header-cell">Members</div>
+                        <div class="cell header-cell">Country</div>
+                        <div class="cell header-cell">Continent</div>
+                        <div class="cell header-cell">Status</div>
+                        <div class="cell header-cell">Genre</div>
+                        <div class="cell header-cell">Themes</div>
+                        <div class="cell header-cell">Vocals</div>
+                        <div class="cell header-cell">Sub Genres</div>
+                    </div>
+                    <div class="guess-row">
+                        <div class="cell name-cell">@TargetBand.Name</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Year</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Members</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Country</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Continent</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Status</div>
+                        <div class="cell" style="background-color: green">@TargetBand.Genre</div>
+                        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Themes)</div>
+                        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.Vocals)</div>
+                        <div class="cell" style="background-color: green">@string.Join(", ", TargetBand.SubGenres)</div>
+                    </div>
+                </div>
+            </div>
+        }
+
         <button @onclick="StartNewGame">Start New Game</button>
     </div>
 </div>
+
 @code {
-    [Parameter]
-    public EventCallback StartNewGame { get; set; }
-    [Parameter]
-    public string? Status { get; set; }
-    
+    [Parameter] public TargetBandResponse? TargetBand { get; set; }
+    [Parameter] public EventCallback StartNewGame { get; set; }
+    [Parameter] public string? Status { get; set; }
 }

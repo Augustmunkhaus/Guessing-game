@@ -7,7 +7,8 @@
 
 .cell {
     width: 160px;
-    height: 100px;
+    height: 120px;
+    min-height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,6 +17,9 @@
     padding: 6px;
     color: white;
     font-weight: 600;
+    overflow: hidden;
+    word-break: break-word;
+    box-sizing: border-box;
 }
 
 .name-cell {
@@ -27,6 +31,7 @@
 .header-cell {
     width: 160px;
     height: 40px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,4 +46,29 @@
 .direction-symbol {
     display: block;
     font-size: 0.7rem;
+}
+
+@keyframes cell-flip {
+    0% {
+        transform: rotateX(-90deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+.cell-flip {
+    animation: cell-flip 0.5s ease-out forwards;
+    animation-delay: calc(var(--cell-index, 0) * 0.1s);
+    opacity: 0;
+    transform-origin: center center;
+}
+
+.animate-row {
+    perspective: 1000px;
 }

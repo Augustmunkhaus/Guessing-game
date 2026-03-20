@@ -28,6 +28,16 @@
     
     private async Task OnSubmitClicked()
     {
+        // Only submit if the entity name exists in the valid list
+        if (string.IsNullOrWhiteSpace(entityName))
+            return;
+
+        var isValid = allEntities?.Any(e =>
+            e.Name.Equals(entityName, StringComparison.OrdinalIgnoreCase)) ?? false;
+
+        if (!isValid)
+            return;
+
         await SubmitSearch.InvokeAsync(entityName);
         entityName = null;
     }

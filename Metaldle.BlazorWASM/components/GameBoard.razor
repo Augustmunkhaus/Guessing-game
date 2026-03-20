@@ -28,34 +28,37 @@
     </div>
 }
 
+@{ var rowIndex = 0; }
 @foreach (var item in Guesses)
 {
     {
         var numeric1 = GetNumericFeedback(item.Feedback.Numeric1);
         var numeric2 = GetNumericFeedback(item.Feedback.Numeric2);
+        var isNewRow = rowIndex == Guesses.Count - 1 && _animatingRowIndex == rowIndex;
 
-        <div class="guess-row">
-            <div class="cell name-cell">@item.GuessedEntityName</div>
-            <div class="cell" style="background-color: @numeric1.color">
+        <div class="guess-row @(isNewRow ? "animate-row" : "")">
+            <div class="cell name-cell @(isNewRow ? "cell-flip" : "")" style="--cell-index: 0">@item.GuessedEntityName</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @numeric1.color; --cell-index: 1">
                 <span>@item.Feedback.Numeric1.Value</span>
                 <span>&nbsp;</span>
                 <span class="direction-symbol">@numeric1.direction</span>
             </div>
-            <div class="cell" style="background-color: @numeric2.color">
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @numeric2.color; --cell-index: 2">
                 <span>@item.Feedback.Numeric2.Value</span>
                 <span>&nbsp;</span>
                 <span class="direction-symbol">@numeric2.direction</span>
             </div>
-            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Region)">@item.Feedback.Region.Value</div>
-            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Continent)">@item.Feedback.Continent.Value</div>
-            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Status)">@item.Feedback.Status.Value</div>
-            <div class="cell" style="background-color: @GetCategoryColor(item.Feedback.Genre)">@item.Feedback.Genre.Value</div>
-            
-            <div class="cell" style="background-color: @GetListColor(item.Feedback.List1)">@string.Join(", ", item.Feedback.List1.Values)</div>
-            <div class="cell" style="background-color: @GetListColor(item.Feedback.List2)">@string.Join(", ", item.Feedback.List2.Values)</div>
-            <div class="cell" style="background-color: @GetListColor(item.Feedback.List3)">@string.Join(", ", item.Feedback.List3.Values)</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetCategoryColor(item.Feedback.Region); --cell-index: 3">@item.Feedback.Region.Value</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetCategoryColor(item.Feedback.Continent); --cell-index: 4">@item.Feedback.Continent.Value</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetCategoryColor(item.Feedback.Status); --cell-index: 5">@item.Feedback.Status.Value</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetCategoryColor(item.Feedback.Genre); --cell-index: 6">@item.Feedback.Genre.Value</div>
+
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetListColor(item.Feedback.List1); --cell-index: 7">@string.Join(", ", item.Feedback.List1.Values)</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetListColor(item.Feedback.List2); --cell-index: 8">@string.Join(", ", item.Feedback.List2.Values)</div>
+            <div class="cell @(isNewRow ? "cell-flip" : "")" style="background-color: @GetListColor(item.Feedback.List3); --cell-index: 9">@string.Join(", ", item.Feedback.List3.Values)</div>
         </div>
-        
+
+        rowIndex++;
     }
 }
 @if (TargetBand != null && Status == "Lost")
@@ -80,6 +83,23 @@
     [Parameter] public TargetBandResponse? TargetBand { get; set; }
 
     [Parameter] public string? Status { get; set; }
+
+    private int _previousGuessCount = 0;
+    private int _animatingRowIndex = -1;
+
+    protected override void OnParametersSet()
+    {
+        if (Guesses != null && Guesses.Count > _previousGuessCount)
+        {
+            _animatingRowIndex = Guesses.Count - 1;
+            _previousGuessCount = Guesses.Count;
+        }
+        else if (Guesses == null || Guesses.Count == 0)
+        {
+            _previousGuessCount = 0;
+            _animatingRowIndex = -1;
+        }
+    }
 
     public (string color, string direction) GetNumericFeedback(NumericFeedback feedback)
     {

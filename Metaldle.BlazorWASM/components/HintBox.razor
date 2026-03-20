@@ -2,7 +2,7 @@
 
 @if (Hints.Any())
 {
-    <div class="hint-box" @onclick="ToggleHints">
+    <div class="hint-box @(_hasNewHint ? "hint-pulse" : "")" @onclick="ToggleHints">
         @if (!_expanded)
         {
             <h5>💡 Hints available — click to reveal</h5>
@@ -21,11 +21,32 @@
     </div>
 }
 
-    @code {
+@code {
     [Parameter]
     public List<HintResponse> Hints { get; set; } = new();
-    
+
     private bool _expanded = false;
+    private int _previousHintCount = 0;
+    private bool _hasNewHint = false;
+
+    protected override void OnParametersSet()
+    {
+        if (Hints.Count > _previousHintCount)
+        {
+            _hasNewHint = true;
+            _previousHintCount = Hints.Count;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (_hasNewHint)
+        {
+            await Task.Delay(600);
+            _hasNewHint = false;
+            StateHasChanged();
+        }
+    }
 
     private void ToggleHints() => _expanded = !_expanded;
-    }
+}
