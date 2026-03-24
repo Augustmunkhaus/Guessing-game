@@ -1,4 +1,6 @@
 ﻿@page "/"
+@layout EmptyLayout
+@using Metaldle.BlazorWASM.Layout
 @using Microsoft.AspNetCore.Components.Web
 @using Metaldle.BlazorWASM.components;
 @using Metaldle.BlazorWASM.Models
@@ -9,28 +11,31 @@
 <PageTitle>Home</PageTitle>
 
 @if(currentState == GameState.NotStarted)
-    {
-        <WelcomeBox OnGameStarted="StateChanger"/>
-        
-    }
+{
+    <WelcomeBox OnGameStarted="StateChanger"/>
+}
 else if (currentState == GameState.InProgress)
-    { 
-        <div class="row">
+{ 
+    <div class="main-container">
+        <div class="row justify-content-center mb-3">
             <div class="col-md-8">
                 <SearchBar SubmitSearch="MakeGuess"/>
             </div>
-            <div class="col-md-4">
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-8">
                 <HintBox Hints="currentSession?.Hints ?? new()"/>
             </div>
         </div>
         <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand"/>
+    </div>
 }
 else if (currentState == GameState.Lost || currentState == GameState.Won)
 {
-    <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand" Status="@currentSession?.Status"/>
-
-    <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status" TargetBand="@currentSession?.TargetBand"/>
-
+    <div class="main-container">
+        <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand" Status="@currentSession?.Status"/>
+        <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status" TargetBand="@currentSession?.TargetBand"/>
+    </div>
 }
 
 @code {

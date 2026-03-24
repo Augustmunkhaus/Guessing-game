@@ -3,9 +3,8 @@
 @inject MetaldleApiService _apiService
 @inject IJSRuntime JS
 
-<div class="row">
+<div class="row justify-content-center align-items-center">
     <div class="col-md-5 col-sm-12">
-        <!-- Autocomplete input - filters allEntities as user types -->
         <AutoComplete @bind-Value="entityName"
                       TItem="EntityOption"
                       DataProvider="EntityDataProvider"
@@ -13,8 +12,7 @@
                       Placeholder="Search an entity..."
                       OnChanged="(EntityOption value) => OnAutoCompleteChanged(value)"/>
     </div>
-    <div class="col-md-5 col-sm-12">
-        <!-- Fires SubmitSearch event up to Index.razor with the selected band name -->
+    <div class="col-auto">
         <button @onclick="OnSubmitClicked">Submit guess</button>
     </div>
 </div>

@@ -1,20 +1,12 @@
-
-<h1>Welcome to Metaldle</h1>
-<h3>Guess the daily metal band!</h3>
-<p>Game rules:</p>
-<p>You have 6 total guesses to guess the band.</p>
-<p>each guess provides you with feedback, on how close you are.</p>
-<button @onclick="OnGameStarted">Start Game</button>
-
-
-
-
-
-
-
-
-
-
+@layout EmptyLayout
+@using Metaldle.BlazorWASM.Layout
+<div class="welcome-box">
+    <h1>Guess the daily metal band!</h1>
+    <p>Game rules:</p>
+    <p>You have 8 total guesses.</p>
+    <p>each guess provides you with feedback, on how close you are.</p>
+    <button @onclick="OnGameStarted">Start Game</button>
+</div>
 
 @code {
     [Parameter]

@@ -1,0 +1,38 @@
+.welcome-box {
+    background-color: rgba(20, 20, 20, 0.92);
+    border: 1px solid #c9a84c;
+    border-radius: 8px;
+    padding: 20px 28px;
+    width: fit-content;
+    max-width: 340px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.welcome-box h1 {
+    color: #c9a84c;
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.welcome-box h3 {
+    color: #aaa;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.welcome-box p {
+    font-size: 0.85rem;
+    margin: 3px 0;
+    color: #ccc;
+}
+
+.welcome-box button {
+    margin-top: 14px;
+}
