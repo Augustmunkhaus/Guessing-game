@@ -60,6 +60,9 @@ public class GameSessionService
     
     public async Task<GameSession> StartFreshGameAsync(string sessionId)
     {
+        var today = GetToday();
+        await _sessionRepository.DeleteSessionAsync(sessionId, today);
+        
         var seed = Guid.NewGuid().GetHashCode();
     
         var targetEntity = await _entityRepository.GetRandomAsync(seed);

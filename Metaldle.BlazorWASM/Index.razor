@@ -81,7 +81,6 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
     public async Task GenerateNewSession()
     {
         currentSession = null;
-        sessionId = Guid.NewGuid().ToString();
         currentState = GameState.InProgress;
         currentSession = await _apiService.StartFreshGameAsync(sessionId);
     }
