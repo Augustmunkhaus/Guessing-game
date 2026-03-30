@@ -83,7 +83,8 @@ public class GameController : ControllerBase
             Genre =  targetEntity.GenreAttribute,
             Themes = targetEntity.ListAttribute1,
             Vocals = targetEntity.ListAttribute2,
-            SubGenres = targetEntity.ListAttribute3
+            SubGenres = targetEntity.ListAttribute3,
+            ImageUrl = targetEntity.ImageUrl
         };
     }
     

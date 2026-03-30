@@ -12,4 +12,5 @@ public class TargetBandResponse
     public List<string> Themes { get; set; } = new();
     public List<string> Vocals { get; set; } = new();
     public List<string> SubGenres { get; set; } = new();
+    public string? ImageUrl { get; set; }
 }

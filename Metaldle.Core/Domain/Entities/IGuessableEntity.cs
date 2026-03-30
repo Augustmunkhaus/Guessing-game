@@ -19,4 +19,7 @@ public interface IGuessableEntity
     List<string> ListAttribute1 { get; }
     List<string> ListAttribute2 { get; }
     List<string> ListAttribute3 { get; }
+
+    // Image
+    string? ImageUrl { get; }
 }

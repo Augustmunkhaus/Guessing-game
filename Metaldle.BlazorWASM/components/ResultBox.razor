@@ -1,6 +1,20 @@
 @using Metaldle.BlazorWASM.Models
 
 <div class="overlay animate-overlay">
+    @if (Status == "Won")
+    {
+        <div class="confetti-container">
+            @for (int i = 0; i < 50; i++)
+            {
+                var left = Random.Shared.Next(0, 100);
+                var delay = Random.Shared.NextDouble() * 3;
+                var duration = 2 + Random.Shared.NextDouble() * 2;
+                var colors = new[] { "#c9a84c", "#e8c97a", "#ff6b6b", "#4ecdc4", "#ffe66d" };
+                var color = colors[Random.Shared.Next(colors.Length)];
+                <div class="confetti-piece" style="left: @(left)%; animation-delay: @(delay.ToString("F2"))s; animation-duration: @(duration.ToString("F2"))s; background-color: @color;"></div>
+            }
+        </div>
+    }
     <div class="result-box @(Status == "Won" ? "result-win" : "result-lose")">
         @if (Status == "Won")
         {
@@ -9,6 +23,17 @@
         else
         {
             <h1>Better luck next time!</h1>
+        }
+
+        @if (TargetBand != null)
+        {
+            <div class="band-image-container">
+                @if (!string.IsNullOrEmpty(TargetBand.ImageUrl))
+                {
+                    <img src="@TargetBand.ImageUrl" alt="@TargetBand.Name" class="band-image" />
+                }
+                <h2 class="band-name">@TargetBand.Name</h2>
+            </div>
         }
 
         @if (TargetBand != null)

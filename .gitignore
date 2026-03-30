@@ -238,3 +238,11 @@ atlassian-ide-plugin.xml
 # Documentation builds (if you generate docs)
 /docs/_build/
 /docs/.doctrees/
+# API test scripts and results
+*.py
+band_image_urls.json
+final_band_images.json
+musicbrainz_results.json
+results.json
+preview_images.html
+.claude/

@@ -48,7 +48,8 @@ public class DatabaseSeeder
             GenreAttribute = dto.GenreAttribute,
             ListAttribute1 = dto.ListAttribute1,
             ListAttribute2 = dto.ListAttribute2,
-            ListAttribute3 = dto.ListAttribute3
+            ListAttribute3 = dto.ListAttribute3,
+            ImageUrl = dto.ImageUrl
         }).ToList();
 
         await _context.MetalBands.AddRangeAsync(bands);

@@ -12,4 +12,5 @@ public class MetalBandSeedDto
     public List<string> ListAttribute1 { get; set; } = new();
     public List<string> ListAttribute2 { get; set; } = new();
     public List<string> ListAttribute3 { get; set; } = new();
+    public string? ImageUrl { get; set; }
 }

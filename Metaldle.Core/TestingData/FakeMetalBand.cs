@@ -24,4 +24,7 @@ public class FakeMetalBand : IGuessableEntity
     public List<string> ListAttribute1 { get; set; } = new();  // Themes
     public List<string> ListAttribute2 { get; set; } = new();  // Vocal Styles
     public List<string> ListAttribute3 { get; set; } = new();  // genres
+
+    // Image
+    public string? ImageUrl { get; set; }
 }

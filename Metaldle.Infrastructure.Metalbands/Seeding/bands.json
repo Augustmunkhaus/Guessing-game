@@ -7,9 +7,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["War", "History", "Literature", "Mythology"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["NWOBHM", "Progressive Metal"]
+    "listAttribute1": [
+      "War",
+      "History",
+      "Literature",
+      "Mythology"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "NWOBHM",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iron_Maiden_Irvine_2008.jpg"
   },
   {
     "name": "Opeth",
@@ -19,9 +32,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Death", "Nature", "Introspection", "Melancholy"],
-    "listAttribute2": ["Growling", "Clean", "Melodic"],
-    "listAttribute3": ["Death Metal", "Progressive Rock"]
+    "listAttribute1": [
+      "Death",
+      "Nature",
+      "Introspection",
+      "Melancholy"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Progressive Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Opeth_-_Kavarna_Rock_Fest_2011.jpg"
   },
   {
     "name": "Metallica",
@@ -31,9 +57,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Death", "Politics", "Inner Conflict"],
-    "listAttribute2": ["Aggressive", "Clean", "Harsh"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Politics",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Clean",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Metallica_Live_at_The_O2,_London,_England,_22_October_2017.jpg"
   },
   {
     "name": "Megadeth",
@@ -43,9 +82,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Politics", "Nuclear Threat", "Death"],
-    "listAttribute2": ["Aggressive", "Clean", "Harsh"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal"]
+    "listAttribute1": [
+      "War",
+      "Politics",
+      "Nuclear Threat",
+      "Death"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Clean",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Speed Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Megadeth2010.jpg"
   },
   {
     "name": "Death",
@@ -55,9 +107,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Gore", "Philosophy", "Human Condition"],
-    "listAttribute2": ["Growling", "Harsh"],
-    "listAttribute3": ["Progressive Death Metal", "Technical Death Metal", "Florida Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Gore",
+      "Philosophy",
+      "Human Condition"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Progressive Death Metal",
+      "Technical Death Metal",
+      "Florida Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Death_Mexico_06-89.jpg"
   },
   {
     "name": "Slayer",
@@ -67,9 +132,21 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Death", "Occult", "Violence"],
-    "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Speed Metal", "Death Metal"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Occult",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Slayer_1983_press_photo.png"
   },
   {
     "name": "Amon Amarth",
@@ -79,9 +156,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Norse Mythology", "Vikings", "War", "Death"],
-    "listAttribute2": ["Growling", "Harsh"],
-    "listAttribute3": ["Death Metal", "Viking Metal"]
+    "listAttribute1": [
+      "Norse Mythology",
+      "Vikings",
+      "War",
+      "Death"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Viking Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amon_Amarth_-_Tuska_2011_-_10.JPG"
   },
   {
     "name": "Black Sabbath",
@@ -91,9 +180,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Occult", "Darkness", "War", "Depression"],
-    "listAttribute2": ["Clean", "Melodic"],
-    "listAttribute3": ["Doom Metal", "Hard Rock"]
+    "listAttribute1": [
+      "Occult",
+      "Darkness",
+      "War",
+      "Depression"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Doom Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sabs.jpg"
   },
   {
     "name": "Judas Priest",
@@ -103,9 +204,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Freedom", "Rebellion", "War", "Science Fiction"],
-    "listAttribute2": ["High-pitched", "Clean", "Melodic"],
-    "listAttribute3": ["Speed Metal", "NWOBHM"]
+    "listAttribute1": [
+      "Freedom",
+      "Rebellion",
+      "War",
+      "Science Fiction"
+    ],
+    "listAttribute2": [
+      "High-pitched",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "NWOBHM"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judas_Priest_-_Wacken_Open_Air_2018_01.jpg"
   },
   {
     "name": "Dream Theater",
@@ -115,9 +229,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Introspection", "Fantasy", "Human Condition", "Science Fiction"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Heavy Metal", "Progressive Rock"]
+    "listAttribute1": [
+      "Introspection",
+      "Fantasy",
+      "Human Condition",
+      "Science Fiction"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Progressive Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dream_theater_live_in_Parigi_2005.jpg"
   },
   {
     "name": "Nightwish",
@@ -127,9 +254,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Symphonic Metal",
-    "listAttribute1": ["Fantasy", "Nature", "Mythology"],
-    "listAttribute2": ["Operatic", "Symphonic", "Clean"],
-    "listAttribute3": ["Power Metal", "Gothic Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Nature",
+      "Mythology"
+    ],
+    "listAttribute2": [
+      "Operatic",
+      "Symphonic",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Power Metal",
+      "Gothic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuska_20130630_-_Nightwish_-_12.jpg"
   },
   {
     "name": "Children of Bodom",
@@ -139,9 +278,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Death", "Darkness", "Chaos", "Violence"],
-    "listAttribute2": ["Harsh", "Aggressive", "Melodic"],
-    "listAttribute3": ["Death Metal", "Power Metal", "Neoclassical Metal"]
+    "listAttribute1": [
+      "Death",
+      "Darkness",
+      "Chaos",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Power Metal",
+      "Neoclassical Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Masters_of_Rock_2007_-_Children_of_Bodom_-_08.jpg"
   },
   {
     "name": "Blind Guardian",
@@ -151,9 +304,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Literature", "Mythology", "History"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal", "Progressive Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Literature",
+      "Mythology",
+      "History"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blind_Guardian_Group.jpg"
   },
   {
     "name": "Dark Tranquillity",
@@ -163,9 +330,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Introspection", "Melancholy", "Darkness", "Existentialism"],
-    "listAttribute2": ["Harsh", "Melodic", "Clean"],
-    "listAttribute3": ["Death Metal", "Gothic Metal"]
+    "listAttribute1": [
+      "Introspection",
+      "Melancholy",
+      "Darkness",
+      "Existentialism"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Melodic",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Gothic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dark_Tranquillity_–_Hamburg_Metal_Dayz_2014_01.jpg"
   },
   {
     "name": "Pantera",
@@ -175,9 +355,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Groove Metal",
-    "listAttribute1": ["Aggression", "Rebellion", "Violence", "Southern Culture"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Thrash Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Aggression",
+      "Rebellion",
+      "Violence",
+      "Southern Culture"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pantera_1987-2003_lineup.jpg"
   },
   {
     "name": "In Flames",
@@ -187,9 +380,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Emotion", "Introspection", "Struggle"],
-    "listAttribute2": ["Melodic", "Harsh", "Clean"],
-    "listAttribute3": ["Death Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Emotion",
+      "Introspection",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Melodic",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "http://web.archive.org/web/20020917082428if_/http://metal-archives.com:80/images/11_photo.jpg"
   },
   {
     "name": "Kreator",
@@ -199,9 +404,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Politics", "Death", "Chaos"],
-    "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Speed Metal", "Death Metal"]
+    "listAttribute1": [
+      "War",
+      "Politics",
+      "Death",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2018_RiP_-_Kreator_-_by_2eight_-_8SC9101.jpg"
   },
   {
     "name": "Amorphis",
@@ -211,9 +428,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Finnish Mythology", "Nature", "Death", "Melancholy"],
-    "listAttribute2": ["Clean", "Growling", "Melodic"],
-    "listAttribute3": ["Death Metal", "Folk Metal", "Doom Metal"]
+    "listAttribute1": [
+      "Finnish Mythology",
+      "Nature",
+      "Death",
+      "Melancholy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Growling",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Folk Metal",
+      "Doom Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amorphis_032008_024.jpg"
   },
   {
     "name": "Behemoth",
@@ -223,9 +454,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Anti-Christianity", "Darkness", "Mythology"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Blackened Death Metal", "Death Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Anti-Christianity",
+      "Darkness",
+      "Mythology"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Blackened Death Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Behemoth_-_Reload_Festival_2024_01.jpg"
   },
   {
     "name": "Arch Enemy",
@@ -235,9 +479,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["War", "Freedom", "Empowerment", "Rebellion"],
-    "listAttribute2": ["Growling", "Harsh", "Melodic"],
-    "listAttribute3": ["Death Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "War",
+      "Freedom",
+      "Empowerment",
+      "Rebellion"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arch_Enemy_-_Elbriot_2018_05.jpg"
   },
   {
     "name": "Ensiferum",
@@ -247,9 +504,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Vikings", "War", "Norse Mythology", "Nature"],
-    "listAttribute2": ["Clean", "Harsh", "Growling"],
-    "listAttribute3": ["Viking Metal", "Melodic Death Metal"]
+    "listAttribute1": [
+      "Vikings",
+      "War",
+      "Norse Mythology",
+      "Nature"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Viking Metal",
+      "Melodic Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensiferum_Metalcamp2007_01.jpg"
   },
   {
     "name": "Dimmu Borgir",
@@ -259,9 +529,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Mythology"],
-    "listAttribute2": ["Shrieking", "Harsh", "Operatic"],
-    "listAttribute3": ["Symphonic Black Metal", "Gothic Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Darkness",
+      "Anti-Christianity",
+      "Mythology"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Symphonic Black Metal",
+      "Gothic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DimmuBorgirTuska2005.jpg"
   },
   {
     "name": "Tool",
@@ -271,9 +554,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Spirituality", "Psychedelia", "Human Condition", "Introspection"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Alternative Metal", "Art Rock"]
+    "listAttribute1": [
+      "Spirituality",
+      "Psychedelia",
+      "Human Condition",
+      "Introspection"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Art Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tool_live_barcelona_2006.jpg"
   },
   {
     "name": "Wintersun",
@@ -283,9 +579,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Nature", "Cosmos", "Mythology", "Winter"],
-    "listAttribute2": ["Clean", "Growling", "High-pitched"],
-    "listAttribute3": ["Folk Metal", "Symphonic Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Cosmos",
+      "Mythology",
+      "Winter"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Growling",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Folk Metal",
+      "Symphonic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wintersun_Rockharz_2019_22.jpg"
   },
   {
     "name": "Testament",
@@ -295,9 +604,21 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Occult", "War", "Apocalypse"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Speed Metal", "Death Metal"]
+    "listAttribute1": [
+      "Occult",
+      "War",
+      "Apocalypse"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2017_Testament_-_by_2eight_-_8SC1105.jpg"
   },
   {
     "name": "Gojira",
@@ -307,9 +628,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Death Metal",
-    "listAttribute1": ["Environment", "Spirituality", "Death", "Nature"],
-    "listAttribute2": ["Harsh", "Growling", "Clean"],
-    "listAttribute3": ["Death Metal", "Groove Metal"]
+    "listAttribute1": [
+      "Environment",
+      "Spirituality",
+      "Death",
+      "Nature"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Growling",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Groove Metal"
+    ],
+    "imageUrl": "https://web.archive.org/web/20110607081413if_/http://static.metal-archives.com/images/1/8/3/5/18351_photo.jpg"
   },
   {
     "name": "Helloween",
@@ -319,9 +653,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Halloween", "Adventure"],
-    "listAttribute2": ["High-pitched", "Melodic", "Clean"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Halloween",
+      "Adventure"
+    ],
+    "listAttribute2": [
+      "High-pitched",
+      "Melodic",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Helloween_-_Pumpkins_United_-_Wacken_Open_Air_2018_22.jpg"
   },
   {
     "name": "Immortal",
@@ -331,9 +677,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Winter", "Darkness", "War", "Blashyrkh"],
-    "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal"]
+    "listAttribute1": [
+      "Winter",
+      "Darkness",
+      "War",
+      "Blashyrkh"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Speed Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Immortal_by_Christian_Misje_02.jpg"
   },
   {
     "name": "Epica",
@@ -343,9 +702,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Symphonic Metal",
-    "listAttribute1": ["Philosophy", "Spirituality", "Science", "Mythology"],
-    "listAttribute2": ["Operatic", "Symphonic", "Growling"],
-    "listAttribute3": ["Gothic Metal", "Power Metal"]
+    "listAttribute1": [
+      "Philosophy",
+      "Spirituality",
+      "Science",
+      "Mythology"
+    ],
+    "listAttribute2": [
+      "Operatic",
+      "Symphonic",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Gothic Metal",
+      "Power Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Epica,_3-Majówka_2022_96.jpg"
   },
   {
     "name": "Kamelot",
@@ -355,9 +727,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Literature", "Philosophy", "Dark Romance"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Progressive Metal", "Symphonic Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Literature",
+      "Philosophy",
+      "Dark Romance"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Progressive Metal",
+      "Symphonic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Concert_of_Kamelot_in_Barcelona,_Sala_Razzmatazz.jpg"
   },
   {
     "name": "Lamb of God",
@@ -367,9 +752,20 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Groove Metal",
-    "listAttribute1": ["Politics", "Violence", "Corruption"],
-    "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Thrash Metal", "Death Metal"]
+    "listAttribute1": [
+      "Politics",
+      "Violence",
+      "Corruption"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamb_Of_God_-_Rock_am_Ring_2015-9946.jpg"
   },
   {
     "name": "Mastodon",
@@ -379,9 +775,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Sludge Metal",
-    "listAttribute1": ["Nature", "Mythology", "Spirituality", "Human Condition"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Mythology",
+      "Spirituality",
+      "Human Condition"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Progressive Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursynalia_2012,_Mastodon_12.jpg"
   },
   {
     "name": "Rammstein",
@@ -391,9 +800,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Industrial Metal",
-    "listAttribute1": ["Taboo", "Sexuality", "Violence", "Politics"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Neue Deutsche Härte", "Heavy Metal", "Nu Metal"]
+    "listAttribute1": [
+      "Taboo",
+      "Sexuality",
+      "Violence",
+      "Politics"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Neue Deutsche Härte",
+      "Heavy Metal",
+      "Nu Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rammstein_at_Wacken_Open_Air_2013_06.jpg"
   },
   {
     "name": "Sepultura",
@@ -403,9 +826,23 @@
     "continentAttribute": "South America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Politics", "Social Issues", "War", "Tribal Culture"],
-    "listAttribute2": ["Aggressive", "Harsh", "Growling"],
-    "listAttribute3": ["Death Metal", "Groove Metal", "Tribal Metal"]
+    "listAttribute1": [
+      "Politics",
+      "Social Issues",
+      "War",
+      "Tribal Culture"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Groove Metal",
+      "Tribal Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sepultura_-_Wacken_Open_Air_2018-1237_(cropped).jpg"
   },
   {
     "name": "Symphony X",
@@ -415,9 +852,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Mythology", "Fantasy", "Science Fiction", "Philosophy"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Power Metal", "Neoclassical Metal", "Speed Metal"]
+    "listAttribute1": [
+      "Mythology",
+      "Fantasy",
+      "Science Fiction",
+      "Philosophy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Power Metal",
+      "Neoclassical Metal",
+      "Speed Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Symphony_X_in_Carrboro_2022.jpg"
   },
   {
     "name": "Paradise Lost",
@@ -427,9 +878,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Gothic Metal",
-    "listAttribute1": ["Melancholy", "Loss", "Darkness", "Despair"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Death Metal"]
+    "listAttribute1": [
+      "Melancholy",
+      "Loss",
+      "Darkness",
+      "Despair"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Doom Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Metalmania_2007_-_Paradise_Lost_04.jpg"
   },
   {
     "name": "Eluveitie",
@@ -439,9 +903,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Celtic Mythology", "Nature", "War", "Ancient History"],
-    "listAttribute2": ["Harsh", "Clean", "Growling"],
-    "listAttribute3": ["Melodic Death Metal", "Celtic Metal", "Symphonic Death Metal"]
+    "listAttribute1": [
+      "Celtic Mythology",
+      "Nature",
+      "War",
+      "Ancient History"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Clean",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Celtic Metal",
+      "Symphonic Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eluveitie,_3-Majówka_2023,_056.jpg"
   },
   {
     "name": "Emperor",
@@ -451,9 +929,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Darkness", "Occult", "Winter", "Anti-Christianity"],
-    "listAttribute2": ["Shrieking", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Symphonic Black Metal", "Progressive Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Occult",
+      "Winter",
+      "Anti-Christianity"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Symphonic Black Metal",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_at_Midgardsblot_2024.jpg"
   },
   {
     "name": "Cannibal Corpse",
@@ -463,9 +954,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Gore", "Death", "Violence", "Horror"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
+    "listAttribute1": [
+      "Gore",
+      "Death",
+      "Violence",
+      "Horror"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Brutal Death Metal",
+      "Old School Death Metal",
+      "Florida Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CannibalCorpse.jpg"
   },
   {
     "name": "Cradle of Filth",
@@ -475,9 +980,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Dark Romance", "Horror", "Vampirism"],
-    "listAttribute2": ["Shrieking", "Harsh", "Operatic"],
-    "listAttribute3": ["Symphonic Black Metal", "Gothic Metal", "Extreme Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Dark Romance",
+      "Horror",
+      "Vampirism"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Symphonic Black Metal",
+      "Gothic Metal",
+      "Extreme Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cradle_Of_Filth_With_Full_Force_2018_21.jpg"
   },
   {
     "name": "Nile",
@@ -487,9 +1006,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Egyptian Mythology", "Ancient History", "Death", "Occult"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Technical Death Metal", "Brutal Death Metal"]
+    "listAttribute1": [
+      "Egyptian Mythology",
+      "Ancient History",
+      "Death",
+      "Occult"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Brutal Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nile_at_Party.San_Open_Air_2012.jpg"
   },
   {
     "name": "Septicflesh",
@@ -499,9 +1031,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Mythology", "Egypt", "Darkness", "Ancient History"],
-    "listAttribute2": ["Growling", "Harsh", "Operatic"],
-    "listAttribute3": ["Death Metal", "Gothic Metal", "Symphonic Death Metal"]
+    "listAttribute1": [
+      "Mythology",
+      "Egypt",
+      "Darkness",
+      "Ancient History"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Gothic Metal",
+      "Symphonic Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Septicflesh,_B90,_Gdańsk,_November_8_2022_19.jpg"
   },
   {
     "name": "Dio",
@@ -511,9 +1057,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Fantasy", "Good vs Evil", "Mythology", "Magic"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Hard Rock"]
+    "listAttribute1": [
+      "Fantasy",
+      "Good vs Evil",
+      "Mythology",
+      "Magic"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Power Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dio_(2005).jpg"
   },
   {
     "name": "Carcass",
@@ -523,9 +1082,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Gore", "Death", "Medicine", "Decomposition"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Melodic Death Metal", "Grindcore", "Old School Death Metal"]
+    "listAttribute1": [
+      "Gore",
+      "Death",
+      "Medicine",
+      "Decomposition"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Grindcore",
+      "Old School Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carcass_-_Elbriot_2016_01_(cropped).jpg"
   },
   {
     "name": "Porcupine Tree",
@@ -535,9 +1108,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Rock",
-    "listAttribute1": ["Introspection", "Society", "Mental Health", "Melancholy"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Progressive Metal", "Art Rock"]
+    "listAttribute1": [
+      "Introspection",
+      "Society",
+      "Mental Health",
+      "Melancholy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Progressive Metal",
+      "Art Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine_Tree_-_Live_at_Auditorium_Parco_della_Musica,_Rome_(June_24,_2023)_-_8979.jpg"
   },
   {
     "name": "Led Zeppelin",
@@ -547,9 +1133,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Mythology", "Mysticism", "Romance", "Adventure"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Dad Rock", "Blues Rock", "Folk Rock"]
+    "listAttribute1": [
+      "Mythology",
+      "Mysticism",
+      "Romance",
+      "Adventure"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Dad Rock",
+      "Blues Rock",
+      "Folk Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LedZeppelinmontage.jpg"
   },
   {
     "name": "Bathory",
@@ -559,9 +1159,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Vikings", "Norse Mythology", "War"],
-    "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Viking Metal", "Thrash Metal", "Speed Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Vikings",
+      "Norse Mythology",
+      "War"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Viking Metal",
+      "Thrash Metal",
+      "Speed Metal"
+    ],
+    "imageUrl": null
   },
   {
     "name": "Anthrax",
@@ -571,9 +1185,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Politics", "Pop Culture", "Social Issues"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "War",
+      "Politics",
+      "Pop Culture",
+      "Social Issues"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthrax_Rockavaria_2016_(12_von_12).jpg"
   },
   {
     "name": "System of a Down",
@@ -583,9 +1210,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Hiatus",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Politics", "War", "Social Issues", "Armenian Culture"],
-    "listAttribute2": ["Eclectic", "Aggressive", "Melodic"],
-    "listAttribute3": ["Alternative Metal", "Progressive Metal"]
+    "listAttribute1": [
+      "Politics",
+      "War",
+      "Social Issues",
+      "Armenian Culture"
+    ],
+    "listAttribute2": [
+      "Eclectic",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SoaD-2013-1.jpg"
   },
   {
     "name": "Slipknot",
@@ -595,9 +1235,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Anger", "Chaos", "Darkness", "Inner Conflict"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Alternative Metal", "Heavy Metal", "Groove Metal"]
+    "listAttribute1": [
+      "Anger",
+      "Chaos",
+      "Darkness",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Heavy Metal",
+      "Groove Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Slipknot_at_Roskilde_Festival_2013.jpg"
   },
   {
     "name": "Meshuggah",
@@ -607,9 +1261,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Existentialism", "Chaos", "Human Condition", "Machinery"],
-    "listAttribute2": ["Harsh", "Aggressive", "Growling"],
-    "listAttribute3": ["Death Metal", "Djent", "Technical Metal"]
+    "listAttribute1": [
+      "Existentialism",
+      "Chaos",
+      "Human Condition",
+      "Machinery"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Djent",
+      "Technical Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meshuggah_2008_Melbourne_2.jpg"
   },
   {
     "name": "Morbid Angel",
@@ -619,9 +1287,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Sumerian Mythology"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Technical Death Metal", "Old School Death Metal", "Florida Death Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Darkness",
+      "Anti-Christianity",
+      "Sumerian Mythology"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Old School Death Metal",
+      "Florida Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Morbid_Angel_01_2008.jpg"
   },
   {
     "name": "Stratovarius",
@@ -631,9 +1313,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Freedom", "Hope", "Introspection"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Speed Metal", "Progressive Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Freedom",
+      "Hope",
+      "Introspection"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stratovarius_-_Wacken_Open_Air_2022_04.jpg"
   },
   {
     "name": "Exodus",
@@ -643,9 +1338,21 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Violence", "Death", "Chaos"],
-    "listAttribute2": ["Aggressive", "Harsh"],
-    "listAttribute3": ["Speed Metal", "Bay Area Thrash"]
+    "listAttribute1": [
+      "War",
+      "Violence",
+      "Death",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Bay Area Thrash"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Exodus_Rockharz_2018_43.jpg"
   },
   {
     "name": "Motörhead",
@@ -655,9 +1362,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Rebellion", "Speed", "War", "Rock and Roll"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Speed Metal", "Rock and Roll", "Punk Metal"]
+    "listAttribute1": [
+      "Rebellion",
+      "Speed",
+      "War",
+      "Rock and Roll"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Rock and Roll",
+      "Punk Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Motorhead-03.jpg"
   },
   {
     "name": "Burzum",
@@ -667,9 +1388,21 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Darkness", "Norse Mythology", "Nature", "Paganism"],
-    "listAttribute2": ["Shrieking", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Ambient Black Metal", "Atmospheric Black Metal"]
+    "listAttribute1": [
+      "Norse Mythology",
+      "Nature",
+      "Paganism"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Ambient Black Metal",
+      "Atmospheric Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Burzum2010.svg"
   },
   {
     "name": "Machine Head",
@@ -679,9 +1412,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Groove Metal",
-    "listAttribute1": ["Anger", "Politics", "War", "Inner Conflict"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Thrash Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Anger",
+      "Politics",
+      "War",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Machine_Head_en_concert_à_La_Rochelle_en_2018_(cropped).jpg"
   },
   {
     "name": "AC/DC",
@@ -691,9 +1437,23 @@
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
     "genreAttribute": "Hard Rock",
-    "listAttribute1": ["Rebellion", "Rock and Roll", "Party", "Energy"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Blues Rock", "Dad Rock"]
+    "listAttribute1": [
+      "Rebellion",
+      "Rock and Roll",
+      "Party",
+      "Energy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Blues Rock",
+      "Dad Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ACDC_In_Tacoma_2009.jpg"
   },
   {
     "name": "Rotting Christ",
@@ -703,9 +1463,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Anti-Christianity", "Mythology", "Darkness"],
-    "listAttribute2": ["Harsh", "Aggressive", "Atmospheric"],
-    "listAttribute3": ["Gothic Metal", "Symphonic Black Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Anti-Christianity",
+      "Mythology",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Gothic Metal",
+      "Symphonic Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotting_Christ_ToR_2024.jpg"
   },
   {
     "name": "Within Temptation",
@@ -715,9 +1488,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Symphonic Metal",
-    "listAttribute1": ["Fantasy", "Emotion", "Loss", "Hope"],
-    "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Gothic Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Emotion",
+      "Loss",
+      "Hope"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Operatic",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Gothic Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Within_Temptation_-_Wacken_Open_Air_2022_05.jpg"
   },
   {
     "name": "At the Gates",
@@ -727,9 +1513,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Chaos", "Existentialism", "Darkness"],
-    "listAttribute2": ["Harsh", "Aggressive", "Growling"],
-    "listAttribute3": ["Melodic Death Metal", "Thrash Metal", "Swedish Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Chaos",
+      "Existentialism",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Thrash Metal",
+      "Swedish Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/At_The_Gates_-_Wacken_Open_Air_2022_03.jpg"
   },
   {
     "name": "Hypocrisy",
@@ -739,9 +1539,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Aliens", "Conspiracy", "Death", "Darkness"],
-    "listAttribute2": ["Growling", "Harsh", "Clean"],
-    "listAttribute3": ["Melodic Death Metal", "Industrial Metal"]
+    "listAttribute1": [
+      "Aliens",
+      "Conspiracy",
+      "Death",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Industrial Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hypocrisy_band.jpg"
   },
   {
     "name": "Dissection",
@@ -751,9 +1564,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Darkness", "Anti-Christianity", "Death"],
-    "listAttribute2": ["Harsh", "Shrieking", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Melodic Black Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Darkness",
+      "Anti-Christianity",
+      "Death"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Shrieking",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Melodic Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dissection_live1_(cropped).jpg"
   },
   {
     "name": "Sodom",
@@ -763,9 +1589,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Death", "Violence", "Chaos"],
-    "listAttribute2": ["Aggressive", "Harsh", "Growling"],
-    "listAttribute3": ["Speed Metal", "Early Death Metal", "Black Metal"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Violence",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Early Death Metal",
+      "Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sodom_Rockharz_2018_19.jpg"
   },
   {
     "name": "Alcest",
@@ -775,9 +1615,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Nature", "Spirituality", "Dreams", "Melancholy"],
-    "listAttribute2": ["Clean", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Black Metal", "Shoegaze", "Atmospheric Black Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Spirituality",
+      "Dreams",
+      "Melancholy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Black Metal",
+      "Shoegaze",
+      "Atmospheric Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20200229_03_Alcest_(49605436357).jpg"
   },
   {
     "name": "Finntroll",
@@ -787,9 +1641,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Finnish Mythology", "Trolls", "Nature", "Paganism"],
-    "listAttribute2": ["Harsh", "Growling", "Aggressive"],
-    "listAttribute3": ["Black Metal", "Pagan Metal"]
+    "listAttribute1": [
+      "Finnish Mythology",
+      "Trolls",
+      "Nature",
+      "Paganism"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Growling",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Black Metal",
+      "Pagan Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Finntroll.jpg"
   },
   {
     "name": "Mayhem",
@@ -799,9 +1666,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Darkness", "Death", "Anti-Christianity", "Chaos"],
-    "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Speed Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Death",
+      "Anti-Christianity",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mayhem,_Summer_Dying_Loud_2024_22.jpg"
   },
   {
     "name": "Manowar",
@@ -811,9 +1691,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["War", "Brotherhood", "Fantasy", "Heavy Metal Culture"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Power Metal", "Speed Metal", "Dad Metal"]
+    "listAttribute1": [
+      "War",
+      "Brotherhood",
+      "Fantasy",
+      "Heavy Metal Culture"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Power Metal",
+      "Speed Metal",
+      "Dad Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Manowar_2016_(cropped).jpg"
   },
   {
     "name": "Darkthrone",
@@ -823,9 +1717,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Darkness", "Anti-Christianity", "Death", "Occult"],
-    "listAttribute2": ["Shrieking", "Harsh", "Aggressive"],
-    "listAttribute3": ["Thrash Metal", "Death Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Anti-Christianity",
+      "Death",
+      "Occult"
+    ],
+    "listAttribute2": [
+      "Shrieking",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Darkthrone_crop.png"
   },
   {
     "name": "Bloodbath",
@@ -835,9 +1742,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Gore", "Death", "Horror", "Violence"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Old School Death Metal", "Brutal Death Metal", "Swedish Death Metal"]
+    "listAttribute1": [
+      "Gore",
+      "Death",
+      "Horror",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Old School Death Metal",
+      "Brutal Death Metal",
+      "Swedish Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloodbath-Hellfest2010.jpg"
   },
   {
     "name": "Overkill",
@@ -847,9 +1768,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Rebellion", "Death", "War", "Chaos"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Rebellion",
+      "Death",
+      "War",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Overkill,_Summer_Dying_Loud_2024_24.jpg"
   },
   {
     "name": "Ozzy Osbourne",
@@ -859,9 +1793,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Darkness", "Occult", "Rebellion", "Fantasy"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Hard Rock", "Glam Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Occult",
+      "Rebellion",
+      "Fantasy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Hard Rock",
+      "Glam Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/OzzyChangingHands02-20-2010.jpg"
   },
   {
     "name": "HammerFall",
@@ -871,9 +1818,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "War", "Brotherhood", "Medieval"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "War",
+      "Brotherhood",
+      "Medieval"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Speed Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hammerfall_at_the_Masters_of_Rock_2007.jpg"
   },
   {
     "name": "Sabaton",
@@ -883,9 +1843,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["War", "History", "Military", "Heroism"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Heavy Metal", "Speed Metal", "History Metal"]
+    "listAttribute1": [
+      "War",
+      "History",
+      "Military",
+      "Heroism"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Speed Metal",
+      "History Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Sabaton_01.jpg"
   },
   {
     "name": "Rush",
@@ -895,9 +1869,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Progressive Rock",
-    "listAttribute1": ["Philosophy", "Science Fiction", "Individualism", "Fantasy"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Hard Rock", "Prog rock"]
+    "listAttribute1": [
+      "Philosophy",
+      "Science Fiction",
+      "Individualism",
+      "Fantasy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Hard Rock",
+      "Prog rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rush-in-concert.jpg"
   },
   {
     "name": "Vader",
@@ -907,9 +1895,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["War", "Death", "Chaos", "Darkness"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Thrash Metal", "Death Thrash"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Chaos",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Death Thrash"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vader_2011_in_Rostock.jpg"
   },
   {
     "name": "Satyricon",
@@ -919,9 +1920,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Darkness", "Anti-Christianity", "Norse Mythology", "Occult"],
-    "listAttribute2": ["Harsh", "Shrieking", "Aggressive"],
-    "listAttribute3": ["Rock Metal", "Thrash Metal", "Black Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Anti-Christianity",
+      "Norse Mythology",
+      "Occult"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Shrieking",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Rock Metal",
+      "Thrash Metal",
+      "Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Satyricon,_Metaltown_2008.jpg"
   },
   {
     "name": "Devin Townsend",
@@ -931,9 +1946,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Spirituality", "Introspection", "Human Condition", "Cosmos"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Heavy Metal", "Ambient Metal", "Djent"]
+    "listAttribute1": [
+      "Spirituality",
+      "Introspection",
+      "Human Condition",
+      "Cosmos"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Ambient Metal",
+      "Djent"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Devin_Townsend_Project_–_Wacken_Open_Air_2014_03.jpg"
   },
   {
     "name": "Deep Purple",
@@ -943,9 +1972,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Rock",
-    "listAttribute1": ["Rebellion", "Rock and Roll", "Freedom", "Adventure"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Heavy Metal", "Progressive Rock", "Classic Rock"]
+    "listAttribute1": [
+      "Rebellion",
+      "Rock and Roll",
+      "Freedom",
+      "Adventure"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Progressive Rock",
+      "Classic Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deep_Purple_in_2004.jpg"
   },
   {
     "name": "Korpiklaani",
@@ -955,9 +1998,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Nature", "Finnish Culture", "Drinking", "Paganism"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Pagan Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Finnish Culture",
+      "Drinking",
+      "Paganism"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Pagan Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korpiklaani_-_Rakuunarock_2013.jpg"
   },
   {
     "name": "Obituary",
@@ -967,9 +2023,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Gore", "Horror", "Violence"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Florida Death Metal", "Old School Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Gore",
+      "Horror",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Florida Death Metal",
+      "Old School Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Obituary_02.jpg"
   },
   {
     "name": "King Diamond",
@@ -979,9 +2048,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Horror", "Occult", "Dark Romance", "Supernatural"],
-    "listAttribute2": ["High-pitched", "Clean", "Operatic"],
-    "listAttribute3": ["Gothic Metal", "NWOBHM", "Thrash Metal"]
+    "listAttribute1": [
+      "Horror",
+      "Occult",
+      "Dark Romance",
+      "Supernatural"
+    ],
+    "listAttribute2": [
+      "High-pitched",
+      "Clean",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Gothic Metal",
+      "NWOBHM",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/King_Diamond_live_2006_Moscow_02.jpg"
   },
   {
     "name": "Soilwork",
@@ -991,9 +2074,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Melodic Death Metal",
-    "listAttribute1": ["Introspection", "Struggle", "Darkness", "Human Condition"],
-    "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Death Metal", "Alternative Metal", "Swedish Death Metal"]
+    "listAttribute1": [
+      "Introspection",
+      "Struggle",
+      "Darkness",
+      "Human Condition"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Alternative Metal",
+      "Swedish Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soilwork_Rockharz_2016_11.jpg"
   },
   {
     "name": "Alice in Chains",
@@ -1003,9 +2100,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Grunge",
-    "listAttribute1": ["Addiction", "Depression", "Darkness", "Inner Conflict"],
-    "listAttribute2": ["Clean", "Melodic", "Harmonized"],
-    "listAttribute3": ["Heavy Metal", "Alternative Metal", "Hard Rock"]
+    "listAttribute1": [
+      "Addiction",
+      "Depression",
+      "Darkness",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Harmonized"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Alternative Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alice_in_Chains_-_2019-06-07_Rock_am_Ring_(cropped).jpg"
   },
   {
     "name": "Candlemass",
@@ -1015,9 +2126,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Doom Metal",
-    "listAttribute1": ["Doom", "Death", "Melancholy", "Darkness"],
-    "listAttribute2": ["Clean", "Operatic", "Melodic"],
-    "listAttribute3": ["Epic Doom Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Doom",
+      "Death",
+      "Melancholy",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Operatic",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Epic Doom Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Candlemass_at_Inferno_Metal_Festival_Norway_2024_(53627528728)_(cropped).jpg"
   },
   {
     "name": "Ne Obliviscaris",
@@ -1027,9 +2151,23 @@
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Nature", "Melancholy", "Existentialism", "Philosophy"],
-    "listAttribute2": ["Clean", "Harsh", "Growling"],
-    "listAttribute3": ["Melodic Death Metal", "Black Metal", "Folk Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Melancholy",
+      "Existentialism",
+      "Philosophy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Growling"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Black Metal",
+      "Folk Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neobliviscaris_1_-_HellFest_2024_-_Altar_-_28jun2024.png"
   },
   {
     "name": "Ghost",
@@ -1039,9 +2177,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Occult", "Anti-Christianity", "Darkness", "Satanism"],
-    "listAttribute2": ["Clean", "Melodic", "Theatrical"],
-    "listAttribute3": ["Hard Rock", "Doom Metal", "Occult Rock"]
+    "listAttribute1": [
+      "Occult",
+      "Anti-Christianity",
+      "Darkness",
+      "Satanism"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Theatrical"
+    ],
+    "listAttribute3": [
+      "Hard Rock",
+      "Doom Metal",
+      "Occult Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghost_Rockavaria_2016_(12_von_14).jpg"
   },
   {
     "name": "Bolt Thrower",
@@ -1051,9 +2203,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["War", "Death", "Chaos", "Military"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Old School Death Metal", "Groove Metal"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Chaos",
+      "Military"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Old School Death Metal",
+      "Groove Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Boltthrower_foto.jpg"
   },
   {
     "name": "Equilibrium",
@@ -1063,9 +2228,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Nature", "Mythology", "Fantasy", "Epic"],
-    "listAttribute2": ["Harsh", "Clean", "Melodic"],
-    "listAttribute3": ["Melodic Death Metal", "Symphonic Metal"]
+    "listAttribute1": [
+      "Nature",
+      "Mythology",
+      "Fantasy",
+      "Epic"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Melodic Death Metal",
+      "Symphonic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Equilibrium_01.jpg"
   },
   {
     "name": "Accept",
@@ -1075,9 +2253,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Rebellion", "Freedom", "War", "Rock and Roll"],
-    "listAttribute2": ["Aggressive", "Clean", "Melodic"],
-    "listAttribute3": ["Speed Metal", "Hard Rock"]
+    "listAttribute1": [
+      "Rebellion",
+      "Freedom",
+      "War",
+      "Rock and Roll"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoffmann.jpg"
   },
   {
     "name": "Mercyful Fate",
@@ -1087,9 +2278,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Occult", "Satanism", "Darkness", "Anti-Christianity"],
-    "listAttribute2": ["High-pitched", "Clean", "Operatic"],
-    "listAttribute3": ["Speed Metal", "NWOBHM", "First Wave Black Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Satanism",
+      "Darkness",
+      "Anti-Christianity"
+    ],
+    "listAttribute2": [
+      "High-pitched",
+      "Clean",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "NWOBHM",
+      "First Wave Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercyful_Fate_-_2022216204606_2022-08-04_Wacken_-_Sven_-_5DS_R_-_0496_-_5DSR7583.jpg"
   },
   {
     "name": "Deicide",
@@ -1099,9 +2304,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Anti-Christianity", "Satanism", "Occult", "Darkness"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Brutal Death Metal", "Old School Death Metal", "Florida Death Metal"]
+    "listAttribute1": [
+      "Anti-Christianity",
+      "Satanism",
+      "Occult",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Brutal Death Metal",
+      "Old School Death Metal",
+      "Florida Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deicide_Party.San_Metal_Open_Air_2019_01.jpg"
   },
   {
     "name": "Fleshgod Apocalypse",
@@ -1111,9 +2330,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Symphonic Death Metal",
-    "listAttribute1": ["Mythology", "Philosophy", "Chaos", "Ancient History"],
-    "listAttribute2": ["Growling", "Operatic", "Harsh"],
-    "listAttribute3": ["Death Metal", "Technical Death Metal"]
+    "listAttribute1": [
+      "Mythology",
+      "Philosophy",
+      "Chaos",
+      "Ancient History"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Operatic",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Technical Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/FleshgodApocalypse.jpg"
   },
   {
     "name": "Angra",
@@ -1123,9 +2355,22 @@
     "continentAttribute": "South America",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Spirituality", "Nature", "Brazilian Culture"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Progressive Metal", "Neoclassical Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Spirituality",
+      "Nature",
+      "Brazilian Culture"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Progressive Metal",
+      "Neoclassical Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20161011_Köln_Tarja_The_Shadow_Shows_Angra_0220.jpg"
   },
   {
     "name": "Type O Negative",
@@ -1135,9 +2380,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Gothic Metal",
-    "listAttribute1": ["Dark Romance", "Depression", "Death", "Melancholy"],
-    "listAttribute2": ["Clean", "Melodic", "Atmospheric"],
-    "listAttribute3": ["Doom Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Dark Romance",
+      "Depression",
+      "Death",
+      "Melancholy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Doom Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Type_O_Negative_in_performance_(Columbiahalle,_Berlin_-_15_June_2007).jpg"
   },
   {
     "name": "Fear Factory",
@@ -1147,9 +2405,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Industrial Metal",
-    "listAttribute1": ["Technology", "Dystopia", "War", "Human vs Machine"],
-    "listAttribute2": ["Clean", "Aggressive", "Harsh"],
-    "listAttribute3": ["Groove Metal", "Alternative Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "Technology",
+      "Dystopia",
+      "War",
+      "Human vs Machine"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Groove Metal",
+      "Alternative Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fear_Factory_-_Elbriot_2016_02_(cropped).jpg"
   },
   {
     "name": "Decapitated",
@@ -1159,9 +2431,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Chaos", "Violence", "Darkness"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Technical Death Metal", "Groove Metal"]
+    "listAttribute1": [
+      "Death",
+      "Chaos",
+      "Violence",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Groove Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2017Decapitated_03.jpg"
   },
   {
     "name": "DragonForce",
@@ -1171,9 +2456,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Fantasy", "Adventure", "Epic", "Good vs Evil"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal", "Epic Metal"]
+    "listAttribute1": [
+      "Fantasy",
+      "Adventure",
+      "Epic",
+      "Good vs Evil"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal",
+      "Epic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dragonforce_-_Elbriot_2019_07.jpg"
   },
   {
     "name": "Korn",
@@ -1183,9 +2482,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Trauma", "Anger", "Depression", "Inner Conflict"],
-    "listAttribute2": ["Aggressive", "Clean", "Melodic"],
-    "listAttribute3": ["Alternative Metal", "Groove Metal"]
+    "listAttribute1": [
+      "Trauma",
+      "Anger",
+      "Depression",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Clean",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Groove Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Korn,_2013.jpg"
   },
   {
     "name": "Ulver",
@@ -1195,9 +2507,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Norse Mythology", "Nature", "Darkness", "Spirituality"],
-    "listAttribute2": ["Clean", "Atmospheric", "Harsh"],
-    "listAttribute3": ["Folk Metal", "Ambient Metal"]
+    "listAttribute1": [
+      "Norse Mythology",
+      "Nature",
+      "Darkness",
+      "Spirituality"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Atmospheric",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Folk Metal",
+      "Ambient Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ULVER_KRAKÓW.JPG"
   },
   {
     "name": "Annihilator",
@@ -1207,9 +2532,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["War", "Death", "Politics", "Chaos"],
-    "listAttribute2": ["Clean", "Aggressive", "Harsh"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "War",
+      "Death",
+      "Politics",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Annihilator_live_in_Oslo_2007.jpg"
   },
   {
     "name": "Necrophagist",
@@ -1219,9 +2557,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Gore", "Darkness", "Violence"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": [ "Technical Death Metal", "Brutal Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Gore",
+      "Darkness",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Brutal Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Necrophagist.png"
   },
   {
     "name": "Disturbed",
@@ -1231,9 +2582,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Inner Conflict", "Anger", "Politics", "Empowerment"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Alternative Metal", "Heavy Metal", "Hard Rock"]
+    "listAttribute1": [
+      "Inner Conflict",
+      "Anger",
+      "Politics",
+      "Empowerment"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Heavy Metal",
+      "Hard Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Disturbed_live_2009.jpg"
   },
   {
     "name": "Obscura",
@@ -1243,9 +2608,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Philosophy", "Cosmos", "Existentialism", "Science"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Progressive Death Metal", "Technical Death Metal"]
+    "listAttribute1": [
+      "Philosophy",
+      "Cosmos",
+      "Existentialism",
+      "Science"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Progressive Death Metal",
+      "Technical Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Obscura_Hellfest_2010_(3).jpg"
   },
   {
     "name": "Alestorm",
@@ -1255,9 +2633,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Folk Metal",
-    "listAttribute1": ["Pirates", "Drinking", "Adventure", "Humor"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Power Metal", "Pirate Metal"]
+    "listAttribute1": [
+      "Pirates",
+      "Drinking",
+      "Adventure",
+      "Humor"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Power Metal",
+      "Pirate Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alestorm_Landscape_2017.jpg"
   },
   {
     "name": "Napalm Death",
@@ -1267,9 +2658,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Grindcore",
-    "listAttribute1": ["Politics", "Social Issues", "Anti-War", "Human Rights"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "Politics",
+      "Social Issues",
+      "Anti-War",
+      "Human Rights"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HF2022NapalmDeath_3.jpg"
   },
   {
     "name": "Celtic Frost",
@@ -1279,9 +2683,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Occult", "Darkness", "Death", "Anti-Christianity"],
-    "listAttribute2": ["Harsh", "Aggressive", "Atmospheric"],
-    "listAttribute3": ["Death Metal", "First Wave Black Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Darkness",
+      "Death",
+      "Anti-Christianity"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "First Wave Black Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Celtic_Frost_live_at_Tuska_2006_modified.jpg"
   },
   {
     "name": "Dying Fetus",
@@ -1291,9 +2709,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Politics", "Violence", "Gore", "Social Issues"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Brutal Death Metal", "Technical Death Metal"]
+    "listAttribute1": [
+      "Politics",
+      "Violence",
+      "Gore",
+      "Social Issues"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Brutal Death Metal",
+      "Technical Death Metal"
+    ],
+    "imageUrl": "http://www.relapse.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/d/s/dscf5657_web.jpg"
   },
   {
     "name": "Bring me the Horizon",
@@ -1303,9 +2734,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Drug Abuse", "Abandonment", "Future", "Love"],
-    "listAttribute2": ["Clean", "Growling", "Screaming"],
-    "listAttribute3": ["Deathcore", "Nu-metal"]
+    "listAttribute1": [
+      "Drug Abuse",
+      "Abandonment",
+      "Future",
+      "Love"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Growling",
+      "Screaming"
+    ],
+    "listAttribute3": [
+      "Deathcore",
+      "Nu-metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bring_Me_the_Horizon_With_Full_Force_2014_14.JPG"
   },
   {
     "name": "Scorpions",
@@ -1315,9 +2759,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Romance", "Freedom", "Rock and Roll", "Peace"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Hard Rock", "Glam Metal"]
+    "listAttribute1": [
+      "Romance",
+      "Freedom",
+      "Rock and Roll",
+      "Peace"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Hard Rock",
+      "Glam Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Scorpions_live_2010.jpg"
   },
   {
     "name": "Killswitch Engage",
@@ -1327,9 +2784,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Inner Conflict", "Hope", "Redemption", "Struggle"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Melodic Metalcore"]
+    "listAttribute1": [
+      "Inner Conflict",
+      "Hope",
+      "Redemption",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Melodic Metalcore"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Killswitch_Engage_-_Wacken_Open_Air_2023_15.jpg"
   },
   {
     "name": "As I Lay Dying",
@@ -1339,9 +2809,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Redemption", "Faith", "Struggle", "Inner Conflict"],
-    "listAttribute2": ["Harsh", "Clean", "Aggressive"],
-    "listAttribute3": ["Melodic Metalcore", "Thrash Metal"]
+    "listAttribute1": [
+      "Redemption",
+      "Faith",
+      "Struggle",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Clean",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Melodic Metalcore",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/As_I_Lay_Dying_-_2022218174823_2022-08-06_Wacken_-_Sven_-_5DS_R_-_0526_-_5DSR8634_(cropped).jpg"
   },
   {
     "name": "Parkway Drive",
@@ -1351,9 +2834,22 @@
     "continentAttribute": "Oceania",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Anger", "Empowerment", "Social Issues", "Inner Conflict"],
-    "listAttribute2": ["Harsh", "Aggressive", "Clean"],
-    "listAttribute3": ["Heavy Metal", "Melodic Metalcore"]
+    "listAttribute1": [
+      "Anger",
+      "Empowerment",
+      "Social Issues",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Melodic Metalcore"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Parkway_Drive_-_2018153232156_2018-06-02_Rock_am_Ring_-_5DS_R_-_0299_-_5DSR6245.jpg"
   },
   {
     "name": "Bullet for My Valentine",
@@ -1363,9 +2859,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Dark Romance", "Anger", "Heartbreak", "Inner Conflict"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Thrash Metal"]
+    "listAttribute1": [
+      "Dark Romance",
+      "Anger",
+      "Heartbreak",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Thrash Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursynalia_2013,_Bullet_For_My_Valentine_C06.jpg"
   },
   {
     "name": "Trivium",
@@ -1375,9 +2884,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Metalcore",
-    "listAttribute1": ["Inner Conflict", "War", "Darkness", "Struggle"],
-    "listAttribute2": ["Clean", "Harsh", "Aggressive"],
-    "listAttribute3": ["Thrash Metal", "Heavy Metal", "Melodic Metalcore"]
+    "listAttribute1": [
+      "Inner Conflict",
+      "War",
+      "Darkness",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Heavy Metal",
+      "Melodic Metalcore"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/120624_Trivium_Gods_Of_Metal_2012_Milan_Italy.jpg"
   },
   {
     "name": "Linkin Park",
@@ -1387,9 +2910,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Inner Conflict", "Depression", "Anger", "Alienation"],
-    "listAttribute2": ["Clean", "Rapping", "Screaming"],
-    "listAttribute3": ["Alternative Metal", "Rap Metal", "Electronic Rock"]
+    "listAttribute1": [
+      "Inner Conflict",
+      "Depression",
+      "Anger",
+      "Alienation"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Rapping",
+      "Screaming"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Rap Metal",
+      "Electronic Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LinkinParkBerlin2010.jpg"
   },
   {
     "name": "Deftones",
@@ -1399,9 +2936,24 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Love", "Dreams", "Darkness", "Emotion"],
-    "listAttribute2": ["Clean", "Melodic", "Screaming", "Whispering"],
-    "listAttribute3": ["Alternative Metal", "Shoegaze", "Post-Metal"]
+    "listAttribute1": [
+      "Love",
+      "Dreams",
+      "Darkness",
+      "Emotion"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Screaming",
+      "Whispering"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Shoegaze",
+      "Post-Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deftones_-_Pukkelpop_2009-003.jpg"
   },
   {
     "name": "Avenged Sevenfold",
@@ -1411,9 +2963,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Death", "War", "Darkness", "Religion"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Metalcore", "Hard Rock", "Progressive Metal"]
+    "listAttribute1": [
+      "Death",
+      "War",
+      "Darkness",
+      "Religion"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Metalcore",
+      "Hard Rock",
+      "Progressive Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avenged_Sevenfold_2.jpg"
   },
   {
     "name": "Five Finger Death Punch",
@@ -1423,9 +2989,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Groove Metal",
-    "listAttribute1": ["War", "Anger", "Patriotism", "Inner Conflict"],
-    "listAttribute2": ["Clean", "Aggressive", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Dad Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "War",
+      "Anger",
+      "Patriotism",
+      "Inner Conflict"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Dad Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/5fdp.jpg"
   },
   {
     "name": "Papa Roach",
@@ -1435,9 +3015,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Depression", "Inner Conflict", "Addiction", "Relationships"],
-    "listAttribute2": ["Clean", "Rapping", "Melodic"],
-    "listAttribute3": ["Alternative Metal", "Hard Rock", "Rap Metal"]
+    "listAttribute1": [
+      "Depression",
+      "Inner Conflict",
+      "Addiction",
+      "Relationships"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Rapping",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Hard Rock",
+      "Rap Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Roach_ZC10-2.JPG"
   },
   {
     "name": "Limp Bizkit",
@@ -1447,9 +3041,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Nu Metal",
-    "listAttribute1": ["Anger", "Rebellion", "Party", "Relationships"],
-    "listAttribute2": ["Rapping", "Aggressive", "Clean"],
-    "listAttribute3": ["Rap Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Anger",
+      "Rebellion",
+      "Party",
+      "Relationships"
+    ],
+    "listAttribute2": [
+      "Rapping",
+      "Aggressive",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Rap Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Limp_Bizkit_in_Paris_during_the_2009_Unicorns_N'_Rainbows_Tour.jpg"
   },
   {
     "name": "Breaking Benjamin",
@@ -1459,9 +3066,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Hard Rock",
-    "listAttribute1": ["Depression", "Darkness", "Inner Conflict", "Isolation"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Post-Grunge", "Alternative Metal", "Nu Metal"]
+    "listAttribute1": [
+      "Depression",
+      "Darkness",
+      "Inner Conflict",
+      "Isolation"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Post-Grunge",
+      "Alternative Metal",
+      "Nu Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Breaking_Benjamin_Live.jpg"
   },
   {
     "name": "Three Days Grace",
@@ -1471,9 +3092,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Hard Rock",
-    "listAttribute1": ["Pain", "Anger", "Depression", "Relationships"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Post-Grunge", "Nu Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Pain",
+      "Anger",
+      "Depression",
+      "Relationships"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Post-Grunge",
+      "Nu Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Three_Days_Grace_-_2023173202017_2023-06-22_Alpen_Flair_-_Sven_-_5DS_R_-_0331_-_5DSR4793.jpg"
   },
   {
     "name": "Kublai Khan TX",
@@ -1483,9 +3118,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Hardcore",
-    "listAttribute1": ["Anger", "Violence", "Street Life", "Struggle"],
-    "listAttribute2": ["Harsh", "Aggressive", "Screaming"],
-    "listAttribute3": ["Hardcore Punk", "Beatdown Hardcore"]
+    "listAttribute1": [
+      "Anger",
+      "Violence",
+      "Street Life",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Screaming"
+    ],
+    "listAttribute3": [
+      "Hardcore Punk",
+      "Beatdown Hardcore"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20150425_Oberhausen_Impericon_Festival_Kublai_Khan_0031.jpg"
   },
   {
     "name": "Knocked Loose",
@@ -1495,9 +3143,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Hardcore",
-    "listAttribute1": ["Darkness", "Despair", "Violence", "Mental Health"],
-    "listAttribute2": ["Harsh", "Aggressive", "Screaming"],
-    "listAttribute3": ["Hardcore Punk", "Beatdown Hardcore"]
+    "listAttribute1": [
+      "Darkness",
+      "Despair",
+      "Violence",
+      "Mental Health"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Screaming"
+    ],
+    "listAttribute3": [
+      "Hardcore Punk",
+      "Beatdown Hardcore"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Knocked_Loose_With_Full_Force_2018_04.jpg"
   },
   {
     "name": "Hatebreed",
@@ -1507,9 +3168,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Hardcore",
-    "listAttribute1": ["Perseverance", "Anger", "Empowerment", "Struggle"],
-    "listAttribute2": ["Harsh", "Aggressive", "Shouted"],
-    "listAttribute3": ["Hardcore Punk", "Thrash Metal", "Death Metal"]
+    "listAttribute1": [
+      "Perseverance",
+      "Anger",
+      "Empowerment",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Shouted"
+    ],
+    "listAttribute3": [
+      "Hardcore Punk",
+      "Thrash Metal",
+      "Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hatebreed_-_Reload_Festival_2024_09.jpg"
   },
   {
     "name": "Power Trip",
@@ -1519,9 +3194,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Violence", "Politics", "Chaos", "Darkness"],
-    "listAttribute2": ["Aggressive", "Harsh", "Shouted"],
-    "listAttribute3": ["Hardcore Punk", "Crossover Thrash"]
+    "listAttribute1": [
+      "Violence",
+      "Politics",
+      "Chaos",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Shouted"
+    ],
+    "listAttribute3": [
+      "Hardcore Punk",
+      "Crossover Thrash"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Power_Trip_-_Rock_am_Ring_2019-2396.jpg"
   },
   {
     "name": "Municipal Waste",
@@ -1531,9 +3219,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Partying", "Violence", "Zombies", "Chaos"],
-    "listAttribute2": ["Aggressive", "Harsh", "Shouted"],
-    "listAttribute3": ["Crossover Thrash", "Hardcore Punk"]
+    "listAttribute1": [
+      "Partying",
+      "Violence",
+      "Zombies",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Shouted"
+    ],
+    "listAttribute3": [
+      "Crossover Thrash",
+      "Hardcore Punk"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Municipal_Waste_Haus_Auensee_Leipzig_2023_17_(cropped).jpg"
   },
   {
     "name": "Vektor",
@@ -1543,9 +3244,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Science Fiction", "Space", "Technology", "Philosophy"],
-    "listAttribute2": ["High-pitched", "Harsh", "Aggressive"],
-    "listAttribute3": ["Progressive Thrash", "Technical Thrash"]
+    "listAttribute1": [
+      "Science Fiction",
+      "Space",
+      "Technology",
+      "Philosophy"
+    ],
+    "listAttribute2": [
+      "High-pitched",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Progressive Thrash",
+      "Technical Thrash"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vektor_Moscow_2.jpg"
   },
   {
     "name": "Evile",
@@ -1555,9 +3269,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Thrash Metal",
-    "listAttribute1": ["Death", "War", "Horror", "Violence"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Speed Metal", "Heavy Metal"]
+    "listAttribute1": [
+      "Death",
+      "War",
+      "Horror",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Speed Metal",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Evil_Live_in_Madrid,_2008.jpg"
   },
   {
     "name": "Cryptopsy",
@@ -1567,9 +3294,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Gore", "Death", "Violence", "Horror"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Death Metal", "Brutal Death Metal", "Technical Death Metal"]
+    "listAttribute1": [
+      "Gore",
+      "Death",
+      "Violence",
+      "Horror"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Death Metal",
+      "Brutal Death Metal",
+      "Technical Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cryptopsy_Party.San_Metal_Open_Air_2017_20.jpg"
   },
   {
     "name": "Entombed",
@@ -1579,9 +3320,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Darkness", "Horror", "Gore"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Swedish Death Metal", "Death 'n' Roll"]
+    "listAttribute1": [
+      "Death",
+      "Darkness",
+      "Horror",
+      "Gore"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Swedish Death Metal",
+      "Death 'n' Roll"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Entombed.jpg"
   },
   {
     "name": "Dismember",
@@ -1591,9 +3345,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Gore", "Horror", "Violence"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Swedish Death Metal", "Old School Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Gore",
+      "Horror",
+      "Violence"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Swedish Death Metal",
+      "Old School Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matti_kärki_dismember_trastockfestivalen2005.jpg"
   },
   {
     "name": "Pestilence",
@@ -1603,9 +3370,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "Science", "Philosophy", "Horror"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Technical Death Metal", "Old School Death Metal"]
+    "listAttribute1": [
+      "Death",
+      "Science",
+      "Philosophy",
+      "Horror"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Old School Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellfest2019Pestilence_01.jpg"
   },
   {
     "name": "Blood Incantation",
@@ -1615,9 +3395,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Aliens", "Space", "Cosmos", "Death"],
-    "listAttribute2": ["Growling", "Harsh", "Atmospheric"],
-    "listAttribute3": ["Technical Death Metal", "Progressive Death Metal"]
+    "listAttribute1": [
+      "Aliens",
+      "Space",
+      "Cosmos",
+      "Death"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Atmospheric"
+    ],
+    "listAttribute3": [
+      "Technical Death Metal",
+      "Progressive Death Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blood_Incantation_live.jpg"
   },
   {
     "name": "Gatecreeper",
@@ -1627,9 +3420,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Death Metal",
-    "listAttribute1": ["Death", "War", "Space", "Despair"],
-    "listAttribute2": ["Growling", "Harsh", "Aggressive"],
-    "listAttribute3": ["Old School Death Metal", "Crust Punk"]
+    "listAttribute1": [
+      "Death",
+      "War",
+      "Space",
+      "Despair"
+    ],
+    "listAttribute2": [
+      "Growling",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Old School Death Metal",
+      "Crust Punk"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gatecreeper_Party.San_Metal_Open_Air_2023_18.jpg"
   },
   {
     "name": "Powerwolf",
@@ -1639,9 +3445,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Power Metal",
-    "listAttribute1": ["Religion", "Werewolves", "Dark Fantasy", "Occult"],
-    "listAttribute2": ["Clean", "High-pitched", "Operatic"],
-    "listAttribute3": ["Heavy Metal", "Symphonic Metal"]
+    "listAttribute1": [
+      "Religion",
+      "Werewolves",
+      "Dark Fantasy",
+      "Occult"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Operatic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Symphonic Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Powerwolf_à_Colmar_en_2018.jpg"
   },
   {
     "name": "Animals as Leaders",
@@ -1651,9 +3470,21 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Progressive Metal",
-    "listAttribute1": ["Instrumental", "Technical", "Abstract", "Complexity"],
-    "listAttribute2": ["Instrumental"],
-    "listAttribute3": ["Djent", "Technical Metal", "Jazz Fusion"]
+    "listAttribute1": [
+      "Instrumental",
+      "Technical",
+      "Abstract",
+      "Complexity"
+    ],
+    "listAttribute2": [
+      "Instrumental"
+    ],
+    "listAttribute3": [
+      "Djent",
+      "Technical Metal",
+      "Jazz Fusion"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Animals_as_Leaders_Full_Force_2019_06.jpg"
   },
   {
     "name": "Electric Wizard",
@@ -1663,9 +3494,22 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Doom Metal",
-    "listAttribute1": ["Occult", "Horror", "Drugs", "Darkness"],
-    "listAttribute2": ["Clean", "Distorted", "Harsh"],
-    "listAttribute3": ["Stoner Metal", "Sludge Metal"]
+    "listAttribute1": [
+      "Occult",
+      "Horror",
+      "Drugs",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Distorted",
+      "Harsh"
+    ],
+    "listAttribute3": [
+      "Stoner Metal",
+      "Sludge Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Electric_Wizard_at_Nalen_-4.jpg"
   },
   {
     "name": "Sleep",
@@ -1675,9 +3519,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Doom Metal",
-    "listAttribute1": ["Marijuana", "Stoner Culture", "Darkness", "Fantasy"],
-    "listAttribute2": ["Clean", "Distorted", "Melodic"],
-    "listAttribute3": ["Stoner Metal", "Sludge Metal"]
+    "listAttribute1": [
+      "Marijuana",
+      "Stoner Culture",
+      "Darkness",
+      "Fantasy"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Distorted",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Stoner Metal",
+      "Sludge Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sleep_at_the_Filmore_Detroit,_March_31,_2018.jpg"
   },
   {
     "name": "Crowbar",
@@ -1687,9 +3544,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Sludge Metal",
-    "listAttribute1": ["Despair", "Pain", "Struggle", "Depression"],
-    "listAttribute2": ["Clean", "Harsh", "Aggressive"],
-    "listAttribute3": ["Doom Metal", "Southern Metal"]
+    "listAttribute1": [
+      "Despair",
+      "Pain",
+      "Struggle",
+      "Depression"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Doom Metal",
+      "Southern Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Crowbar_Full_Force_2019_04.jpg"
   },
   {
     "name": "Down",
@@ -1699,9 +3569,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Hiatus",
     "genreAttribute": "Sludge Metal",
-    "listAttribute1": ["Darkness", "Depression", "Southern Culture", "Struggle"],
-    "listAttribute2": ["Clean", "Harsh", "Melodic"],
-    "listAttribute3": ["Doom Metal", "Southern Metal", "Stoner Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Depression",
+      "Southern Culture",
+      "Struggle"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Doom Metal",
+      "Southern Metal",
+      "Stoner Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SoaD-2013-1.jpg"
   },
   {
     "name": "Marilyn Manson",
@@ -1711,9 +3595,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Industrial Metal",
-    "listAttribute1": ["Anti-Religion", "Darkness", "Shock", "Social Commentary"],
-    "listAttribute2": ["Clean", "Theatrical", "Aggressive"],
-    "listAttribute3": ["Alternative Metal", "Gothic Metal", "Shock Rock"]
+    "listAttribute1": [
+      "Anti-Religion",
+      "Darkness",
+      "Shock",
+      "Social Commentary"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Theatrical",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Alternative Metal",
+      "Gothic Metal",
+      "Shock Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marilyn_Manson_2012.jpg"
   },
   {
     "name": "Rob Zombie",
@@ -1723,9 +3621,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Industrial Metal",
-    "listAttribute1": ["Horror", "B-Movies", "Darkness", "Occult"],
-    "listAttribute2": ["Clean", "Aggressive", "Theatrical"],
-    "listAttribute3": ["Groove Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Horror",
+      "B-Movies",
+      "Darkness",
+      "Occult"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Aggressive",
+      "Theatrical"
+    ],
+    "listAttribute3": [
+      "Groove Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob_Zombie_-_Orange_Stage_-_Roskilde_Festival_2014.jpg"
   },
   {
     "name": "Static-X",
@@ -1735,9 +3646,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Industrial Metal",
-    "listAttribute1": ["Darkness", "Technology", "Anger", "Chaos"],
-    "listAttribute2": ["Clean", "Harsh", "Electronic"],
-    "listAttribute3": ["Nu Metal", "Alternative Metal"]
+    "listAttribute1": [
+      "Darkness",
+      "Technology",
+      "Anger",
+      "Chaos"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Harsh",
+      "Electronic"
+    ],
+    "listAttribute3": [
+      "Nu Metal",
+      "Alternative Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Static_X.JPG"
   },
   {
     "name": "Soulfly",
@@ -1747,9 +3671,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Groove Metal",
-    "listAttribute1": ["Spirituality", "Tribal Culture", "War", "Anger"],
-    "listAttribute2": ["Aggressive", "Harsh", "Clean"],
-    "listAttribute3": ["Thrash Metal", "Nu Metal", "Tribal Metal"]
+    "listAttribute1": [
+      "Spirituality",
+      "Tribal Culture",
+      "War",
+      "Anger"
+    ],
+    "listAttribute2": [
+      "Aggressive",
+      "Harsh",
+      "Clean"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Nu Metal",
+      "Tribal Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soulfly_@_70000_tons_of_metal_2015_14.jpg"
   },
   {
     "name": "Venom",
@@ -1759,9 +3697,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Black Metal",
-    "listAttribute1": ["Satanism", "Occult", "Hell", "Darkness"],
-    "listAttribute2": ["Harsh", "Aggressive", "Shrieking"],
-    "listAttribute3": ["Thrash Metal", "Speed Metal", "First Wave Black Metal"]
+    "listAttribute1": [
+      "Satanism",
+      "Occult",
+      "Hell",
+      "Darkness"
+    ],
+    "listAttribute2": [
+      "Harsh",
+      "Aggressive",
+      "Shrieking"
+    ],
+    "listAttribute3": [
+      "Thrash Metal",
+      "Speed Metal",
+      "First Wave Black Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Venom_at_Party.San_Metal_Open_Air_2013.jpg"
   },
   {
     "name": "Van Halen",
@@ -1771,9 +3723,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Party", "Romance", "Fun", "Rebellion"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Classic Metal", "Glam Metal"]
+    "listAttribute1": [
+      "Party",
+      "Romance",
+      "Fun",
+      "Rebellion"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Classic Metal",
+      "Glam Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/VAN_HALEN2007.JPG.jpg"
   },
   {
     "name": "Kiss",
@@ -1783,9 +3748,23 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Glam Rock",
-    "listAttribute1": ["Party", "Rock and Roll", "Love", "Rebellion"],
-    "listAttribute2": ["Clean", "Melodic", "Aggressive"],
-    "listAttribute3": ["Heavy Metal", "Classic Rock", "Shock Rock"]
+    "listAttribute1": [
+      "Party",
+      "Rock and Roll",
+      "Love",
+      "Rebellion"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Classic Rock",
+      "Shock Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiss_Love_Gun_era.png"
   },
   {
     "name": "Thin Lizzy",
@@ -1795,9 +3774,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Heavy Metal",
-    "listAttribute1": ["Irish Culture", "Romance", "War", "Adventure"],
-    "listAttribute2": ["Clean", "Melodic", "Harmonized"],
-    "listAttribute3": ["Classic Rock", "Blues Rock", "Celtic Rock"]
+    "listAttribute1": [
+      "Irish Culture",
+      "Romance",
+      "War",
+      "Adventure"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "Harmonized"
+    ],
+    "listAttribute3": [
+      "Classic Rock",
+      "Blues Rock",
+      "Celtic Rock"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Thin_Lizzy_-_TopPop_1974_1.png"
   },
   {
     "name": "Def Leppard",
@@ -1807,9 +3800,23 @@
     "continentAttribute": "Europe",
     "statusAttribute": "Active",
     "genreAttribute": "Glam Metal",
-    "listAttribute1": ["Romance", "Party", "Rock and Roll", "Freedom"],
-    "listAttribute2": ["Clean", "High-pitched", "Melodic"],
-    "listAttribute3": ["Heavy Metal", "Hair Metal", "NWOBHM"]
+    "listAttribute1": [
+      "Romance",
+      "Party",
+      "Rock and Roll",
+      "Freedom"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Melodic"
+    ],
+    "listAttribute3": [
+      "Heavy Metal",
+      "Hair Metal",
+      "NWOBHM"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Def_Leppard_Allstate_Arena_7-19-12.JPG"
   },
   {
     "name": "Mötley Crüe",
@@ -1819,9 +3826,22 @@
     "continentAttribute": "North America",
     "statusAttribute": "Active",
     "genreAttribute": "Glam Metal",
-    "listAttribute1": ["Party", "Excess", "Romance", "Rebellion"],
-    "listAttribute2": ["Clean", "Melodic", "High-pitched"],
-    "listAttribute3": ["Hard Rock", "Heavy Metal"]
+    "listAttribute1": [
+      "Party",
+      "Excess",
+      "Romance",
+      "Rebellion"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "Melodic",
+      "High-pitched"
+    ],
+    "listAttribute3": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Crue_CIMG4784.JPG"
   },
   {
     "name": "Twisted Sister",
@@ -1831,8 +3851,21 @@
     "continentAttribute": "North America",
     "statusAttribute": "Disbanded",
     "genreAttribute": "Glam Metal",
-    "listAttribute1": ["Rebellion", "Party", "Youth", "Anti-Authority"],
-    "listAttribute2": ["Clean", "High-pitched", "Aggressive"],
-    "listAttribute3": ["Hard Rock", "Heavy Metal"]
+    "listAttribute1": [
+      "Rebellion",
+      "Party",
+      "Youth",
+      "Anti-Authority"
+    ],
+    "listAttribute2": [
+      "Clean",
+      "High-pitched",
+      "Aggressive"
+    ],
+    "listAttribute3": [
+      "Hard Rock",
+      "Heavy Metal"
+    ],
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Twisted_Sister_-_Wacken_Open_Air_2016_01.jpg"
   }
 ]

@@ -7,9 +7,13 @@
 
 @if (Guesses != null && Guesses.Any())
 {
-    <p></p>
-    <p>Guesses left:</p>
-    <p>@Guesses.Count / 8</p>
+    <div class="guess-counter">
+        @for (int i = 0; i < 8; i++)
+        {
+            var isUsed = i < Guesses.Count;
+            <span class="skull-icon @(isUsed ? "used" : "")">💀</span>
+        }
+    </div>
 }
 
 @if (Guesses != null && Guesses.Any())
