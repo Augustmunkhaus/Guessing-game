@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.23" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.23" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="11.0.0-preview.1.26104.118" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,20 @@
 
   <ItemGroup>
     <Folder Include="config\datasets\" />
+    <Folder Include="data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\.dockerignore">
+      <Link>.dockerignore</Link>
+    </Content>
+    <Content Update="wwwroot\lastfm_results.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="data\lastfm_results.json" />
   </ItemGroup>
 
 </Project>

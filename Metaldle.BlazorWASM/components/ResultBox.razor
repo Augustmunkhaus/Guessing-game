@@ -1,4 +1,8 @@
 @using Metaldle.BlazorWASM.Models
+@using Metaldle.BlazorWASM.Services
+@inject SpotifyService SpotifyService
+
+
 
 <div class="overlay animate-overlay">
     @if (Status == "Won")
@@ -67,6 +71,14 @@
                 </div>
             </div>
         }
+        
+        @if (!string.IsNullOrEmpty(_spotifyTrackId))
+        {
+            <iframe src="https://open.spotify.com/embed/track/@_spotifyTrackId"
+                    width="100%" height="80" frameborder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+        }
 
         <button @onclick="StartNewGame">Start New Game</button>
     </div>
@@ -76,4 +88,14 @@
     [Parameter] public TargetBandResponse? TargetBand { get; set; }
     [Parameter] public EventCallback StartNewGame { get; set; }
     [Parameter] public string? Status { get; set; }
+    
+    private string? _spotifyTrackId;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (TargetBand != null)
+        {
+            _spotifyTrackId = await SpotifyService.GetTrackIdAsync(TargetBand.Name);
+        }
+    }
 }

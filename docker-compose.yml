@@ -30,6 +30,30 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+  
+  api:
+    build:
+      context: .
+      dockerfile: Metaldle.API/Dockerfile
+    ports:
+      - "5251:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - ConnectionStrings__PostgreSQL=Host=postgres;Port=5432;Database=metaldle;Username=metaldle_user;Password=metaldle_password
+      - ConnectionStrings__Redis=redis:6379
+  
+  blazor:
+    build:
+      context: .
+      dockerfile: Metaldle.BlazorWASM/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - api
 
 volumes:
   postgres_data:

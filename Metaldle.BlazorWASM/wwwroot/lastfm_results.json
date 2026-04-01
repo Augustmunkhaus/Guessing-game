@@ -1,0 +1,461 @@
+{
+  "Iron Maiden": {
+    "topTrack": "Run to the Hills"
+  },
+  "Opeth": {
+    "topTrack": "Windowpane"
+  },
+  "Metallica": {
+    "topTrack": "Enter Sandman"
+  },
+  "Megadeth": {
+    "topTrack": "Symphony of Destruction"
+  },
+  "Death": {
+    "topTrack": "Voice of the Soul"
+  },
+  "Slayer": {
+    "topTrack": "Raining Blood"
+  },
+  "Amon Amarth": {
+    "topTrack": "Twilight of the Thunder God"
+  },
+  "Black Sabbath": {
+    "topTrack": "Paranoid"
+  },
+  "Judas Priest": {
+    "topTrack": "Breaking the Law"
+  },
+  "Dream Theater": {
+    "topTrack": "Pull Me Under"
+  },
+  "Nightwish": {
+    "topTrack": "Nemo"
+  },
+  "Children of Bodom": {
+    "topTrack": "In Your Face"
+  },
+  "Blind Guardian": {
+    "topTrack": "Nightfall"
+  },
+  "Dark Tranquillity": {
+    "topTrack": "Misery's Crown"
+  },
+  "Pantera": {
+    "topTrack": "Walk"
+  },
+  "In Flames": {
+    "topTrack": "Only for the Weak"
+  },
+  "Kreator": {
+    "topTrack": "Enemy of God"
+  },
+  "Amorphis": {
+    "topTrack": "House of Sleep"
+  },
+  "Behemoth": {
+    "topTrack": "Conquer All"
+  },
+  "Arch Enemy": {
+    "topTrack": "Nemesis"
+  },
+  "Ensiferum": {
+    "topTrack": "Token of Time"
+  },
+  "Dimmu Borgir": {
+    "topTrack": "Puritania"
+  },
+  "Tool": {
+    "topTrack": "Schism"
+  },
+  "Wintersun": {
+    "topTrack": "Beyond the Dark Sun"
+  },
+  "Testament": {
+    "topTrack": "For the Glory of..."
+  },
+  "Gojira": {
+    "topTrack": "Stranded"
+  },
+  "Helloween": {
+    "topTrack": "I Want Out"
+  },
+  "Immortal": {
+    "topTrack": "One By One"
+  },
+  "Epica": {
+    "topTrack": "Sensorium"
+  },
+  "Kamelot": {
+    "topTrack": "When the Lights Are Down"
+  },
+  "Lamb of God": {
+    "topTrack": "Laid to Rest"
+  },
+  "Mastodon": {
+    "topTrack": "Blood and Thunder"
+  },
+  "Rammstein": {
+    "topTrack": "Sonne"
+  },
+  "Sepultura": {
+    "topTrack": "Roots Bloody Roots"
+  },
+  "Symphony X": {
+    "topTrack": "Paradise Lost"
+  },
+  "Paradise Lost": {
+    "topTrack": "Erased"
+  },
+  "Eluveitie": {
+    "topTrack": "Inis Mona"
+  },
+  "Emperor": {
+    "topTrack": "I Am the Black Wizards"
+  },
+  "Cannibal Corpse": {
+    "topTrack": "Hammer Smashed Face"
+  },
+  "Cradle of Filth": {
+    "topTrack": "Nymphetamine Fix"
+  },
+  "Nile": {
+    "topTrack": "Sacrifice Unto Sebek"
+  },
+  "Septicflesh": {
+    "topTrack": "Anubis"
+  },
+  "Dio": {
+    "topTrack": "Holy Diver"
+  },
+  "Carcass": {
+    "topTrack": "Heartwork"
+  },
+  "Porcupine Tree": {
+    "topTrack": "Trains"
+  },
+  "Led Zeppelin": {
+    "topTrack": "Stairway to Heaven"
+  },
+  "Bathory": {
+    "topTrack": "A Fine Day to Die"
+  },
+  "Anthrax": {
+    "topTrack": "Madhouse"
+  },
+  "System of a Down": {
+    "topTrack": "Chop Suey!"
+  },
+  "Slipknot": {
+    "topTrack": "Duality"
+  },
+  "Meshuggah": {
+    "topTrack": "Bleed"
+  },
+  "Morbid Angel": {
+    "topTrack": "Immortal Rites"
+  },
+  "Stratovarius": {
+    "topTrack": "Hunting High and Low"
+  },
+  "Exodus": {
+    "topTrack": "Bonded by Blood"
+  },
+  "Motörhead": {
+    "topTrack": "Ace of Spades"
+  },
+  "Burzum": {
+    "topTrack": "Dunkelheit"
+  },
+  "Machine Head": {
+    "topTrack": "Davidian"
+  },
+  "AC/DC": {
+    "topTrack": "Highway to Hell"
+  },
+  "Rotting Christ": {
+    "topTrack": "Demonon Vrosis"
+  },
+  "Within Temptation": {
+    "topTrack": "Angels"
+  },
+  "At the Gates": {
+    "topTrack": "Slaughter of the Soul"
+  },
+  "Hypocrisy": {
+    "topTrack": "Eraser"
+  },
+  "Dissection": {
+    "topTrack": "Where Dead Angels Lie"
+  },
+  "Sodom": {
+    "topTrack": "Agent Orange"
+  },
+  "Alcest": {
+    "topTrack": "Souvenirs d'un autre monde"
+  },
+  "Finntroll": {
+    "topTrack": "Trollhammaren"
+  },
+  "Mayhem": {
+    "topTrack": "Freezing Moon"
+  },
+  "Manowar": {
+    "topTrack": "Kings of Metal"
+  },
+  "Darkthrone": {
+    "topTrack": "Quintessence"
+  },
+  "Bloodbath": {
+    "topTrack": "Eaten"
+  },
+  "Overkill": {
+    "topTrack": "Elimination"
+  },
+  "Ozzy Osbourne": {
+    "topTrack": "Crazy Train"
+  },
+  "HammerFall": {
+    "topTrack": "Hearts on Fire"
+  },
+  "Sabaton": {
+    "topTrack": "Ghost Division"
+  },
+  "Rush": {
+    "topTrack": "Tom Sawyer"
+  },
+  "Vader": {
+    "topTrack": "Triumph of Death"
+  },
+  "Satyricon": {
+    "topTrack": "Mother North"
+  },
+  "Devin Townsend": {
+    "topTrack": "Hyperdrive"
+  },
+  "Deep Purple": {
+    "topTrack": "Smoke on the Water"
+  },
+  "Korpiklaani": {
+    "topTrack": "Vodka"
+  },
+  "Obituary": {
+    "topTrack": "Redneck Stomp"
+  },
+  "King Diamond": {
+    "topTrack": "Abigail"
+  },
+  "Soilwork": {
+    "topTrack": "Distortion Sleep"
+  },
+  "Alice in Chains": {
+    "topTrack": "Man in the Box"
+  },
+  "Candlemass": {
+    "topTrack": "Solitude"
+  },
+  "Ne Obliviscaris": {
+    "topTrack": "And Plague Flowers the Kaleidoscope"
+  },
+  "Ghost": {
+    "topTrack": "Mary on a Cross"
+  },
+  "Bolt Thrower": {
+    "topTrack": "The Killchain"
+  },
+  "Equilibrium": {
+    "topTrack": "Blut im Auge"
+  },
+  "Accept": {
+    "topTrack": "Balls to the Wall"
+  },
+  "Mercyful Fate": {
+    "topTrack": "Evil"
+  },
+  "Deicide": {
+    "topTrack": "Sacrificial Suicide"
+  },
+  "Fleshgod Apocalypse": {
+    "topTrack": "The Violation"
+  },
+  "Angra": {
+    "topTrack": "Carry On"
+  },
+  "Type O Negative": {
+    "topTrack": "I Don't Wanna Be Me"
+  },
+  "Fear Factory": {
+    "topTrack": "Linchpin"
+  },
+  "Decapitated": {
+    "topTrack": "Spheres of Madness"
+  },
+  "DragonForce": {
+    "topTrack": "Through the Fire and Flames"
+  },
+  "Korn": {
+    "topTrack": "Freak on a Leash"
+  },
+  "Ulver": {
+    "topTrack": "Lost in Moments"
+  },
+  "Annihilator": {
+    "topTrack": "Alison Hell"
+  },
+  "Necrophagist": {
+    "topTrack": "Stabwound"
+  },
+  "Disturbed": {
+    "topTrack": "Down With the Sickness"
+  },
+  "Obscura": {
+    "topTrack": "Incarnated"
+  },
+  "Alestorm": {
+    "topTrack": "Keelhauled"
+  },
+  "Napalm Death": {
+    "topTrack": "Scum"
+  },
+  "Celtic Frost": {
+    "topTrack": "A Dying God Coming Into Human Flesh"
+  },
+  "Dying Fetus": {
+    "topTrack": "Subjected to a Beating"
+  },
+  "Bring me the Horizon": {
+    "topTrack": "Can You Feel My Heart"
+  },
+  "Scorpions": {
+    "topTrack": "Wind of Change"
+  },
+  "Killswitch Engage": {
+    "topTrack": "My Curse"
+  },
+  "As I Lay Dying": {
+    "topTrack": "Nothing Left"
+  },
+  "Parkway Drive": {
+    "topTrack": "Carrion"
+  },
+  "Bullet for My Valentine": {
+    "topTrack": "Tears Don't Fall"
+  },
+  "Trivium": {
+    "topTrack": "Dying In Your Arms"
+  },
+  "Linkin Park": {
+    "topTrack": "In the End"
+  },
+  "Deftones": {
+    "topTrack": "Change (In the House of Flies)"
+  },
+  "Avenged Sevenfold": {
+    "topTrack": "Bat Country"
+  },
+  "Five Finger Death Punch": {
+    "topTrack": "Bad Company"
+  },
+  "Papa Roach": {
+    "topTrack": "Last Resort"
+  },
+  "Limp Bizkit": {
+    "topTrack": "Break Stuff"
+  },
+  "Breaking Benjamin": {
+    "topTrack": "The Diary of Jane"
+  },
+  "Three Days Grace": {
+    "topTrack": "I Hate Everything About You"
+  },
+  "Kublai Khan TX": {
+    "topTrack": "Antpile"
+  },
+  "Knocked Loose": {
+    "topTrack": "Suffocate (feat. Poppy)"
+  },
+  "Hatebreed": {
+    "topTrack": "I Will Be Heard"
+  },
+  "Power Trip": {
+    "topTrack": "Executioner's Tax (Swing of the Axe)"
+  },
+  "Municipal Waste": {
+    "topTrack": "Wave of Death"
+  },
+  "Vektor": {
+    "topTrack": "Tetrastructural Minds"
+  },
+  "Evile": {
+    "topTrack": "Thrasher"
+  },
+  "Cryptopsy": {
+    "topTrack": "Slit Your Guts"
+  },
+  "Entombed": {
+    "topTrack": "Left Hand Path"
+  },
+  "Dismember": {
+    "topTrack": "Override of the Overture"
+  },
+  "Pestilence": {
+    "topTrack": "Out Of The Body"
+  },
+  "Blood Incantation": {
+    "topTrack": "The Stargate [Tablet I]"
+  },
+  "Gatecreeper": {
+    "topTrack": "Starved"
+  },
+  "Powerwolf": {
+    "topTrack": "We Drink Your Blood"
+  },
+  "Animals as Leaders": {
+    "topTrack": "CAFO"
+  },
+  "Electric Wizard": {
+    "topTrack": "Funeralopolis"
+  },
+  "Sleep": {
+    "topTrack": "Dragonaut"
+  },
+  "Crowbar": {
+    "topTrack": "Repulsive In Its Splendid Beauty"
+  },
+  "Down": {
+    "topTrack": "Stone the Crow"
+  },
+  "Marilyn Manson": {
+    "topTrack": "The Beautiful People"
+  },
+  "Rob Zombie": {
+    "topTrack": "Dragula"
+  },
+  "Static-X": {
+    "topTrack": "Push It"
+  },
+  "Soulfly": {
+    "topTrack": "Jumpdafuckup"
+  },
+  "Venom": {
+    "topTrack": "Black Metal"
+  },
+  "Van Halen": {
+    "topTrack": "Jump"
+  },
+  "Kiss": {
+    "topTrack": "I Was Made for Lovin' You"
+  },
+  "Thin Lizzy": {
+    "topTrack": "The Boys Are Back in Town"
+  },
+  "Def Leppard": {
+    "topTrack": "Pour Some Sugar on Me"
+  },
+  "Mötley Crüe": {
+    "topTrack": "Kickstart My Heart"
+  },
+  "Twisted Sister": {
+    "topTrack": "We're Not Gonna Take It"
+  }
+}
