@@ -19,13 +19,6 @@ public class MetaldleApiService
         Converters = { new System.Text.Json.Serialization.JsonStringEnumConverter() }
     };
     
-    //methods to call the API endpoints
-    /*public async Task<List<String>?> SearchEntitiesAsync(string query)
-    {
-        return await _http.GetFromJsonAsync<List<string>>($"/api/entities/search?q={query}");
-    }
-    */
-    
     public async Task<List<string>?> GetAllEntitiesAsync()
     {
         return await _http.GetFromJsonAsync<List<string>>("/api/entity/entities");
@@ -54,5 +47,16 @@ public class MetaldleApiService
         request.Headers.Add("sessionId", sessionId);
         var response = await _http.SendAsync(request);
         return await response.Content.ReadFromJsonAsync<SessionResponse>(_jsonOptions);
+    }
+    
+    public async Task<bool> SubmitLeaderboardEntryAsync(string sessionId, string displayName)
+    {
+        var response = await _http.PostAsJsonAsync("/api/leaderboard", new { sessionId, displayName });
+        return response.IsSuccessStatusCode;
+    }
+
+    public async Task<List<LeaderboardEntryResponse>?> GetLeaderboardAsync()
+    {
+        return await _http.GetFromJsonAsync<List<LeaderboardEntryResponse>>("/api/leaderboard");
     }
 }

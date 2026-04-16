@@ -53,7 +53,6 @@
     overflow-x: auto;
 }
 
-/* Band image styling */
 .band-image-container {
     margin: 20px 0;
     display: flex;
@@ -234,7 +233,6 @@
     margin-bottom: 16px;
 }
 
-/* Confetti container */
 .confetti {
     position: absolute;
     width: 10px;
@@ -243,22 +241,22 @@
     animation: confetti-fall 3s ease-in-out forwards;
 }
 
-.result-win::before,
-.result-win::after {
+.result-win::before {
     content: "🎉";
     position: absolute;
     font-size: 2rem;
     animation: title-pulse 1s ease-in-out infinite;
-}
-
-.result-win::before {
     top: 20px;
     left: 20px;
 }
 
-.result-win::after {
-    top: 20px;
-    right: 20px;
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    z-index: 10;
 }
 
 
@@ -287,7 +285,6 @@
     margin-bottom: 16px;
 }
 
-/* Confetti animation */
 .confetti-container {
     position: fixed;
     top: 0;
@@ -329,4 +326,11 @@
         transform: translateY(100vh) rotate(720deg) scale(0.5);
         opacity: 0;
     }
+}
+
+.leaderboard-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }

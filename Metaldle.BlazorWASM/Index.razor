@@ -15,8 +15,18 @@
     <WelcomeBox OnGameStarted="StateChanger"/>
 }
 else if (currentState == GameState.InProgress)
-{ 
+{
     <div class="main-container">
+        <div class="game-header">
+            <div class="game-title-box">
+                <h2>@(_isDailyGame ? "Guess today's metal band" : "Guess the metal band")</h2>
+                <p>Type any band name to begin.</p>
+            </div>
+            @if (_isDailyGame)
+            {
+                <button class="leaderboard-btn" @onclick="ViewLeaderboard">Leaderboard</button>
+            }
+        </div>
         <div class="row justify-content-center mb-3">
             <div class="col-md-8">
                 <SearchBar SubmitSearch="MakeGuess"/>
@@ -33,9 +43,32 @@ else if (currentState == GameState.InProgress)
 else if (currentState == GameState.Lost || currentState == GameState.Won)
 {
     <div class="main-container">
+        <div class="game-header">
+            <div class="game-title-box">
+                <h2>@(_isDailyGame ? "Guess today's metal band" : "Guess the metal band")</h2>
+                <p>Type any band name to begin.</p>
+            </div>
+            @if (_isDailyGame)
+            {
+                <button class="leaderboard-btn" @onclick="ViewLeaderboard">Leaderboard</button>
+            }
+        </div>
         <GameBoard Guesses="currentSession?.Guesses" TargetBand="currentSession?.TargetBand" Status="@currentSession?.Status"/>
-        <ResultBox StartNewGame="GenerateNewSession" Status="@currentSession?.Status" TargetBand="@currentSession?.TargetBand"/>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-8 text-center">
+                <button @onclick="GenerateNewSession">New Game</button>
+            </div>
+        </div>
+        @if (_showResultBox)
+        {
+            <ResultBox OnClose="CloseResultBox" OnLeaderboardRequested="ShowLeaderboard" Status="@currentSession?.Status" TargetBand="@currentSession?.TargetBand" IsDailyGame="_isDailyGame" OnNewGame="StartNewGameFromResultBox"/>
+        }
     </div>
+}
+
+@if (_showLeaderboard)
+{
+    <Leaderboard Entries="@_leaderboardEntries" CurrentUserName="@_leaderboardUserName" OnClose="() => _showLeaderboard = false"/>
 }
 
 @code {
@@ -57,12 +90,14 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
     public async Task StateChanger()
     {
         currentState = GameState.InProgress;
+        _isDailyGame = true;
         sessionId = await _sessionService.GetOrCreateSessionIdAsync();
         currentSession = await _apiService.StartGameAsync(sessionId);
         if (currentSession.Status == "Won")
             currentState = GameState.Won;
         else if (currentSession.Status == "Lost")
             currentState = GameState.Lost;
+            _showResultBox = true;
     }
 
     public async Task MakeGuess(string entityName)
@@ -71,10 +106,12 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
         if (currentSession.Status == "Won")
         {
             currentState = GameState.Won;
+            _showResultBox = true;
         }
         else if (currentSession.Status == "Lost")
         {
             currentState = GameState.Lost;
+            _showResultBox = true;
         }
     }
 
@@ -82,7 +119,39 @@ else if (currentState == GameState.Lost || currentState == GameState.Won)
     {
         currentSession = null;
         currentState = GameState.InProgress;
+        _isDailyGame = false;
         currentSession = await _apiService.StartFreshGameAsync(sessionId);
     }
     
+    private bool _showResultBox = false;
+    private bool _isDailyGame = true;
+    
+    private void CloseResultBox()
+    {
+        _showResultBox = false;
+    }
+    
+    private bool _showLeaderboard = false;
+    private string _leaderboardUserName = "";
+    private List<LeaderboardEntryResponse> _leaderboardEntries = new();
+
+    private async Task ShowLeaderboard(string userName)
+    {
+        _leaderboardUserName = userName;
+        _leaderboardEntries = await _apiService.GetLeaderboardAsync() ?? new();
+        _showLeaderboard = true;
+    }
+
+    private async Task StartNewGameFromResultBox()
+    {
+        _showResultBox = false;
+        await GenerateNewSession();
+    }
+
+    private async Task ViewLeaderboard()
+    {
+        _leaderboardEntries = await _apiService.GetLeaderboardAsync() ?? new();
+        _leaderboardUserName = "";
+        _showLeaderboard = true;
+    }
 }

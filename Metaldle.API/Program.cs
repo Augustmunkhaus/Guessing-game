@@ -29,6 +29,7 @@ builder.Services.AddScoped<GameSessionService>();
 builder.Services.AddScoped<GuessService>();
 builder.Services.AddScoped<GameEngine>();
 builder.Services.AddScoped<DatabaseSeeder>();
+builder.Services.AddScoped<LeaderboardService>();
 
 builder.Services.AddCors(options =>
 {

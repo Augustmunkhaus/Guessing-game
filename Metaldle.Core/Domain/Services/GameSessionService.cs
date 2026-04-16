@@ -48,7 +48,8 @@ public class GameSessionService
             GameDate = today,
             Status = GameStatus.InProgress,
             StartedAt = DateTime.UtcNow,
-            Guesses = new List<Guess>()
+            Guesses = new List<Guess>(),
+            IsDaily = true
 
         };
 
@@ -75,7 +76,8 @@ public class GameSessionService
             GameDate = GetToday(),
             Status = GameStatus.InProgress,
             StartedAt = DateTime.UtcNow,
-            Guesses = new List<Guess>()
+            Guesses = new List<Guess>(),
+            IsDaily = false
         };
 
         await _sessionRepository.SaveSessionAsync(newSession);

@@ -1,8 +1,9 @@
 @using Metaldle.BlazorWASM.Models
 @using Metaldle.BlazorWASM.Services
 @inject SpotifyService SpotifyService
-
-
+@inject MetaldleApiService ApiService
+@inject SessionService SessionService
+@using Metaldle.BlazorWASM.components
 
 <div class="overlay animate-overlay">
     @if (Status == "Won")
@@ -20,6 +21,7 @@
         </div>
     }
     <div class="result-box @(Status == "Won" ? "result-win" : "result-lose")">
+        <button class="close-btn" @onclick="OnClose">✕</button>
         @if (Status == "Won")
         {
             <h1>You got it!</h1>
@@ -79,23 +81,81 @@
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
         }
+        
+        @if (IsDailyGame)
+        {
+            <div class="leaderboard-section">
+                @if (!_submitted)
+                {
+                    <p>How did you do compared to others?</p>
+                    <input @bind="_displayName" maxlength="20" placeholder="Enter your name (max 20 chars)..." />
+                    <button @onclick="SubmitScore">Submit</button>
+                    @if (_errorMessage != null)
+                    {
+                        <p class="error">@_errorMessage</p>
+                    }
+                }
+                else
+                {
+                    <div class="leaderboard-buttons">
+                        <button @onclick='() => OnLeaderboardRequested.InvokeAsync(_displayName)'>See Leaderboard 🤘</button>
+                        <button @onclick="OnNewGame">New Game</button>
+                    </div>
+                }
+            </div>
+        }
 
-        <button @onclick="StartNewGame">Start New Game</button>
     </div>
+    
+    
 </div>
 
 @code {
     [Parameter] public TargetBandResponse? TargetBand { get; set; }
-    [Parameter] public EventCallback StartNewGame { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
     [Parameter] public string? Status { get; set; }
-    
+    [Parameter] public EventCallback<string> OnLeaderboardRequested { get; set; }
+    [Parameter] public bool IsDailyGame { get; set; } = true;
+    [Parameter] public EventCallback OnNewGame { get; set; }
     private string? _spotifyTrackId;
-
+    
     protected override async Task OnParametersSetAsync()
     {
         if (TargetBand != null)
         {
             _spotifyTrackId = await SpotifyService.GetTrackIdAsync(TargetBand.Name);
+        }
+    }
+    
+    private string _displayName = "";
+    private bool _submitted = false;
+    private string? _errorMessage;
+    
+    private async Task SubmitScore()
+    {
+        if (string.IsNullOrWhiteSpace(_displayName))
+        {
+            _errorMessage = "Please enter a name!";
+            return;
+        }
+
+        if (_displayName.Length > 20)
+        {
+            _errorMessage = "Name must be 20 characters or less!";
+            return;
+        }
+
+        var sessionId = await SessionService.GetOrCreateSessionIdAsync();
+        var success = await ApiService.SubmitLeaderboardEntryAsync(sessionId, _displayName.Trim());
+
+        if (success)
+        {
+            _submitted = true;
+            _errorMessage = null;
+        }
+        else
+        {
+            _errorMessage = "Could not submit score. Have you already submitted?";
         }
     }
 }

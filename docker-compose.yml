@@ -43,6 +43,7 @@ services:
       redis:
         condition: service_healthy
     environment:
+      - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__PostgreSQL=Host=postgres;Port=5432;Database=metaldle;Username=metaldle_user;Password=metaldle_password
       - ConnectionStrings__Redis=redis:6379
   

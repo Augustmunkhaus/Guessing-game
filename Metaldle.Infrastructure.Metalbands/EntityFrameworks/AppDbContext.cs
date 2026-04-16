@@ -1,3 +1,4 @@
+using Metaldle.Core.Domain.Entities;
 using Metaldle.Infrastructure.Metalbands;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ public class AppDbContext : DbContext
 
     public DbSet<Metalband> MetalBands => Set<Metalband>();
 
+    public DbSet<LeaderboardEntry> LeaderboardEntries => Set<LeaderboardEntry>();
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

@@ -19,6 +19,7 @@ public static class MetalBandsServiceExtensions
             options.UseNpgsql(connectionString));
             
         services.AddScoped<IEntityRepository, MetalBandRepository>();
+        services.AddScoped<ILeaderboardRepository, LeaderboardRepository>();
         services.AddScoped<DatabaseSeeder>();
         return services;
     }

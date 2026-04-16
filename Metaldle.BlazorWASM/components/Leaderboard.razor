@@ -1,0 +1,30 @@
+@using Metaldle.BlazorWASM.Models
+
+<div class="overlay animate-overlay">
+    <div class="leaderboard-box">
+        <button class="close-btn" @onclick="OnClose">✕</button>
+        <h2>Today's Leaderboard 🤘</h2>
+        <ol class="leaderboard-list">
+            @foreach (var (entry, index) in Entries.Take(10).Select((e, i) => (e, i)))
+            {
+                <li class="leaderboard-entry @(IsCurrentUser(entry.DisplayName) ? "current-user" : "")">
+                    <span class="leaderboard-rank">#@(index + 1)</span>
+                    <span class="leaderboard-name">@entry.DisplayName</span>
+                    <span class="leaderboard-guesses">@entry.GuessCount @(entry.GuessCount == 1 ? "guess" : "guesses")</span>
+                </li>
+            }
+        </ol>
+    </div>
+</div>
+
+@code {
+    [Parameter] public List<LeaderboardEntryResponse> Entries { get; set; } = new();
+    [Parameter] public string CurrentUserName { get; set; } = "";
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private bool IsCurrentUser(string displayName)
+    {
+        return !string.IsNullOrEmpty(CurrentUserName) &&
+               string.Equals(displayName, CurrentUserName, StringComparison.OrdinalIgnoreCase);
+    }
+}
